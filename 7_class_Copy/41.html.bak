@@ -1,0 +1,177 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Давление газа</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="41.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+  table.MsoNormalTable
+	{mso-style-parent:"";
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	}
+</style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]--><!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+</head>
+<body onload="FP_preloadImgs(/*url*/'button124.jpg', /*url*/'button125.jpg')"><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font color="#000066"><b>
+		<span lang="KZ" style="font-family: Calibri">§</span><span style="font-family: Calibri">41.</span></b></font><font face="Calibri" color="#000080"> Давление газа</font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+	<p class="MsoNormal" style="text-align: justify; text-indent: 35.4pt">
+	<font size="4" face="Georgia">Давление может создаваться не только твердыми 
+	или жидкими телами, но и газами. Например, парусный корабль плывет по морю 
+	именно потому, что на его паруса давит ветер – движущийся газ. Однако и 
+	покоящиеся газы тоже могут создавать давление. Рассмотрим опыт, 
+	подтверждающий это.</font></p>
+	<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" align="right" id="table11">
+		<tr>
+			<td valign="top" style="padding:0cm 0cm 0cm 0cm">
+			<p class="MsoNormal"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1026" type="#_x0000_t75" alt="" style='width:15pt;
+ height:.75pt'>
+ <v:imagedata src="41.files/image001.png" o:href="http://www.fizika.ru/images/1x1.gif"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=20 height=1
+src="41.files/image002.gif" v:shapes="_x0000_s1026"><![endif]><!--[if gte vml 1]><v:shape
+ id="_x0000_s1025" type="#_x0000_t75" style='width:290.25pt;height:111.75pt'>
+ <v:imagedata src="41.files/image003.jpg" o:title="knasosu"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=387 height=149
+src="41.files/image004.jpg" v:shapes="_x0000_s1025"><![endif]></font></td>
+		</tr>
+	</table>
+	<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+	<font face="Georgia"><font size="4">На тарелку воздушного насоса положим 
+	завязанный воздушный шарик с небольшим количеством воздуха. Накроем его 
+	стеклянным «колоколом» и начнем откачивать из-под него воздух. Мы увидим, 
+	что шарик раздувается, будто в него накачивают воздух. Как объяснить опыт? 
+	На оболочку шарика постоянно давит воздух, находящийся внутри и внешний 
+	воздух снаружи. Откачивая воздух из-под колокола, мы уменьшаем внешнее 
+	давление. В результате внутреннее давление начинает превосходить внешнее и 
+	тем самым раздувает оболочку сильнее. </font><span style="color:black">
+	<font size="4">Оболочка шарика принимает форму шара. Это показывает, что <i>
+	газ давит на ее стенки по всем направлениям одинаково. </i>Иначе говоря, 
+	число ударов молекул, приходящихся на единицу площади поверхности, по всем 
+	направлениям одинаково. Одинаковое давление по всем направлениям характерно 
+	для газа и является следствием беспорядочного движения огромного числа 
+	молекул. </font></span></font></p>
+	<p class="MsoNormal" style="text-align: justify; text-indent: 35.4pt; text-autospace: none; background: white">
+	<span style="color: black"><font size="4" face="Georgia">Если объем газа 
+	уменьшить, например, сжать воздух в велосипедном насосе, плотность газа 
+	увеличится. Тогда число ударов молекул о стенки сосуда возрастет, т. е. 
+	возрастет давление газа. Наоборот, при увеличении объема число молекул в 
+	каждом кубическом сантиметре уменьшится. От этого уменьшится число ударов о 
+	стенки сосуда — давление газа станет меньше. </font></span></p>
+	<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+	<i><font size="4" face="Georgia"><span style="color: black">При 
+	уменьшении объема газа его давление </span><b><font color="#000066"><u>увеличивается,</u></font></b><span style="color: black"> а при увеличении объема 
+	давление </span><font color="#000066"><u><b>уменьшается</b></u></font><span style="color: black"> при условии, что масса и температура газа остаются 
+	неизменными.</span></font></i></p>
+	<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+	<font size="4" face="Georgia">&nbsp;</font><font face="Georgia"><span style="color: black"><font size="4">А как изменится давление газа, 
+	если его нагреть? Возьмем </font></span><font size="4">котел с плотной 
+	крышкой, нальем немного воды и начнем нагревать. Вода превращается в пар. 
+	Струи пара, вырывающиеся из щелей между корпусом и крышкой, говорят о том, 
+	сила, с которой пар давит на крышку изнутри, возросла. Значит, возросло и 
+	давление. Мы знаем</font><span style="color:black"><font size="4">, что 
+	скорость движения молекул газа с ростом температуры увеличивается. Двигаясь 
+	быстрее, молекулы будут ударять о стенки сосуда чаще. Кроме того, каждый 
+	удар молекулы о стенку сосуда станет сильнее. Вследствие этого стенки сосуда 
+	будут испытывать большее давление.</font></span></font></p><i><span style="font-family: Georgia; color: black"><font size="4">
+	Давление газа тем больше, чем выше температура газа, при условии, что масса 
+	газа и объем не изменяются.</font></span></i>&nbsp;<p>
+	<a href="v41_1/test.htm">
+	<img border="0" id="img1" src="button126.jpg" height="30" width="150" alt="Вопрос" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button124.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button126.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button125.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button124.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос"></a></p>
+	<p><font face="Calibri">Метки: давление газа, температура газа, объем газа</font></td>
+</tr>
+</table>
+	</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

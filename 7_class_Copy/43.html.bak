@@ -1,0 +1,154 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Сообщающиеся сосуды</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="43.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ </style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]--><!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+
+</head>
+<body><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font color="#000066"><b>
+		<span lang="KZ" style="font-family: Calibri">§</span><span style="font-family: Calibri">43.</span></b></font><font face="Calibri" color="#000080"> 
+		Сообщающиеся сосуды</font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<p style="text-align:justify;text-indent:35.4pt"><font size="4" face="Georgia">
+Сообщающиеся сосуды были известны еще жрецам древней Греции. В Грузии археологи 
+обнаружили водопровод, работавший ещё в XIII веке по принципу сообщающихся 
+сосудов. Сообщающиеся сосуды мы встречаем ежедневно. Лейка, чайник, кофейник — 
+это примеры сообщающихся сосудов. Что общего у этих предметов? Вода, налитая, 
+например, в чайник, стоит всегда в резервуаре чайника и носике на одном уровне. 
+Обратите внимание, что носик чайника и резервуар соединены между собой в нижней 
+части.</font></p>
+<p><i><b><font size="4" face="Georgia"><font color="#000066"><u>Сообщающимися сосудами</u>
+</font> </font></b><font size="4" face="Georgia">называют сосуды, 
+соединенные между собой в нижней части. </font></i></p>
+<p style="text-align:justify"><font size="4" face="Georgia">С сообщающимися 
+сосудами можно проделать простой опыт. Возьмем две стеклянные трубки, 
+соединенные резиновой трубкой. Сначала резиновую трубку в середине зажмем и в 
+одну из трубок нальем воду. Если открыть зажим, жидкость в обоих сосудах 
+установится на одном уровне. Можно одну из трубок поднимать, опускать, 
+наклонять,&nbsp; все равно уровни жидкости в обеих трубках будут одинаковы. </font>
+</p>
+<p><i><font size="4" face="Georgia">Однородная жидкость в сообщающихся 
+сосудах устанавливается на одном уровне. </font></i></p>
+<p style="text-align:justify"><font size="4" face="Georgia">Уровни воды в 
+сообщающихся сосудах не зависят от формы сосудов и останутся равны. </font></p>
+<p style="text-align:justify"><font size="4" face="Georgia">А что произойдет, 
+если в сообщающиеся сосуды налить две несмешивающиеся жидкости <i>разной</i> 
+плотности?</font></p>
+<p style="text-align:justify"><font size="4" face="Georgia">По закону Паскаля 
+&nbsp;давления в правой и левой трубке должны быть одинаковы, то есть <i>p</i><sub>1</sub> 
+= <i>p</i><sub>2</sub>. </font></p>
+<p style="text-align:justify"><font size="4" face="Georgia">&nbsp;Гидростатическое 
+давление в правой трубке равно: </font></p>
+<p align="center" style="text-align:center">
+<span style="position: relative; top: 5.0pt"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1028" type="#_x0000_t75" style='width:75.75pt;
+ height:24pt'>
+ <v:imagedata src="43.files/image001.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=101 height=32
+src="43.files/image002.gif" v:shapes="_x0000_s1028"><![endif]></font></span><span style="font-size:18.0pt"><!--[if gte mso 9]><![endif]--></span><font size="4" face="Georgia">,</font></p>
+<p><font size="4" face="Georgia">в левой</font></p>
+<p align="center" style="text-align:center">
+<span style="position: relative; top: 5.0pt"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1027" type="#_x0000_t75" style='width:76.5pt;height:23.25pt'>
+ <v:imagedata src="43.files/image003.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=102 height=31
+src="43.files/image004.gif" v:shapes="_x0000_s1027"><![endif]></font></span><span style="font-size:18.0pt"><!--[if gte mso 9]><![endif]--></span><font size="4" face="Georgia">,</font></p>
+<p><font size="4" face="Georgia">отсюда </font></p>
+<p align="center" style="text-align:center">
+<span style="position: relative; top: 5.0pt"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1026" type="#_x0000_t75" style='width:101.25pt;height:24pt'>
+ <v:imagedata src="43.files/image005.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=135 height=32
+src="43.files/image006.gif" v:shapes="_x0000_s1026"><![endif]></font></span><span style="font-size:18.0pt"><!--[if gte mso 9]><![endif]--></span><font size="4" face="Georgia">,</font></p>
+<p><font size="4" face="Georgia">то есть</font></p>
+<p align="center" style="text-align:center">
+<span style="position: relative; top: 15.0pt"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1025" type="#_x0000_t75" style='width:56.25pt;height:43.5pt'>
+ <v:imagedata src="43.files/image007.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=75 height=58
+src="43.files/image008.gif" v:shapes="_x0000_s1025"><![endif]></font></span><span style="font-size:18.0pt"><!--[if gte mso 9]><![endif]--></span><font size="4" face="Georgia">.</font></p>
+<p style="text-align:justify"><font size="4" face="Georgia">Высота столбов 
+жидкостей в сосудах будет разной, чем больше плотность, тем ниже уровень 
+жидкости.</font></p>
+<p><font face="Georgia"><font size="4"><br>
+</font><i><font size="4">Высоты столбов разнородных жидкостей сообщающихся 
+сосудов<b> <font color="#000066"><u>обратно пропорциональны их плотностям. </u>
+</font></b> </font></i></font></p>
+<span style="font-family: Georgia; color: black"><font size="4">На свойстве 
+сообщающихся сосудов основано устройство жидкостных манометров, водомерных 
+стекол паровых котлов и т. д.</font></span>&nbsp;<p>&nbsp;</p>
+<p><font face="Calibri">Метки: сообщающиеся сосуды</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

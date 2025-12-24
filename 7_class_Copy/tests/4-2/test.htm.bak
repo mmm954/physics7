@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Тест</title>
+<link rel="stylesheet" href="test.css" type="text/css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="test.js" encoding="utf-8"></script>
+<style>
+<!--
+ p.MsoNormal
+	{mso-style-parent:"";
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	margin-left:0cm; margin-right:0cm; margin-top:0cm}
+-->
+</style>
+</head>
+<body id="body">
+<div id="cool">	
+	<span id="num">1.</span><div id="ques1" class="qu">
+		<p class="MsoNormal"><span style="font-size:14.0pt;font-family:Georgia">
+		Подвижный блок… </span></div>
+		<div id="answ11"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>…дает 
+			выигрыш в силе в 4 раза.</i></span></div>
+		<div id="answ12"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>…не дает 
+			выигрыша в силе.</i></span></div>
+		<div id="answ13"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>…дает 
+			проигрыш в силе в 4 раза.</i></span></div>
+		<div id="answ14"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">…дает выигрыш 
+			в силе в 2 раза.</span></i></div>
+		<div id="answ15"  class="an">
+			<span style="font-size: 14.0pt; line-height: 90%; font-family: Georgia">
+			<i>…дает проигрыш в силе в 2 раза.</i></span></div>
+	<span id="num">2.</span><div id="ques2" class="qu">
+		<span style="font-size: 14.0pt; line-height: 90%; font-family: Georgia">
+		Неподвижный блок… </span></div>
+		<div id="answ21"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>…дает 
+			выигрыш в силе в 4 раза.</i></span></div>
+		<div id="answ22"  class="an">
+			<span style="font-size: 14.0pt; line-height: 90%; font-family: Georgia">
+			<i>…дает проигрыш в силе в 2 раза.</i></span></div>
+		<div id="answ23"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>…дает 
+			проигрыш в силе в 4 раза.</i></span></div>
+		<div id="answ24"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">…не дает 
+			выигрыша в силе.</span></i></div>
+		<div id="answ25"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>…дает 
+			выигрыш в силе в 2 раза.</i></span></div>
+	<span id="num">3.</span><div id="ques3" class="qu">
+		<p class="MsoNormal" style="line-height:90%">
+		<span style="font-size: 14.0pt; line-height: 90%; font-family: Georgia">
+		Плечи сил равны 0,1<i>м</i> и 0,3<i>м</i>. Чему равна сила, действующая 
+		на длинное плечо, если на короткое плечо действует сила, равная 3<i>Н</i>.</span></div>
+		<div id="answ31"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>0,03Н</i></span></div>
+		<div id="answ32"  class="an">
+			<span style="font-size: 14.0pt; line-height: 90%; font-family: Georgia">
+			<i>100Н</i></span></div>
+		<div id="answ33"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>12Н</i></span></div>
+		<div id="answ34"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>1Н</i></span></div>
+		<div id="answ35"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>9Н</i></span></div>
+	<span id="num">4.</span><div id="ques4" class="qu">
+		<span style="font-size: 14.0pt; line-height: 90%; font-family: Georgia">
+		На рычаг действует сила, равная 3<i>Н</i>. Чему равен момент этой силы, 
+		если плечо силы 15<i>см</i>? </span></div>
+		<div id="answ41"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>45Н·м</i></span></div>
+		<div id="answ42"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>0,2Н·м</i></span></div>
+		<div id="answ43"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>20Н·м</i></span></div>
+		<div id="answ44"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">0,45Н·м</span></i></div>
+		<div id="answ45"  class="an">
+			<span style="font-size: 14.0pt; line-height: 90%; font-family: Georgia">
+			<i>200Н·м</i></span></div>
+	<span id="num">5.</span><div id="ques5" class="qu">
+		<p class="MsoNormal" style="line-height:90%">
+		<span style="font-size: 14.0pt; line-height: 90%; font-family: Georgia">
+		На рычаг действует сила, равная 4<i>Н</i>. Чему равно плечо силы, если 
+		момент силы 0,8<i>Н·м</i>?</span></div>
+		<div id="answ51"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>15м</i></span></div>
+		<div id="answ52"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>0,8м</i></span></div>
+		<div id="answ53"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>4м</i></span></div>
+		<div id="answ54"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">0,2м</span></i></div>
+		<div id="answ55"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>3,2м</i></span></div>
+	<span id="num">6.</span><div id="ques6" class="qu">
+		<p class="MsoNormal" style="line-height:90%">
+		<span style="font-size: 14.0pt; line-height: 90%; font-family: Georgia">
+		Для чего применяют наклонную плоскость?</span></div>
+		<div id="answ61"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Для 
+			увеличения трения.</i></span></div>
+		<div id="answ62"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Для 
+			увеличения скорости.</i></span></div>
+		<div id="answ63"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Для 
+			получения выигрыша в расстоянии.</i></span></div>
+		<div id="answ64"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Для 
+			получения выигрыша в силе.</i></span></div>
+		<div id="answ65"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Для 
+			уменьшения трения.</i></span></div>
+	<span id="num">7.</span><div id="ques7" class="qu">
+		<p class="MsoNormal">
+		<span style="font-size: 14.0pt; font-family: Georgia">С помощью 
+		неподвижного блока поднимают груз весом 60<i>Н</i>. Какую силу нужно 
+		приложить к свободному концу веревки?</span></div>
+		<div id="answ71"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>40Н</i></span></div>
+		<div id="answ72"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>80Н</i></span></div>
+		<div id="answ73"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>20Н</i></span></div>
+		<div id="answ74"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">60Н</span></i></div>
+		<div id="answ75"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>25Н</i></span></div>
+	<span id="num">8.</span><div id="ques8" class="qu">
+		<span style="font-size: 14.0pt; font-family: Georgia">С помощью 
+		подвижного блока поднимают груз весом 80<i>Н</i> на высоту 50<i>см</i>. 
+		На сколько нужно вытянуть свободный конец веревки?</span></div>
+		<div id="answ81"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>80см</i></span></div>
+		<div id="answ82" class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>25см</i></span></div>
+		<div id="answ83"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>100см</i></span></div>
+		<div id="answ84"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">100см</span></i></div>
+		<div id="answ85"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>50м</i></span></div>
+	<span id="num">9.</span><div id="ques9" class="qu">
+		<p class="MsoNormal">
+		<span style="font-size: 14.0pt; font-family: Georgia">Какую прилагают 
+		силу к длинному концу рычага, при поднятии груз весом 800<i>Н</i>, если 
+		плечи относятся как 2:16?</span></div>
+		<div id="answ91"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>200Н</i></span></div>
+		<div id="answ92" class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>800Н</i></span></div>
+		<div id="answ93"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>1600Н</i></span></div>
+		<div id="answ94"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">100Н</span></i></div>
+		<div id="answ95"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>50Н</i></span></div>
+	<span id="num">10.</span><div id="ques10" class="qu">
+		<p class="MsoNormal">
+		<span style="font-size: 14.0pt; font-family: Georgia">Ломом поднимают 
+		груз так, что точка опоры приходится посредине лома. Какой выигрыш в 
+		силе при этом получаем?</span></div>
+		<div id="answ101"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>В 2 раза.</i></span></div>
+		<div id="answ102" class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>В 4 раза.</i></span></div>
+		<div id="answ103"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">В 1,5 раза.</span></i></div>
+		<div id="answ104"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Никакого.</i></span></div>
+		<div id="answ105"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>В 0,5 раза.</i></span></div>
+		</div>
+</body>
+</html>

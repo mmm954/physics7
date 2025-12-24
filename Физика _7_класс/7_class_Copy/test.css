@@ -1,0 +1,162 @@
+a {
+	color: #006;
+	text-decoration: none;
+}
+a:visited {
+	color: #006;
+	text-decoration: none;
+}
+p {
+	font: 30px Tahoma;
+}
+.outer {
+	text-align: center;
+	margin: 0px auto;
+	margin-bottom: 10px;
+	width: 600px;
+	color: #006;
+}
+.number {
+	width: 55px;
+	font: 45px Tahoma;
+	text-align: center;
+	float: left;
+	color: #006;
+}
+.container {
+	text-align: left;
+	padding: 10px;
+	width: 520px;
+	border: 1.5px solid #006;
+	color: #006;
+	float: left;
+}
+.question {
+	margin-bottom: 5px;
+	font: 20px Tahoma;
+	color: #006;
+}
+.answer {
+	font: 15px Tahoma;
+	padding-left: 10px;
+	color: #006;
+}
+.answerN {
+	padding-left: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font: 15px Tahoma;
+	border-left: 5px solid #fff;
+}
+.answerA {
+	cursor: hand;
+	padding-left: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font: 15px Tahoma;
+	border-left: 5px solid #fff;
+}
+.answerM {
+	padding-left: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font: 15px Tahoma;
+	border-left: 5px solid #fff;
+}
+.sel {
+	border-left: 5px solid #006;
+}
+.select {
+	border-left: 5px solid #ccc;
+}
+.selectN {
+	border-left: 5px solid #c00;
+}
+.selectM {
+	border-left: 5px solid #0c0;
+}
+
+.selN {
+	border-left: 5px solid #c00;
+}
+.selM {
+	border-left: 5px solid #0c0;
+}
+.containerA {
+	border: 1.5px solid #ccc;
+	color: #ccc;
+}
+.numberA {
+	color: #ccc;
+}
+.questionA {
+	color: #ccc;
+}
+.containerN {
+	border: 1.5px solid #c00;
+	color: #c00;
+}
+.numberN {
+	color: #c00;
+}
+.questionN {
+	color: #c00;
+}
+.containerM {
+	border: 1.5px solid #0c0;
+	color: #0c0;
+}
+.numberM {
+	color: #0c0;
+}
+.questionM {
+	color: #0c0;
+}
+.button {
+	float: left;
+	padding: 3px;
+	width: 100px;
+	color: #006;
+	cursor: hand;
+	border: 1px solid #006;
+	font: 17px Tahoma;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-left: 5px;
+}
+.results {
+	text-align: center;
+	color: #0c0;
+	height: 50px;
+	width: 130px;
+	font: 25px Tahoma;
+}
+.res1 {
+	color: #006;
+	font: 23px Tahoma;
+}
+
+.qu {
+	margin-left: 15px;
+	font: 17px Tahoma;
+	color: #006;
+	border: 1px dashed #006;
+}
+.an {
+	margin-left: 35px;
+	font: 14px Tahoma;
+	color: #006;
+	border: 1px dotted #006;
+}
+
+#num {
+	margin-top: 10px;
+	font: 17px Tahoma;
+	color: #006;
+}
+.tInp {
+	float:left;
+	font-size: 13.0pt; 
+	font-family: Tahoma;
+}

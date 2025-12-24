@@ -1,0 +1,295 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Давление жидкости</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="42.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+  table.MsoNormalTable
+	{mso-style-parent:"";
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	}
+table.MsoTableGrid
+	{border:1.0pt solid windowtext;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	}
+</style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]-->
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+<!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+
+
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</head>
+<body onload="FP_preloadImgs(/*url*/'button127.jpg', /*url*/'button128.jpg', /*url*/'button371.jpg', /*url*/'button372.jpg', /*url*/'button455.jpg', /*url*/'button456.jpg')"><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font color="#000066"><b>
+		<span lang="KZ" style="font-family: Calibri">§</span><span style="font-family: Calibri">42.</span></b></font><font face="Calibri" color="#000080"> 
+		Давление жидкости</font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table height="2346">
+<tr>
+<td align="justify">
+<p class="MsoNormal" style="text-align: justify"><font size="4" face="Georgia">
+Внутри жидкости в любой ее точке существует давление,<b> </b>обусловленное весом 
+верхних слоев жидкости на нижние. </font></p>
+<p class="MsoNormal" style="text-align: justify"><font size="4" face="Georgia">
+Давление жидкости на дно и стенки сосуда называется <font color="#000066"> <b><i>гидростатическим 
+давлением</i></b></font> и вычисляется по формуле:</font></p>
+<p class="MsoNormal" align="center" style="text-align: center">
+<span style="position: relative; top: 5.0pt"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1035" type="#_x0000_t75" style='width:84.75pt;
+ height:22.5pt'>
+ <v:imagedata src="42.files/image001.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=113 height=30
+src="42.files/image002.gif" v:shapes="_x0000_s1035"><![endif]></font></span><!--[if gte mso 9]><![endif]--></p>
+<p class="MsoNormal"><font size="4" face="Georgia">&nbsp;</font></p>
+<table class="MsoNormalTable" border="0" cellspacing="10" cellpadding="0" align="right" id="table15">
+	<tr>
+		<td valign="top" style="padding:0cm 0cm 0cm 0cm">
+		<p class="MsoNormal"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1034" type="#_x0000_t75" alt="" style='width:7.5pt;height:.75pt'>
+ <v:imagedata src="42.files/image003.png" o:href="http://www.fizika.ru/images/1x1.gif"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=10 height=1
+src="42.files/image004.gif" v:shapes="_x0000_s1034"><![endif]><!--[if gte vml 1]><v:shape
+ id="_x0000_s1033" type="#_x0000_t75" style='width:170.25pt;height:129.75pt'>
+ <v:imagedata src="42.files/image005.jpg" o:title="aqua"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=227 height=173
+src="42.files/image006.jpg" v:shapes="_x0000_s1033"><![endif]></font></td>
+	</tr>
+</table>
+<p class="MsoNormal" style="text-align: justify"><font face="Georgia">
+<font size="4">Получим эту формулу. Рассмотрим аквариум с площадью дна </font>
+<i><span lang="EN-US"><font size="4">S</font></span></i><font size="4">, в 
+который налита вода до высоты </font><i><span lang="EN-US"><font size="4">h</font></span></i><font size="4">.&nbsp;
+</font></font></p>
+<p class="MsoNormal" style="text-align: justify"><font size="4" face="Georgia">
+На дно сосуда давит вес жидкости. Так как жидкость покоится, вес можно найти по 
+формуле:</font></p>
+<p class="MsoNormal" align="center" style="text-align: center">
+<span style="position: relative; top: 5.0pt"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1032" type="#_x0000_t75" style='width:59.25pt;height:24pt'>
+ <v:imagedata src="42.files/image007.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=79 height=32
+src="42.files/image008.gif" v:shapes="_x0000_s1032"><![endif]></font></span><!--[if gte mso 9]><![endif]--></p>
+<p class="MsoNormal"><font size="4" face="Georgia">Масса вычисляется по формуле:</font></p>
+<p class="MsoNormal" align="center" style="text-align: center">
+<span style="position: relative; top: 5.0pt"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1031" type="#_x0000_t75" style='width:65.25pt;height:21.75pt'>
+ <v:imagedata src="42.files/image009.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=87 height=29
+src="42.files/image010.gif" v:shapes="_x0000_s1031"><![endif]></font></span><!--[if gte mso 9]><![endif]--></p>
+<p class="MsoNormal"><font size="4" face="Georgia">а также зная формулу для 
+подсчета объема тела, имеющего форму прямоугольного параллелепипеда:</font></p>
+<p class="MsoNormal" align="center" style="text-align: center">
+<span style="position: relative; top: 3.0pt"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1030" type="#_x0000_t75" style='width:59.25pt;height:19.5pt'>
+ <v:imagedata src="42.files/image011.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=79 height=26
+src="42.files/image012.gif" v:shapes="_x0000_s1030"><![endif]></font></span><!--[if gte mso 9]><![endif]--></p>
+<p class="MsoNormal"><font size="4" face="Georgia">имеем равенство:</font></p>
+<p class="MsoNormal" align="center" style="text-align: center">
+<span style="position: relative; top: 12.0pt"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1029" type="#_x0000_t75" style='width:273.75pt;height:42.75pt'>
+ <v:imagedata src="42.files/image013.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=365 height=57
+src="42.files/image014.gif" v:shapes="_x0000_s1029"><![endif]></font></span><!--[if gte mso 9]><![endif]--></p>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" align="left" style="border-collapse: collapse; border: medium none; margin-left: 6.75pt; margin-right: 6.75pt" id="table16">
+	<tr>
+		<td width="303" valign="top" style="width: 227.4pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1028" type="#_x0000_t75" style='width:215.25pt;height:189.75pt'>
+ <v:imagedata src="42.files/image015.jpg" o:title="butil"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=287 height=253
+src="42.files/image016.jpg" v:shapes="_x0000_s1028"><![endif]></font></td>
+	</tr>
+</table>
+<p class="MsoNormal" style="text-align: justify"><font size="4" face="Georgia">
+На одном и том же уровне оно <i> <b>о</b>динаково по всем направлениям, в том 
+числе и вверх.</i><b> </b>С глубиной давление<b> </b><i>увеличивается.</i><b> </b>Убедиться 
+в этом можно на простом опыте. Возьмите пластмассовую бутылку, просверлите в ней 
+три отверстия на разной глубине и заполните ее водой. Дальше всех струя воды 
+будет вырываться из нижнего отверстия, потому что там самое большое давление.
+</font></p>
+<p class="MsoNormal"><font size="4" face="Georgia">Все вышесказанное<b> </b>
+справедливо и для<b> </b>газов<b>, </b>в которых тоже существует 
+гидростатическое давление. Формула </font></p>
+<p class="MsoNormal" align="center" style="text-align: center">
+<span style="position: relative; top: 5.0pt"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1027" type="#_x0000_t75" style='width:90pt;height:24pt'>
+ <v:imagedata src="42.files/image001.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=120 height=32
+src="42.files/image017.gif" v:shapes="_x0000_s1027"><![endif]></font></span><!--[if gte mso 9]><![endif]--></p>
+<p class="MsoNormal"><font size="4" face="Georgia">показывает, что </font></p>
+<p class="MsoNormal"><font face="Georgia"><i><font size="4">давление, 
+создаваемое слоем жидкости (или газа), не зависит от ее массы, а зависит только 
+от <font color="#000066"><u><b>плотности</b></u></font> и <b><u>
+<font color="#000066">высоты</font></u></b> ее слоя.</font></i><font size="4"> </font></font></p>
+<p class="MsoNormal" style="text-align: justify"><font size="4" face="Georgia">
+При увеличении толщины слоя или ее плотности гидростатическое давление будет 
+возрастать.</font></p>
+<p class="MsoNormal" style="text-align: justify; text-indent: 35.4pt">
+<font size="4" face="Georgia">В 1648 году то, что<b> </b>давление жидкости 
+зависит от высоты ее столба, продемонстрировал Блез Паскаль. &nbsp;Он вставил в 
+закрытую бочку, наполненную водой, трубку длиной 5<i>м</i> и, поднявшись на 
+балкон второго этажа дома, вылил в эту трубку кружку воды. Когда вода в ней 
+поднялась до высоты 4 метра, давление воды увеличилось настолько, что в крепкой 
+дубовой бочке образовались щели, через которые потекла вода.</font></p>
+<p class="MsoNormal" style="text-align: justify"><b>
+<font size="4" face="Georgia">&nbsp;</font></b></p>
+<p class="MsoNormal" style="text-align: justify"><i><b>
+<font size="4" face="Georgia">Закон Паскаля </font></b></i></p>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" align="left" style="border-collapse: collapse; border: medium none; margin-left: 6.75pt; margin-right: 6.75pt" id="table17">
+	<tr>
+		<td width="206" valign="top" style="width: 154.65pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" style="text-align: justify">
+		<font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1026" type="#_x0000_t75" style='width:129.75pt;height:224.25pt'>
+ <v:imagedata src="42.files/image018.jpg" o:title="plot"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=173 height=299
+src="42.files/image019.jpg" v:shapes="_x0000_s1026"><![endif]></font></td>
+	</tr>
+</table>
+<p style="text-align:justify;text-indent:35.4pt"><font size="4" face="Georgia">
+Рассмотрим следующий опыт.&nbsp; На рисунке изображен сосуд, в котором содержится 
+газ. Частицы газа равномерно распределены по всему сосуду. Сосуд закрыт поршнем, 
+который может перемещаться. Перемещая поршень, сожмем газ, и частицы, 
+находящиеся непосредственно под ним, расположатся более плотно, чем прежде. Но 
+мы знаем, что частицы газа непрерывно движутся по всем направлениям. Вследствие 
+этого их расположение опять станет равномерным, но более плотным, чем раньше. 
+Поэтому давление газа возрастет во всех точках. </font></p>
+<p style="text-align:justify"><i><font size="4" face="Georgia">Давление, 
+производимое на газ, передается в любую точку <b><font color="#000066"><u>одинаково по всем направлениям</u></font></b>.</font></i></p>
+<p style="text-align:justify"><font face="Georgia"><strong>
+<span style="font-weight: normal"><font size="4">Возьмите резиновый шарик и 
+немножко надуйте его. Что произойдет? Почему шарик надулся равномерно со всех 
+сторон?</font></span></strong><font size="4"> Он надулся равномерно, так как 
+давление, производимое на воздух, передалось во все стороны одинаково.</font></font></p>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" align="right" style="border-collapse: collapse; border: medium none; margin-left: 6.75pt; margin-right: 6.75pt" id="table18">
+	<tr>
+		<td width="135" valign="top" style="width: 101.4pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1025" type="#_x0000_t75" style='width:89.25pt;height:225.75pt'>
+ <v:imagedata src="42.files/image020.jpg" o:title="napor"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=119 height=301
+src="42.files/image021.jpg" v:shapes="_x0000_s1025"><![endif]></font></td>
+	</tr>
+</table>
+<p style="text-align:justify"><font size="4" face="Georgia">Впервые данное 
+утверждение опытным путем получил ученый-физик <strong><i><font color="#000066">Блез Паскаль</font>.</i></strong><i>
+</i>Он открыл и исследовал ряд важных свойств жидкостей и газов. И данное 
+утверждение получило название <font color="#000066"> <b><i>закон Паскаля</i><strong>.</strong></b></font> 
+Паскалем был изобретен прибор, который получил название <b><i>шар Паскаля</i><strong>.</strong></b> 
+Давайте проведем опыт с помощью шара Паскаля. В шар нальем подкрашенной воды и 
+нажмем на поршень. Что произошло? Вода полилась из всех отверстий. Этим простым 
+опытом мы проиллюстрировали <i>закон Паскаля.</i> Он звучит так: </font></p>
+<p style="text-align:justify"><i><font size="4" face="Georgia">давление, 
+производимое на жидкость или газ, распространяется без изменения во все части 
+жидкости или газа.</font></i></p>
+<p class="MsoNormal" style="text-align: justify"><font size="4" face="Georgia">
+Согласно этому закону, давление внутри жидкостей и газов распространяется по 
+всевозможным направлениям. Следовательно, жидкости и газы оказывают давление во 
+всех направлениях: <i>влево, вправо и даже вверх! </i>Если в шар Паскаля набрать 
+дыма и нажать на поршень дым будет выходить из всех отверстий одинаково.</font></p>
+<p class="MsoNormal" style="text-align: justify"><a href="demons/napor.html">
+<img border="0" id="img15" src="button457.jpg" height="30" width="150" alt="Демонстрация" onmouseover="FP_swapImg(1,0,/*id*/'img15',/*url*/'button455.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img15',/*url*/'button457.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img15',/*url*/'button456.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img15',/*url*/'button455.jpg')" fp-style="fp-btn: Linked Row 5" fp-title="Демонстрация"></a></p>
+<a href="v42_1/test.htm">
+<img border="0" id="img1" src="button129.jpg" height="30" width="150" alt="Вопрос" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button127.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button129.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button128.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button127.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос"></a><p>&nbsp;</td>
+</tr>
+<tr>
+<td align="justify">
+<a href="contr_16/test.htm">
+<img border="0" id="img2" src="button373.jpg" height="33" width="165" alt="Контрольная работа" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'button371.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'button373.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'button372.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'button371.jpg')" fp-style="fp-btn: Linked Row 2" fp-title="Контрольная работа"></a><p>
+<font face="Calibri">Метки: давление жидкости, гидростатическое 
+давление, Блез Паскаль, закон Паскаля, шар Паскаля</font></td>
+</tr>
+</table>
+	</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

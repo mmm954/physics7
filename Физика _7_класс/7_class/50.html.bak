@@ -1,0 +1,158 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Плавание тел</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ </style>
+
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+</head>
+<body onload="FP_preloadImgs(/*url*/'button142.jpg', /*url*/'button143.jpg')"><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font color="#000066"><b>
+		<span lang="KZ" style="font-family: Calibri">§</span><span style="font-family: Calibri">50.</span></b></font><font face="Calibri" color="#000080"> 
+		Плавание тел</font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<p class="MsoNormal" style="text-align: justify; text-indent: 35.4pt; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">На тело, находящееся 
+внутри жидкости, действуют две силы: сила тяжести, направленная вертикально 
+вниз, и архимедова сила, направленная вертикально вверх. Рассмотрим, что будет 
+происходить с телом под действием этих сил, если вначале оно было неподвижно. 
+При этом возможны три случая:</font></span></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<font face="Georgia"><span style="color: black"><font size="4">1) </font><i>
+<font size="4">если сила тяжести </font></i></span><i>
+<span lang="EN-US" style="color: black"><font size="4">F</font></span><sub><span style="color: black"><font size="4">тяж</font></span></sub><span style="color: black"><font size="4"> 
+больше архимедовой силы </font></span><span lang="EN-US" style="color: black">
+<font size="4">F</font></span><sub><span style="color: black"><font size="4">А</font></span></sub><span style="color: black"><font size="4">, 
+то тело будет </span><font color="#000066"><u><b>тонуть</b></u></font><span style="color: black">;</span></font></i></font></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<font face="Georgia"><span style="color: black"><font size="4">2) </font><i>
+<font size="4">если сила тяжести </font></i></span><i>
+<span lang="EN-US" style="color: black"><font size="4">F</font></span><sub><span style="color: black"><font size="4">тяж</font></span></sub><span style="color: black"><font size="4">&nbsp; 
+равна архимедовой силе </font></span><span lang="EN-US" style="color: black">
+<font size="4">F</font></span><sub><span style="color: black"><font size="4">А</font></span></sub><span style="color: black"><font size="4"> 
+, то тело может находиться в </span><font color="#000066"><u><b>равновесии в любом месте</b></u></font><span style="color: black"> жидкости;</span></font></i></font></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<font face="Georgia"><span style="color: black"><font size="4">3) </font><i>
+<font size="4">если сила тяжести </font></i></span><i>
+<span lang="EN-US" style="color: black"><font size="4">F</font></span><sub><span style="color: black"><font size="4">тяж</font></span></sub><span style="font-variant: small-caps; color: black"><font size="4">&nbsp;
+</font></span><span style="color: black"><font size="4">меньше архимедовой силы&nbsp;
+</font></span><span lang="EN-US" style="color: black"><font size="4">F</font></span><sub><span style="color: black"><font size="4">А</font></span></sub></i><span style="color: black"><font size="4">,
+</font><i><font size="4">то тело <u>всплывает</u>.</font></i></span></font></p>
+<p class="MsoNormal" style="text-autospace: none; background: white"><i>
+<span style="color: black"><font size="4" face="Georgia">&nbsp;</font></span></i><font face="Georgia"><span style="color: black"><font size="4">Примером плавания 
+тела внутри жидкости может служить подводная лодка. При помощи мощных насосов в 
+специальные отсеки закачивается вода, и лодка погружается в воду. Во время 
+всплытия в отсеки нагнетается воздух.&nbsp; Когда сила тяжести</font><i><font size="4">
+</font></i></span><i><span lang="EN-US" style="color: black"><font size="4">F</font></span><sub><span style="color: black"><font size="4">тяж</font></span></sub><span style="color: black"><font size="4">
+</font></span></i><span style="color: black"><font size="4">больше архимедовой 
+силы</font><i><font size="4"> </font></i></span><i>
+<span lang="EN-US" style="color: black"><font size="4">F</font></span><sub><span style="color: black"><font size="4">А</font></span></sub><span style="color: black"><font size="4">,
+</font></span></i><span style="color: black"><font size="4">то подводная лодка 
+погружается; если сила тяжести</font><i><font size="4"> </font></i></span><i>
+<span lang="EN-US" style="color: black"><font size="4">F</font></span><sub><span style="color: black"><font size="4">тяж</font></span></sub><span style="color: black"><font size="4">&nbsp;
+</font></span></i><span style="color: black"><font size="4">равна архимедовой 
+силе</font><i><font size="4"> </font></i></span><i>
+<span lang="EN-US" style="color: black"><font size="4">F</font></span><sub><span style="color: black"><font size="4">А</font></span></sub></i><span style="color: black"><font size="4">, 
+то подводная лодка&nbsp; может находиться в равновесии в любом месте жидкости; если 
+сила тяжести</font><i><font size="4"> </font></i></span><i>
+<span lang="EN-US" style="color: black"><font size="4">F</font></span><sub><span style="color: black"><font size="4">тяж</font></span></sub><span style="font-variant: small-caps; color: black"><font size="4">&nbsp;
+</font></span><span lang="EN-US" style="color: black"><font size="4">F</font></span><sub><span style="color: black"><font size="4">А</font></span></sub></i><span style="color: black"><font size="4">, 
+то подводная лодка всплывает.</font></span></font></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<font size="4" face="Georgia">&nbsp;</font><span style="color: black"><font size="4" face="Georgia">Когда всплывающее тело 
+достигнет поверхности жидкости, то при дальнейшем его движении вверх архимедова 
+сила будет уменьшаться, потому что будет уменьшаться объем части тела, 
+погруженной в жидкость, а архимедова сила равна весу жидкости в объеме 
+погруженной в нее части тела.</font></span></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">Когда архимедова сила 
+станет равной силе тяжести, тело остановится и будет плавать на поверхности 
+жидкости, частично погрузившись в нее.</font></span></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">Полученный вывод легко 
+проверить на опыте.</font></span></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">Проделав опыты с 
+телами, плавающими в жидкости, можно убедиться, что </font></span></p>
+<p class="MsoNormal" style="text-autospace: none; background: white"><i>
+<span style="color: black"><font size="4" face="Georgia">если тело плавает в 
+жидкости, то вес вытесненной им жидкости равен весу этого тела в воздухе.</font></span></i></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<font face="Georgia"><span style="color: black"><font size="4">Если </font><i>
+<font size="4">плотность сплошного твердого тела больше плотности жидкости, то 
+тело в такой жидкости тонет. </font></i></span></font></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<font face="Georgia"><span style="color: black"><font size="4">Если </font><i>
+<font size="4">плотность сплошного твердого тела меньше плотности жидкости, то 
+тело&nbsp; всплывает в этой жидкости. </font></i></span></font></p>
+<p class="MsoNormal" style="text-autospace: none; background: white"><b><i>
+<span style="color: black"><font size="4" face="Georgia">&nbsp;</font></span></i></b><font face="Georgia"><i><span style="color: black"><font size="4">Чем меньше 
+плотность тела по сравнению с плотностью жидкости, тем меньшая часть тела 
+погружена в жидкость</font></span></i><span style="color: black"><font size="4">.</font></span></font></p>
+<a href="v50_1/test.htm">
+<img border="0" id="img1" src="button144.jpg" height="30" width="150" alt="Вопрос" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button142.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button144.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button143.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button142.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос"></a><p><font face="Calibri">Метки: плавание тел</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

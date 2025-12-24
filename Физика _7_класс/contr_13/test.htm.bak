@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Тест</title>
+<link rel="stylesheet" href="../test_c.css" type="text/css">
+<script type="text/javascript" src="../jquery.js"></script>
+<script type="text/javascript" src="../effects.core.js"></script>
+<script type="text/javascript" src="../effects.slide.js"></script>
+<script type="text/javascript" src="../jquery.timers-1.2.js"></script>
+<script type="text/javascript" src="../test_c.js" encoding="utf-8"></script>
+</head>
+<body id="body">
+<div id="cool">	
+	<span id="num">1.</span>Вопрос:<div id="ques1" class="qu">
+		<span style="font-size: 13.0pt; font-family: Tahoma">С какой силой 
+		натягивает лямки парашюта человек массой 80 кг, когда парашют опускается 
+		равномеро? (g=10 Н/кг)о</span></div>
+		Ответ:<div id="answ1"  class="an">800</div>
+		Единицы:<div id="ed1"  class="an">Н</div>
+
+	<span id="num">2.</span>Вопрос:<div id="ques2" class="qu">
+		<span style="font-family: Tahoma; font-size: 13pt">Рассчитайте, что 
+		покажет динамометр, если на него подвесить груз из свинца, объемом 200 
+		см<sup>3</sup>.</span></div>
+		Ответ:<div id="answ2"  class="an">22,6</div>
+		Единицы:<div id="ed2"  class="an">Н</div>
+	<span id="num">3.</span>Вопрос:<div id="ques3" class="qu">
+		<span style="font-family: Tahoma; font-size: 13pt">На тросе башенного 
+		крана висит железобетонная плита массой 5 т. Как велика сила упругости, 
+		возникшая в тросе?</span></div>
+		Ответ:<div id="answ3"  class="an">50</div>
+		Единицы:<div id="ed3"  class="an">кН</div>
+	<span id="num">4.</span>Вопрос:<div id="ques4" class="qu">
+		<span style="font-family: Tahoma; font-size: 13pt">Сила 30 Н растягивает 
+		пружину на 5 см. Какова сила, растягивающая пружину на 8 см?</span></div>
+		Ответ:<div id="answ4"  class="an">48</div>
+		Единицы:<div id="ed4"  class="an">Н</div>
+	<span id="num">5.</span>Вопрос:<div id="ques5" class="qu">
+		<span style="font-family: Tahoma; font-size: 13pt">Пружина динамометра 
+		под действием силы 4 Н удлинилась на 5 мм. Определите массу груза, под 
+		действием которого эта пружина удлиняется на 16 мм.</span></div>
+		Ответ:<div id="answ5"  class="an">1,28</div>
+		Единицы:<div id="ed5"  class="an">кг</div>
+
+</div>
+</body>
+</html>

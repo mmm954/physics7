@@ -1,0 +1,87 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Вивиани</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ </style>
+
+</head>
+<body><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font face="Calibri" color="#000080">Вивиани</font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<font face="Georgia" size="4"><img border="0" src="vivian1.gif" align="right">Винченцо 
+Вивиани (5 апреля 1622, Флоренция — 22 сентября 1703, там же) — итальянский 
+физик и математик, ученик Галилея и Торричелли, составитель первой биографии 
+Галилея.</font><p><font face="Georgia" size="4">Вивиани родился и вырос во 
+Флоренции, учился в иезуитской школе. Познакомившись с Торричелли, учеником 
+Галилея, стал совместно с ним проводить физические опыты, а позже стал учеником 
+и самого Галилея (1639), который под надзором инквизиции проживал в Арчетри, 
+недалеко от Флоренции. Вивиани стал неоценимым помощником слепого учёного.<br>
+<br>
+Тито Лесси. Галилей и Вивиани. Музей истории науки, Флоренция.<br>
+<br>
+Спустя 3 года (1642) Галилей скончался, а в 1647 году умер Торричелли. Вивиани 
+продолжил их научные исследования, одновременно готовя к печати сборник трудов 
+Галилея с биографическим очерком (1655—1656). Тосканский герцог Фердинанд II 
+Медичи предоставил ему своё покровительство и почётное место в Академии (Accademia 
+del Cimento, то есть «Академия опыта»), специально созданной для исследований 
+природы.<br>
+<br>
+Репутация Вивиани как достойного преемника Галилея быстро упрочилась, и он 
+получил ряд приглашений от монархов, в том числе от Людовика XIV и польского 
+короля Яна II Казимира. Обеспокоенный герцог назначил Вивиани придворным 
+астрономом с высоким окладом (1666).<br>
+<br>
+В 1666 году Вивиани был избран иностранным членом только что основанной 
+Французской Академии наук. Он стал также членом Лондонского Королевского 
+Общества (1696).<br>
+<br>
+1687: Вивиани публикует книгу по механике, Discorso intorno al difendersi da&#39; 
+riempimenti e dalle corrosione de&#39; fiumi. Готовит трактат по сопротивлению 
+материалов, но закончить его не успел. Книгу отредактировал и опубликовал Луиджи 
+Гвидо Гранди.<br>
+<br>
+В своём завещании Вивиани оставил часть средств на погребение Галилея, согласно 
+его желанию, в соборе Санта-Кроче, и сооружение там памятника Галилею. Эта воля 
+была исполнена в 1737 году, когда римская церковь наконец разрешила 
+перезахоронить Галилея, и теперь могилы учителя и ученика находятся рядом.</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

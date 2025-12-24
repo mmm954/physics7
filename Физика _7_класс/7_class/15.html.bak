@@ -1,0 +1,174 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Расчет пути и времени движения</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="15.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ </style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]-->
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+<!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+
+</head>
+<body onload="FP_preloadImgs(/*url*/'button167.jpg', /*url*/'button168.jpg', /*url*/'button169.jpg', /*url*/'button170.jpg', /*url*/'button278.jpg', /*url*/'button279.jpg', /*url*/'buttonB8.jpg', /*url*/'buttonC8.jpg', /*url*/'button1E.jpg', /*url*/'button1D.jpg', /*url*/'button281.jpg', /*url*/'button282.jpg')"><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font color="#000080"><b>
+		<span lang="KZ" style="font-family: Calibri">§</span><span style="font-family: Calibri">15</span><span lang="KZ" style="font-family: Calibri">.
+		</span><span style="font-family: Calibri">Расчет пути и времени движения</span></b></font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<font face="Georgia" size="4">Если известна скорость тела&nbsp; и время при равномерном 
+прямолинейном движении, можно определить пройденный им путь. Из формулы </font>
+<p align="center" style="text-align:center"><font face="Georgia" size="4">
+<span style="position: relative; top: 12.0pt"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1028" type="#_x0000_t75" style='width:36.75pt;
+ height:39.75pt'>
+ <v:imagedata src="15.files/image001.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=49 height=53
+src="15.files/image002.gif" v:shapes="_x0000_s1028"><![endif]></span></font><!--[if gte mso 9]><![endif]--></p>
+<p><font face="Georgia" size="4">следует, что </font></p>
+<p align="center" style="text-align:center"><font face="Georgia" size="4">
+<span style="position: relative; top: 3.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1027" type="#_x0000_t75" style='width:63.75pt;height:18.75pt'>
+ <v:imagedata src="15.files/image003.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=85 height=25
+src="15.files/image004.gif" v:shapes="_x0000_s1027"><![endif]></span></font><span style="font-size:18.0pt"><!--[if gte mso 9]><![endif]--></span><font face="Georgia" size="4">.</font></p>
+<p class="MsoNormal"><font face="Georgia" size="4"><i>Чтобы определить 
+<font color="#000066"><u><b>пройденный путь</b></u></font> 
+движения при равномерном прямолинейном движении, нужно скорость тела умножить на 
+время его движения.&nbsp;&nbsp; </i></font></p>
+<p><font face="Georgia" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Из формулы </font></p>
+<p align="center" style="text-align:center"><font face="Georgia" size="4">
+<span style="position: relative; top: 3.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1026" type="#_x0000_t75" style='width:60.75pt;height:18.75pt'>
+ <v:imagedata src="15.files/image005.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=81 height=25
+src="15.files/image006.gif" v:shapes="_x0000_s1026"><![endif]></span></font><!--[if gte mso 9]><![endif]--></p>
+<p><font face="Georgia" size="4">можно определить время движения тела</font></p>
+<p align="center" style="text-align:center"><font face="Georgia" size="4">
+<span style="position: relative; top: 16.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1025" type="#_x0000_t75" style='width:51.75pt;height:53.25pt'>
+ <v:imagedata src="15.files/image007.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=69 height=71
+src="15.files/image008.gif" v:shapes="_x0000_s1025"><![endif]></span></font><!--[if gte mso 9]><![endif]--></p>
+<i><span style="font-family: Georgia"><font size="4">Чтобы определить 
+<font color="#000066"><u><b>время движения</b></u></font> при 
+равномерном прямолинейном движении, нужно пройденный путь разделить на скорость 
+движения.</font></span></i><font size="4">&nbsp;</font><p>
+<font size="4" face="Georgia">Нажав на кнопку <i><u>Пример,</u> </i>ты можешь 
+посмотреть, как нужно оформлять задачи в тетради.</font></p>
+<p>
+<a href="demons/primer1.html">
+<img border="0" id="img9" src="button280.jpg" height="30" width="150" alt="Пример 1" fp-style="fp-btn: Linked Row 6" fp-title="Пример 1" onmouseover="FP_swapImg(1,0,/*id*/'img9',/*url*/'button278.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img9',/*url*/'button280.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img9',/*url*/'button279.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img9',/*url*/'button278.jpg')"></a><span lang="en-us">&nbsp;
+</span><a href="z15_1/test.htm">
+<img border="0" id="img6" src="button1C.jpg" height="30" width="150" alt="Задача 1" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'button1D.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'button1C.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'button1E.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'button1D.jpg')" fp-style="fp-btn: Linked Row 7; fp-orig: 0" fp-title="Задача 1"></a></p>
+<p>
+<a href="demons/primer2.html">
+<img border="0" id="img10" src="buttonA9.jpg" height="30" width="150" alt="Пример 2" onmouseover="FP_swapImg(1,0,/*id*/'img10',/*url*/'buttonB8.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img10',/*url*/'buttonA9.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img10',/*url*/'buttonC8.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img10',/*url*/'buttonB8.jpg')" fp-style="fp-btn: Linked Row 6" fp-title="Пример 2"></a><span lang="en-us">&nbsp;
+</span><a href="z15_2/test.htm">
+<img border="0" id="img7" src="button1F.jpg" height="30" width="150" alt="Задача 2" onmouseover="FP_swapImg(1,0,/*id*/'img7',/*url*/'button167.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img7',/*url*/'button1F.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img7',/*url*/'button168.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img7',/*url*/'button167.jpg')" fp-style="fp-btn: Linked Row 7" fp-title="Задача 2"></a></p>
+<p>
+<span lang="en-us">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a href="z15_3/test.htm">
+<img border="0" id="img8" src="button171.jpg" height="30" width="150" alt="Задача 3" onmouseover="FP_swapImg(1,0,/*id*/'img8',/*url*/'button169.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img8',/*url*/'button171.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img8',/*url*/'button170.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img8',/*url*/'button169.jpg')" fp-style="fp-btn: Linked Row 7" fp-title="Задача 3"></a></p>
+<p>
+<font size="4" face="Georgia">Если у тебя совсем не получается решение, на 
+первых порах ты можешь воспользоваться нашей подсказкой. Нажми на кнопку <u><i>
+Решебник</i></u> и посмотри, как нужно решать задачу.</font></p>
+<p>
+<a href="demons/resh1.html">
+<img border="0" id="img11" src="button283.jpg" height="30" width="150" alt="Решебник" onmouseover="FP_swapImg(1,0,/*id*/'img11',/*url*/'button281.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img11',/*url*/'button283.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img11',/*url*/'button282.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img11',/*url*/'button281.jpg')" fp-style="fp-btn: Linked Row 6" fp-title="Решебник"></a></p>
+<p>&nbsp;</p>
+<p><font face="Calibri">Метки: равномерное движение, путь, скорость</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

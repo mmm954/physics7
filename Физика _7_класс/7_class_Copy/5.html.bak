@@ -1,0 +1,204 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Измерительные приборы. Цена деления</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="5.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ </style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]--><!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+</head>
+<body onload="FP_preloadImgs(/*url*/'button151.jpg', /*url*/'button152.jpg')"><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font color="#000080"><b>
+		<span lang="KZ" style="font-family: Calibri">§5. </span>
+		<span style="font-family: Calibri">Измерительные приборы. Цена деления</span></b></font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table width="704">
+<tr>
+<td align="justify">
+<p class="MsoNormal" style="text-align:justify;text-indent:35.4pt">
+<font size="4" face="Georgia">Для определения физических величин проводят 
+специальные измерения с помощью <font color="#000066"> <b><i>приборов</i></b></font>. Некоторые из них вам уже 
+хорошо знакомы, например, линейка, с помощью которой можно измерить длину, 
+ширину и высоту, часы, с помощью которых вы измеряете время. Деления и цифры, 
+нанесенные на поверхность прибора, называются <i>шкалой</i><b> </b>прибора. С 
+самого раннего возраста вы знакомы с термометром и знаете, что он&nbsp; измеряет 
+температуру тела.</font></p>
+<span style="font-size: 12.0pt; font-family: Times New Roman"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1026" type="#_x0000_t75" alt="" style='width:161.25pt;
+ height:369pt;float:right' o:allowoverlap="f">
+ <v:imagedata src="5.files/image001.jpg" o:title="grad"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=215 height=492
+src="5.files/image002.jpg" align=right v:shapes="_x0000_s1026"><![endif]></span><p class="MsoNormal" style="text-align: justify">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Если посмотреть 
+на термометры, изображенные на рисунке, кажется, что они показывают разную 
+температуру. На самом деле показания термометров одинаковы: 36 °С. Просто их 
+шкалы отличаются друг от друга. Выясним, в чем состоит это отличие. </font>
+</span></p>
+<p class="MsoNormal" style="text-align: justify"><span style="color: black">
+<font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Между штрихами 20° и 30° на левом 
+термометре столько же делений (промежутков), сколько их между 20° и 40° на 
+правом термометре. Подсчитайте: ровно 10 делений. Однако они отмеряют разное 
+количество градусов! Поэтому говорят, что шкалы этих термометров имеют различную
+</span><b><font color="#000066">
+<i>цену делений.</i></font></b><span style="color: black">
+</span> </font></p>
+<p class="MsoNormal" style="text-align: justify"><span style="color: black">
+<font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Итак, 10 делений на левом термометре 
+отмеряют 10 градусов (так как 30° – 20° = 10°), а 10 делений на правом 
+термометре отмеряют уже 20 градусов (так как 40° – 20° = 20°). Следовательно, на 
+одно деление шкалы левого термометра приходится 1 градус, а на одно деление 
+шкалы правого — 2 градуса. </font></span></p>
+<p class="MsoNormal" style="text-align: justify"><font face="Georgia"><i>
+<span style="color: black"><font size="4">Чтобы определить </span>
+<font color="#000066"><u><b>цену деления</b></u></font><span style="color: black"> прибора</span></font><font size="4">, 
+нужно взять два ближайших подписанных штриха, из большего числа вычесть меньшее 
+и разделить на количество делений между ними.</font></i></font></p>
+<p class="MsoNormal" style="text-align: justify"><font face="Georgia">
+<span style="color: black"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Значит</font></span><font size="4">,<span style="color:black"> 
+цена деления левого термометра = 1 °/дел; цена деления правого термометра = 2 
+°/дел. У левого термометра каждое деление </span>— один градус. Граница 
+подкрашенного спирта поднялась выше отметки 3</font><span style="color:black"><font size="4">0 
+°С на шесть делений, поэтому температура равна 36 °С.</font></span></font></p>
+<p class="MsoNormal"><span style="color: black"><font size="4" face="Georgia">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; У правого термометра после штриха 20°С граница подкрашенного спирта 
+поднялась на 8 деления. Так как цена деления второго термометра 2 °С/дел, то:
+</font></span></p>
+<p class="MsoNormal"><span style="color: black"><font size="4" face="Georgia">8 
+дел · 2 °С/дел = 16 °С,<br>
+температура = 20 °С + 16 °С = 36 °С.</font></span></p>
+<p class="MsoNormal" style="text-align: justify"><span style="color: black">
+<font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Значит, оба термометра показывают 
+одинаковую температуру.</font></span></p>
+<p class="MsoNormal" style="text-align: justify"><font face="Georgia">
+<span style="color: black"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Эти действия: </font><i>
+<font size="4">взгляд на шкалу прибора и необходимые вычисления называются 
+отсчетом по шкале измерительного прибора. </font></i></span></font></p>
+<p class="MsoNormal" style="text-align: justify"><span style="color: black">
+<font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Цена делений шкалы измерительного прибора 
+– важная физическая величина. С ней вы будете сталкиваться каждый раз, когда 
+будете измерять какую-либо физическую величину. </font></span></p>
+<p class="MsoNormal" style="text-align: justify"><span style="color: black">
+<font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Алгоритм вычисления цены деления шкалы 
+следующий: </font></span></p>
+<p class="MsoNormal" style="text-align: justify"><span style="color: black">
+<font size="4" face="Georgia">а) выбрать на шкале два ближайших оцифрованных 
+штриха; </font></span></p>
+<p class="MsoNormal" style="text-align: justify"><span style="color: black">
+<font size="4" face="Georgia">б) сосчитать количество делений между ними; </font>
+</span></p>
+<p class="MsoNormal" style="text-align: justify"><span style="color: black">
+<font size="4" face="Georgia">в) разность значений около выбранных штрихов 
+разделить на количество делений. </font></span></p>
+<span style="font-size: 12.0pt; font-family: Times New Roman"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1025" type="#_x0000_t75" alt="" style='width:208.5pt;height:297pt;float:right'
+ o:allowoverlap="f">
+ <v:imagedata src="5.files/image003.jpg" o:title="mens1"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=278 height=396
+src="5.files/image004.jpg" align=right v:shapes="_x0000_s1025"><![endif]></span><p class="MsoNormal" style="text-align: justify">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; На этом рисунке 
+в крупном масштабе показана шкала мензурки. Проиллюстрируем с ее помощью правило 
+для вычисления цены деления.</font></span></p>
+<p class="MsoNormal"><span style="color: black"><font size="4" face="Georgia">а) 
+выбираем оцифрованные штрихи, например 20 см<sup>3</sup> и 30 см<sup>3</sup> <br>
+б) мы видим, что между ними 2 деления (промежутка) <br>
+в) вычисляем: </font></span></p>
+<p class="MsoNormal"><span style="color: black"><font size="4" face="Georgia">
+(30 см<sup>3</sup> – 20 см<sup>3</sup>) : 2 делений = </font></span></p>
+<p class="MsoNormal"><span style="color: black"><font size="4" face="Georgia">5 
+см<sup>3</sup>/дел. </font></span></p>
+<span style="font-family: Georgia; color: black"><font size="4">Ответ:&nbsp; цена 
+деления равна 5 см<sup>3</sup>. </font></span>&nbsp;<p><a href="z5_1/test.htm">
+<img border="0" id="img3" src="button153.jpg" height="30" width="150" alt="Задача" fp-style="fp-btn: Linked Row 7" fp-title="Задача" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'button151.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button153.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'button152.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'button151.jpg')"></a></p>
+<p><font face="Calibri">Метки: цена деления</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

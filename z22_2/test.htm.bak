@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Тест</title>
+<link rel="stylesheet" href="../test.css" type="text/css">
+<script type="text/javascript" src="../jquery.js"></script>
+<script type="text/javascript" src="../test_h.js" encoding="utf-8"></script>
+</head>
+<body id="body">
+<div id="cool">	
+	<span id="num">1.</span>Вопрос:<div id="ques" class="qu">
+		<span style="font-family: Times New Roman">При растяжении пружины силой 
+		30 Н ее растяжение равно 10 см. Какую силу надо приложить к пружине, 
+		чтобы растянуть ее на 25 см?</span></div>
+		Ответ:<div id="answ"  class="an">75</div>
+		Единицы:<div id="ed"  class="an">Н</div>
+		Подсказка:<div id="hint"  class="an">Чтобы определить приложенную силу 
+		во втором случае сначала определите жесткость пружины</div>
+</div>
+</body>
+</html>

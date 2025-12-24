@@ -1,0 +1,96 @@
+.outer {
+	position: absolute;
+	text-align: center;
+	top: 40px;
+	left: 200px;
+	1margin-left: -267px;
+	width: 535px;
+	height: 410px;
+	color: #006;
+}
+.outerH {
+	position: absolute;
+	text-align: center;
+	top: 40px;
+	left: 200px;
+	1margin-left: -267px;
+	width: 535px;
+	height: 410px;
+	color: #006;
+	display: none;
+}
+.container {
+	font: 14pt Calibri, Arial, sans-serif;
+	background-image: url('back.jpg');
+	background-repeat: no-repeat;
+	width: 535px;
+	height: 390px;
+	color: #006;
+}
+.main {
+	padding-left: 25px;
+	padding-right: 15px;
+	text-align: center;
+}
+.tInp {
+	width: 200px;
+	height: 20px;
+	font-size: 18px;
+	font-family: Arial;
+}
+.button {
+	margin: 0 auto;
+	width: 127px;
+	height: 37px;
+	background-image: url('but.jpg');
+	background-repeat: no-repeat;
+	cursor: hand;
+}
+.button5 {
+	margin: 0 auto;
+	width: 127px;
+	height: 37px;
+	background-image: url('but.jpg');
+	background-repeat: no-repeat;
+	cursor: hand;
+}
+.button:hover {
+	background-image: url('but_h.jpg');
+}
+.button:active {
+	background-image: url('but_p.jpg');
+}
+.button5:hover {
+	background-image: url('but_h.jpg');
+}
+.button5:active {
+	background-image: url('but_p.jpg');
+}
+.quanR {
+	line-height: 52px;
+	vertical-align: middle;
+	text-indent: 50px;
+	margin-left: 50px;
+	height: 52px;
+	background-image: url('wrong.jpg');
+	background-repeat: no-repeat;
+	text-align: left;
+	color: #600;
+}
+.quanG {
+	line-height: 52px;
+	vertical-align: middle;
+	text-indent: 50px;
+	margin-left: 50px;
+	height: 52px;
+	background-image: url('right.jpg');
+	background-repeat: no-repeat;
+	text-align: left;
+	color: #060;
+}
+.mark {
+	font: 19pt Calibri, Arial, sans-serif;
+}
+.refresh {
+	color: #006;
+}

@@ -1,0 +1,337 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-EN">
+<head>
+	<script src="jquery-1.2.1.min.js" type="text/javascript"></script>
+	<script src="menu.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Физика 7</title>
+	<!--[if lt IE 8]>
+   <style type="text/css">
+   li a {display:inline-block;}
+   li a {display:block;}
+   </style>
+   <![endif]-->
+</head>
+
+
+<body>
+	
+	<h1>Физика 7</h1>
+	
+<div>
+<ul id="menu">
+	
+	<li>
+	<a href="#">I. Физика и астрономия – науки о природе</a>
+
+		<ul>
+			<li><a href="1.html">§ 1. Что изучает физика</a></li>
+
+			<li><a href="2.html">§ 2. Методы изучения природы</a></li>
+				
+			<li><a href="3.html">§ 3. Астрономия – наука о небесных телах</a></li>
+				
+			<li><a href="4.html">§ 4. Физическая величина. Измерение физических величин</a></li>
+
+			<li><a href="5.html">§ 5. Измерительные приборы. Цена деления</a></li>
+
+			<li><a href="6.html">§ 6. Погрешности прямых измерений</a></li>
+				
+			<li><a href="7.html">§ 7. Международная система единиц</a></li>
+				
+			<li><a href="8.html">§ 8. Запись больших и малых чисел в стандартном виде</a></li>
+
+			<li><a href="test1.html">Тест</a></li>
+
+		</ul>
+
+	</li>
+
+	<li>
+	<a href="#">II. Механическое движение</a>
+
+		<ul>
+			<li><a href="9.html">§ 9. Механическое движение. Тело отсчета. Относительность движения</a></li>
+
+			<li><a href="10.html">§ 10. Суточное движение небесных тел</a></li>
+				
+			<li><a href="11.html">§ 11. Гелиоцентрическая система Коперника</a></li>
+				
+			<li><a href="12.html">§ 12. Материальная точка. Траектория. Путь и перемещение</a></li>
+
+			<li><a href="13.html">§ 13. Равномерное и неравномерное движение</a></li>
+
+			<li><a href="14.html">§ 14. Скорость. Единицы скорости</a></li>
+				
+			<li><a href="15.html">§ 15. Расчет пути и времени движения</a></li>
+				
+			<li><a href="16.html">§ 16. График равномерного прямолинейного движения</a></li>
+
+			<li><a href="17.html">§ 17. Инерция</a></li>
+
+			<li><a href="test2.html">Тест</a></li>
+
+		</ul>
+
+	</li>
+
+
+	<li>	<a href="#">III. Масса. Силы в природе</a>
+
+		<ul>
+
+			<li><a href="18.html">§ 18. Масса тела. Инертность</a></li>
+
+			<li><a href="19.html">§ 19. Плотность вещества</a></li>
+				
+			<li><a href="20.html">§ 20. Сила</a></li>
+				
+			<li><a href="21.html">§ 21. Сила тяжести</a></li>
+
+			<li><a href="22.html">§ 22. Сила упругости</a></li>
+
+			<li><a href="23.html">§ 23. Вес тела</a></li>
+				
+			<li><a href="24.html">§ 24. Сила трения</a></li>
+				
+			<li><a href="25.html">§ 25. Сложение сил. Равнодействующая</a></li>
+
+			<li><a href="test3.html">Тест</a></li>
+
+ 		</ul>
+
+	</li>
+
+	<li>	<a href="#">IV. Работа. Энергия</a>
+
+		<ul>
+
+			<li><a href="26.html">§ 26. Механическая работа</a></li>
+
+			<li><a href="27.html">§ 27. Мощность</a></li>
+				
+			<li><a href="28.html">§ 28. Простые механизмы</a></li>
+				
+			<li><a href="29.html">§ 29. Рычаг, блок. Закон равновесия рычага</a></li>
+
+			<li><a href="30.html">§ 30. «Золотое правило механики»</a></li>
+
+			<li><a href="31.html">§ 31. Коэффициент полезного действия</a></li>
+				
+			<li><a href="32.html">§ 32. Равновесие твердых тел</a></li>
+				
+			<li><a href="33.html">§ 33. Энергия. Потенциальная и кинетическая энергии</a></li>
+
+			<li><a href="34.html">§ 34. Закон сохранения энергии</a></li>
+
+			<li><a href="test4.html">Тест</a></li>
+
+ 		</ul>
+
+	</li>
+
+	<li>	<a href="#">V. Строение вещества.  Атомы и молекулы</a>
+
+		<ul>
+
+			<li><a href="35.html">§ 35. Строение вещества</a></li>
+
+			<li><a href="36.html">§ 36. Диффузия</a></li>
+
+			<li><a href="37.html">§ 37. Взаимное притяжение и отталкивание молекул</a></li>
+
+			<li><a href="38.html">§ 38. Три состояния вещества</a></li>
+
+			<li><a href="39.html">§39. Молекулярное строение газов, жидкостей и твердых тел</a></li>
+				
+			<li><a href="tests/5-1/test.htm">Тест</a></li>
+			
+ 		</ul>
+
+	</li>
+
+	<li>	<a href="#">VI. Давление твердых тел, жидкостей и газов</a>
+
+		<ul>
+
+			<li><a href="40.html">§ 40. Давление</a></li>
+
+			<li><a href="41.html">§ 41. Давление газа</a></li>
+				
+			<li><a href="42.html">§ 42. Давление жидкости</a></li>
+				
+			<li><a href="43.html">§ 43. Сообщающиеся сосуды</a></li>
+
+			<li><a href="44.html">§ 44. Атмосферное давление</a></li>
+
+			<li><a href="45.html">§ 45. Барометры</a></li>
+				
+			<li><a href="46.html">§ 46. Манометры: жидкостные и деформационные</a></li>
+				
+			<li><a href="47.html">§ 47. Гидравлические машины</a></li>
+
+			<li><a href="48.html">§ 48. Поршневой жидкостный насос</a></li>
+
+			<li><a href="49.html">§ 49. Архимедова сила</a></li>
+
+			<li><a href="50.html">§ 50. Плавание тел</a></li>
+				
+			<li><a href="51.html">§ 51. Плавание судов</a></li>
+				
+			<li><a href="52.html">§ 52. Воздухоплавание</a></li>
+
+			<li><a href="test6.html">Тест</a></li>
+
+ 		</ul>
+
+	</li>
+	<li>	<a href="#">Лабораторные работы</a>
+
+		<ul>
+
+			<li><a href="demons/lab1.html">1. Определение цены деления мензурки</a></li>
+
+			<li><a href="demons/lab2.html">2. Определение размеров малых тел</a></li>
+				
+			<li><a href="demons/lab3.html">3. Определение плотности тел</a></li>
+				
+			<li><a href="demons/lab4.html">4. Определение архимедовой силы</a></li>
+
+ 		</ul>
+
+	</li>
+
+
+</ul>
+	
+</div>
+<div style="position: absolute; left: 550px; top: 75px; padding-right: 40px; text-align: center; ">
+<span class="a3"><a href="7.html" class="spana">ампер</a></span>
+<span class="a2"><a href="tags/aristotel.html" class="spana">Аристотель</a></span> 
+<span class="a2"><a href="tags/arhimed.html" class="spana">Архимед</a></span> 
+<span class="a3"><a href="3.html" class="spana">астрономия</a></span> 
+<span class="a4"><a href="3.html" class="spana">астрономическая единица</a></span>
+<span class="a4"><a href="44.html" class="spana">атмосфера</a></span> 
+<span class="a1"><a href="35.html" class="spana">атом</a></span> 
+<span class="a4"><a href="52.html" class="spana">аэростат</a></span> 
+<span class="a4"><a href="45.html" class="spana">барометр</a></span> 
+<span class="a3"><a href="tags/blok.html" class="spana">блок</a></span> 
+<span class="a2"><a href="36.html" class="spana">Броуновское движение</a></span> 
+<span class="a4"><a href="51.html" class="spana">ватерлиния</a></span> 
+<span class="a2"><a href="27.html" class="spana">Ватт</a></span> 
+<span class="a2"><a href="tags/vectors.html" class="spana">векторные величины</a></span> 
+<span class="a1"><a href="tags/ves.html" class="spana">вес</a></span> 
+<span class="a2"><a href="tags/veshestvo.html" class="spana">вещество</a></span> 
+<span class="a4"><a href="28.html" class="spana">винт</a></span> 
+<span class="a4"><a href="52.html" class="spana">воздухоплавание</a></span> 
+<span class="a3"><a href="44.html" class="spana">воздушная оболочка</a></span> 
+<span class="a4"><a href="51.html" class="spana">водоизмещение</a></span> 
+<span class="a4"><a href="28.html" class="spana">ворот</a></span> 
+<span class="a2"><a href="21.html" class="spana">всемирное тяготение</a></span> 
+<span class="a2"><a href="49.html" class="spana">выталкивающая сила</a></span> 
+<span class="a2"><a href="38.html" class="spana">газообразное</a></span> 
+<span class="a2"><a href="tags/galiley.html" class="spana">Галилео Галилей</a></span> 
+<span class="a3"><a href="11.html" class="spana">гелиоцентрическая система</a></span> 
+<span class="a2"><a href="7.html" class="spana">Гига</a></span> 
+<span class="a3"><a href="2.html" class="spana">гипотеза</a></span> 
+<span class="a1"><a href="tags/davlenie.html" class="spana">давление</a></span> 
+<span class="a3"><a href="22.html" class="spana">деформация</a></span> 
+<span class="a2"><a href="tags/joul.html" class="spana">Джоуль</a></span> 
+<span class="a3"><a href="tags/dinamometr.html" class="spana">динамометр</a></span> 
+<span class="a4"><a href="52.html" class="spana">дирижабль</a></span> 
+<span class="a2"><a href="36.html" class="spana">диффузия</a></span> 
+<span class="a3"><a href="22.html" class="spana">жесткость</a></span> 
+<span class="a2"><a href="38.html" class="spana">жидкое</a></span> 
+<span class="a2"><a href="49.html" class="spana">закон Архимеда</a></span> 
+<span class="a2"><a href="22.html" class="spana">закон Гука</a></span> 
+<span class="a2"><a href="30.html" class="spana">золотое правило</a></span> 
+<span class="a3"><a href="44.html" class="spana">ионосфера</a></span> 
+<span class="a3"><a href="18.html" class="spana">инертность</a></span> 
+<span class="a2"><a href="17.html" class="spana">инерция</a></span> 
+<span class="a4"><a href="7.html" class="spana">кандела</a></span> 
+<span class="a4"><a href="7.html" class="spana">кельвин</a></span> 
+<span class="a2"><a href="7.html" class="spana">кило</a></span> 
+<span class="a3"><a href="tags/kilogramm.html" class="spana">килограмм</a></span> 
+<span class="a2"><a href="9.html" class="spana">кинематика</a></span> 
+<span class="a4"><a href="28.html" class="spana">клин</a></span> 
+<span class="a2"><a href="tags/kopernik.html" class="spana">Коперник</a></span> 
+<span class="a2"><a href="31.html" class="spana">КПД</a></span> 
+<span class="a4"><a href="39.html" class="spana">кристаллы</a></span> 
+<span class="a3"><a href="46.html" class="spana">манометр</a></span> 
+<span class="a2"><a href="12.html" class="spana">материальная точка</a></span> 
+<span class="a1"><a href="tags/massa.html" class="spana">масса</a></span> 
+<span class="a2"><a href="1.html" class="spana">материя</a></span> 
+<span class="a2"><a href="7.html" class="spana">Мега</a></span> 
+<span class="a2"><a href="7.html" class="spana">метр</a></span> 
+<span class="a2"><a href="9.html" class="spana">механика</a></span> 
+<span class="a3"><a href="9.html" class="spana">механическое движение</a></span> 
+<span class="a2"><a href="7.html" class="spana">микро</a></span> 
+<span class="a2"><a href="7.html" class="spana">милли</a></span> 
+<span class="a3"><a href="tags/modul.html" class="spana">модуль</a></span> 
+<span class="a1"><a href="35.html" class="spana">молекула</a></span> 
+<span class="a3"><a href="7.html" class="spana">моль</a></span> 
+<span class="a3"><a href="29.html" class="spana">момент силы</a></span> 
+<span class="a2"><a href="52.html" class="spana">Монгольфье</a></span> 
+<span class="a2"><a href="27.html" class="spana">мощность</a></span> 
+<span class="a3"><a href="2.html" class="spana">наблюдения</a></span> 
+<span class="a3"><a href="28.html" class="spana">наклонная плоскость</a></span> 
+<span class="a2"><a href="7.html" class="spana">нано</a></span> 
+<span class="a4"><a href="48.html" class="spana">насос</a></span>  
+<span class="a3"><a href="13.html" class="spana">неравномерное движение</a></span> 
+<span class="a2"><a href="tags/newton.html" class="spana">Ньютон</a></span> 
+<span class="a2"><a href="tags/v.html" class="spana">объем</a></span> 
+<span class="a3"><a href="2.html" class="spana">опыт</a></span> 
+<span class="a4"><a href="51.html" class="spana">осадка судна</a></span> 
+<span class="a3"><a href="9.html" class="spana">относительность движения</a></span> 
+<span class="a2"><a href="tags/pascal.html" class="spana">Паскаль</a></span> 
+<span class="a4"><a href="3.html" class="spana">парсек</a></span> 
+<span class="a2"><a href="12.html" class="spana">перемещение</a></span> 
+<span class="a2"><a href="7.html" class="spana">пико</a></span> 
+<span class="a2"><a href="29.html" class="spana">плечо силы</a></span> 
+<span class="a2"><a href="19.html" class="spana">плотность</a></span> 
+<span class="a3"><a href="6.html" class="spana">погрешность</a></span> 
+<span class="a3"><a href="10.html" class="spana">Полярная  звезда</a></span> 
+<span class="a2"><a href="47.html" class="spana">поршень</a></span> 
+<span class="a2"><a href="11.html" class="spana">Птолемей</a></span> 
+<span class="a2"><a href="47.html" class="spana">пресс</a></span> 
+<span class="a2"><a href="tags/way.html" class="spana">путь</a></span> 
+<span class="a2"><a href="tags/rabota.html" class="spana">работа</a></span> 
+<span class="a2"><a href="32.html" class="spana">равновесие</a></span> 
+<span class="a2"><a href="25.html" class="spana">равнодействующая</a></span> 
+<span class="a2"><a href="tags/ravnomer.html" class="spana">равномерное движение</a></span> 
+<span class="a2"><a href="tags/guk.html" class="spana">Роберт Гук</a></span> 
+<span class="a2"><a href="28.html" class="spana">рычаг</a></span> 
+<span class="a2"><a href="7.html" class="spana">санти</a></span> 
+<span class="a3"><a href="7.html" class="spana">секунда</a></span> 
+<span class="a4"><a href="3.html" class="spana">световой год</a></span> 
+<span class="a1"><a href="tags/sila.html" class="spana">сила</a></span> 
+<span class="a4"><a href="22.html" class="spana">силомер</a></span> 
+<span class="a3"><a href="25.html" class="spana">сложение сил</a></span> 
+<span class="a3"><a href="10.html" class="spana">созвездие</a></span> 
+<span class="a2"><a href="tags/skorost.html" class="spana">скорость</a></span> 
+<span class="a3"><a href="43.html" class="spana">сообщающиеся сосуды</a></span> 
+<span class="a3"><a href="8.html" class="spana">стандартный  вид</a></span> 
+<span class="a2"><a href="44.html" class="spana">стратосфера</a></span> 
+<span class="a3"><a href="1.html" class="spana">строение</a></span> 
+<span class="a2"><a href="38.html" class="spana">твердое</a></span> 
+<span class="a4"><a href="3.html" class="spana">телескоп</a></span> 
+<span class="a2"><a href="9.html" class="spana">тело отсчета</a></span> 
+<span class="a2"><a href="41.html" class="spana">температура</a></span> 
+<span class="a3"><a href="1.html" class="spana">термин</a></span> 
+<span class="a2"><a href="tags/toricelli.html" class="spana">Торричелли</a></span> 
+<span class="a2"><a href="12.html" class="spana">траектория</a></span> 
+<span class="a2"><a href="24.html" class="spana">трение</a></span> 
+<span class="a2"><a href="22.html" class="spana">удлинение</a></span>  
+<span class="a2"><a href="4.html" class="spana">физическая величина</a></span> 
+<span class="a2"><a href="1.html" class="spana">физические явления</a></span> 
+<span class="a2"><a href="2.html" class="spana">физический эксперимент</a></span> 
+<span class="a2"><a href="5.html" class="spana">цена деления</a></span> 
+<span class="a4"><a href="47.html" class="spana">цилиндр</a></span> 
+<span class="a3"><a href="24.html" class="spana">шариковый подшипник</a></span> 
+<span class="a2"><a href="33.html" class="spana">энергия</a></span> 
+<span class="a3"><a href="18.html" class="spana">эталон</a></span><br /><br />
+</div>
+
+</body>
+</html>

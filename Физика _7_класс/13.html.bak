@@ -1,0 +1,180 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Равномерное и неравномерное движение</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="13.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ table.MsoTableGrid
+	{border:1.0pt solid windowtext;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	}
+</style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]-->
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+<!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+
+</head>
+<body onload="FP_preloadImgs(/*url*/'button49.jpg',/*url*/'button50.jpg',/*url*/'button9.jpg',/*url*/'button8.jpg')"><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p>
+		<p><font color="#000080"><b>
+		<span lang="KZ" style="font-family: Calibri"><font size="6">§1</font></span><span style="font-family: Calibri"><font size="6">3</font></span><span lang="KZ" style="font-family: Calibri"><font size="6">.</font></span><span style="font-family: Calibri"><font size="6"> 
+		Равномерное и неравномерное движение</font></span></b></font></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<font size="4" face="Georgia">Укрепим на тележке капельницу, с которой через 
+равные промежутки времени падают капли воды. К краю стола прикрепляется блок, 
+через который перекинута нить с грузом. Другой конец прикреплен к тележке. Массу 
+груза нужно подобрать так, чтобы вес груза уравновешивался силой трения. Под 
+действием груза тележка начнет двигаться&nbsp; так, что расстояния между каплями все 
+время будут одинаковыми. То есть за одинаковые промежутки времени тележка 
+проходит одинаковые пути. </font></p>
+<p class="MsoNormal" align="center" style="text-align: center; text-autospace: none; background: white">
+<font size="4" face="Georgia"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1027" type="#_x0000_t75" style='width:484.5pt;
+ height:183pt'>
+ <v:imagedata src="13.files/image001.jpg" o:title="dvig1"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=646 height=244
+src="13.files/image002.jpg" v:shapes="_x0000_s1027"><![endif]></font></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<b><i><font size="4" face="Georgia">&nbsp;</font></i></b></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<i><font size="4" face="Georgia">Если тело за любые равные промежутки времени 
+проходит равные пути, то его движение называется<b> <font color="#000066"> <u>равномерным</u>.</font></b></font></i></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<a href="demons/dvig_ravn.html">
+<img border="0" id="img4" src="button7.jpg" height="30" width="150" alt="Демонстрация" fp-style="fp-btn: Linked Row 5; fp-orig: 0" fp-title="Демонстрация" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'button8.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'button7.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'button9.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'button8.jpg')"></a></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<b><i><font size="4" face="Georgia">&nbsp;</font></i></b></p>
+<div align="center">
+	<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none" id="table11">
+		<tr>
+			<td width="452" valign="top" style="width: 338.95pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align: center; text-autospace: none">
+			<font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1026" type="#_x0000_t75" style='width:315pt;height:258pt'>
+ <v:imagedata src="13.files/image003.jpg" o:title="clock"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=420 height=344
+src="13.files/image004.jpg" v:shapes="_x0000_s1026"><![endif]></font></td>
+		</tr>
+	</table>
+</div>
+<p class="MsoNormal" align="center" style="text-align: center; text-autospace: none; background: white">
+<font size="4" face="Georgia">&nbsp;</font></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Увеличим массу груза так, чтобы вес груза 
+был больше силы трения. Под действием груза тележка начнет двигаться все быстрее 
+и быстрее, так что расстояния между каплями все время будут увеличиваться. Это 
+означает, что за одинаковые промежутки времени тележка проходит неодинаковые 
+пути. </font></p>
+<p class="MsoNormal" align="center" style="text-align: center; text-autospace: none; background: white">
+<font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1025" type="#_x0000_t75" style='width:417pt;height:185.25pt'>
+ <v:imagedata src="13.files/image005.jpg" o:title="dvig"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=556 height=247
+src="13.files/image005.jpg" v:shapes="_x0000_s1025"><![endif]></font></p>
+<i><span style="font-family: Georgia"><font size="4">Если тело за любые 
+равные промежутки времени проходит разные пути, то его движение называется<b>
+<font color="#000066"> <u>
+неравномерным</u>. </font></b> </font></span></i>&nbsp;<p>
+<a href="demons/dvig_neravn.html">
+<img border="0" id="img3" src="button7.jpg" height="30" width="150" alt="Демонстрация" fp-style="fp-btn: Linked Row 5; fp-orig: 0" fp-title="Демонстрация" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'button8.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button7.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'button9.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'button8.jpg')"></a></p>
+<p>
+<a href="v13_1/test.htm">
+<img border="0" id="img1" src="button51.jpg" height="30" width="150" alt="Вопрос" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button49.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button51.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button50.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button49.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос"></a></p>
+<p><font face="Calibri">Метки: вес, масса, путь, равномерное движение,&nbsp; 
+неравномерное движение</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

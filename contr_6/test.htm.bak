@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Тест</title>
+<link rel="stylesheet" href="../test_c.css" type="text/css">
+<script type="text/javascript" src="../jquery.js"></script>
+<script type="text/javascript" src="../effects.core.js"></script>
+<script type="text/javascript" src="../effects.slide.js"></script>
+<script type="text/javascript" src="../jquery.timers-1.2.js"></script>
+<script type="text/javascript" src="../test_c.js" encoding="utf-8"></script>
+</head>
+<body id="body">
+<div id="cool">	
+	<span id="num">1.</span>Вопрос:<div id="ques1" class="qu">
+		<span style="font-size: 13.0pt; font-family: Tahoma">Лифт поднимается 
+		равномерно со скоростью 3 м/с. За сколько времени поднимется лифт на 
+		высоту 90 м?</span></div>
+		Ответ:<div id="answ1"  class="an">30</div>
+		Единицы:<div id="ed1"  class="an">с</div>
+
+	<span id="num">2.</span>Вопрос:<div id="ques2" class="qu">
+		<span style="font-family: Tahoma; font-size: 13pt">Один велосипедист 12 
+		с двигался со скоростью 6 м/с, а второй проехал этот же участок пути за 
+		9 с. Какова скорость второго велосипедиста на этом участке пути?</span></div>
+		Ответ:<div id="answ2"  class="an">8</div>
+		Единицы:<div id="ed2"  class="an">м/с</div>
+	<span id="num">3.</span>Вопрос:<div id="ques3" class="qu">
+		<span style="font-family: Tahoma; font-size: 13pt">Автомобиль ехал 0,5 ч 
+		со скоростью 90 км/ч. С какой скоростью должен ехать велосипедист, чтобы 
+		проехать тот же участок пути за 1 ч 30 мин?</span></div>
+		Ответ:<div id="answ3"  class="an">30</div>
+		Единицы:<div id="ed3"  class="an">км/ч</div>
+	<span id="num">4.</span>Вопрос:<div id="ques4" class="qu">
+		<span style="font-family: Tahoma; font-size: 13pt">Велосипедист за 40 
+		мин проехал 10 км. За сколько времени он проедет еще 25 км, двигаясь с 
+		той же скоростью?</span></div>
+		Ответ:<div id="answ4"  class="an">100</div>
+		Единицы:<div id="ed4"  class="an">мин</div>
+	<span id="num">5.</span>Вопрос:<div id="ques5" class="qu">
+		<span style="font-family: Tahoma; font-size: 13pt">Поезд проходит мимо 
+		наблюдателя в течение 10 с, а по мосту длиной 400 м — в течение 30 с. 
+		Определить длину поезда.</span></div>
+		Ответ:<div id="answ5"  class="an">200</div>
+		Единицы:<div id="ed5"  class="an">м</div>
+
+</div>
+</body>
+</html>

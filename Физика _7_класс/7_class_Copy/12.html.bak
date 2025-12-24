@@ -1,0 +1,236 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Материальная точка. Траектория.</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="12.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ table.MsoTableGrid
+	{border:1.0pt solid windowtext;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	}
+</style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]-->
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+<!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+
+</head>
+<body onload="FP_preloadImgs(/*url*/'button154.jpg', /*url*/'button155.jpg', /*url*/'button197.jpg', /*url*/'button198.jpg', /*url*/'button199.jpg', /*url*/'button200.jpg', /*url*/'button201.jpg', /*url*/'button202.jpg')"><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p>
+		<p class="MsoNormal" align="center" style="text-align: center">
+		<font face="Calibri" color="#000080"><b><span lang="KZ"><font size="6">
+		§1</font></span><font size="6">2</font><span lang="KZ"><font size="6">.
+		</font></span><font size="6">Материальная точка. Траектория.</font></b></font></p>
+		<b><span style="font-family: Calibri"><font size="6" color="#000080">
+		Путь и перемещение</font></span></b></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<p class="MsoNormal" style="line-height: 120%"><span style="line-height: 120%">
+<font size="4" face="Georgia">Очень часто приходится рассматривать движение тел, 
+когда размеры его намного меньше, чем расстояние, которое оно проходит. 
+Например, автомобиль едет из одного города в другой, или космический корабль 
+совершает полет с Земли на Луну. В первом и втором случае размеры движущихся тел 
+намного меньше расстояний, которые они проходят. </font></span></p>
+<p class="MsoNormal" style="text-indent:35.4pt"><font face="Georgia">
+<font size="4">&nbsp;</font><i><font size="4">Тело, размерами которого в данных 
+условиях движения можно пренебречь, называется<b> <font color="#000066"> <u>материальной точкой</u>.
+</font></b>
+</font></i></font></p>
+<p class="MsoNormal" style="line-height: 120%"><font face="Georgia"><i>
+<span style="line-height: 120%"><font size="4">Линию, вдоль которой движется 
+тело, называют<b>&nbsp; <font color="#000066"> <u>траекторией движения</u>.</font></b></font></span></i><b><font color="#000066"><span style="line-height: 120%"><font size="4">
+</font></span></font></b></font></p>
+<p class="MsoNormal" style="line-height: 120%"><b>
+<span style="line-height: 120%"><font size="4" face="Georgia">&nbsp;</font></span></b></p>
+<p class="MsoNormal" align="center" style="text-align: center; line-height: 120%">
+<b><span style="line-height: 120%"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1029" type="#_x0000_t75" style='width:318pt;
+ height:190.5pt'>
+ <v:imagedata src="12.files/image001.jpg" o:title="way1"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=424 height=254
+src="12.files/image002.jpg" v:shapes="_x0000_s1029"><![endif]></font></span></b></p>
+<p class="MsoNormal" style="line-height: 120%"><span style="line-height: 120%">
+<font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; В некоторых случаях траекторию 
+движения можно наблюдать непосредственно: реактивный самолет оставляет за собой 
+видимый след, когда мы пишем мелом по доске, мы оставляем на ней след — 
+траекторию движения кончика мела. </font></span></p>
+<div align="center">
+	<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none" id="table11">
+		<tr>
+			<td width="508" valign="top" style="width: 381.3pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align: center; line-height: 120%">
+			<span style="line-height: 120%"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1028" type="#_x0000_t75" style='width:357.75pt;height:260.25pt'>
+ <v:imagedata src="12.files/image003.jpg" o:title="plane1"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=477 height=347
+src="12.files/image004.jpg" v:shapes="_x0000_s1028"><![endif]></font></span></td>
+		</tr>
+	</table>
+</div>
+<p class="MsoNormal" style="text-align:justify"><font size="4" face="Georgia">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Движения тел могут различаться между собой по виду траектории. Если 
+траектория — прямая линия, то движение называют прямолинейным, если нет —&nbsp; 
+криволинейным. &nbsp;&nbsp;&nbsp;&nbsp; Форма траектории движения относительно различных тел отсчета 
+различна. Например, с верхней полки движущегося поезда падает книга. Для 
+пассажира, находящегося в этом купе, траектория движения книги — это 
+вертикальная прямая, а относительно человека, находящегося на перроне, 
+траектория падающей книги будет выглядеть как кривая. Следовательно, форма 
+траектории тела тоже относительна. </font></p>
+<p class="MsoNormal" style="text-align:justify"><font size="4" face="Georgia">
+Предположим, что тело перемещается из пункта А в пункт В, и движение происходит 
+по некоторой траектории. </font></p>
+<p class="MsoNormal" align="center" style="text-align:center">
+<font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1027" type="#_x0000_t75" style='width:312pt;height:186.75pt'
+ o:allowoverlap="f">
+ <v:imagedata src="12.files/image005.jpg" o:title="way"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=416 height=249
+src="12.files/image006.jpg" v:shapes="_x0000_s1027"><![endif]></font></p>
+<p class="MsoNormal" style="text-align:justify"><i>
+<font size="4" face="Georgia">Длина траектории, по которой движется тело в 
+течение некоторого промежутка времени, называется <font color="#000066"><b> <u>пройденным путем</u>.
+</b></font>
+</font></i></p>
+<p class="MsoNormal" style="text-align:justify"><font face="Georgia">
+<font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Обозначение пути — </font><i><span lang="EN-US">
+<font size="4">s</font></span></i><font size="4">; единица измерения пути в СИ
+</font></font></p>
+<p class="MsoNormal"><font face="Georgia"><font size="4">[</font><i><span lang="EN-US"><font size="4">s</font></span></i><font size="4">] 
+= 1<i>м</i>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Путь — это скалярная величина, имеет модуль, но не имеет направления.<br>
+Путь однозначно не определяет конечное положение тела.</font></font></p>
+<p class="MsoNormal" style="text-align:justify"><font face="Georgia">
+<font size="4">&nbsp;</font><i><font size="4">Направленный отрезок, соединяющий 
+первоначальное положение тела с его конечным положением, называется<b>
+</b> </font><font color="#000066"><b><u>
+<font size="4">перемещением</font></u><font size="4">.</font></b></font></i></font></p>
+<p class="MsoNormal" style="text-align:justify"><font face="Georgia"><b><i>
+<font size="4">&nbsp;</font></i></b><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Перемещение обозначается
+</font><sub><span style="position: relative; top: 5.0pt"><font size="4"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1026" type="#_x0000_t75" style='width:19.5pt;height:31.5pt'>
+ <v:imagedata src="12.files/image007.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=26 height=42
+src="12.files/image008.gif" v:shapes="_x0000_s1026"><![endif]></font></span></sub></font><span style="font-size:18.0pt"><!--[if gte mso 9]><![endif]--></span><font face="Georgia"><font size="4">; 
+единица измерения в СИ </font></font><font size="4" face="Georgia">
+—</font><font face="Georgia"><font size="4"> [</font><sub><span style="position: relative; top: 5.0pt"><font size="4"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1025" type="#_x0000_t75" style='width:20.25pt;height:32.25pt'>
+ <v:imagedata src="12.files/image009.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=27 height=43
+src="12.files/image010.gif" v:shapes="_x0000_s1025"><![endif]></font></span></sub></font><!--[if gte mso 9]><![endif]--><span style="font-size:18.0pt"><font size="4" face="Georgia">] 
+= 1<i>м</i>.<br>
+&nbsp;</font></span></p>
+<p class="MsoNormal" style="text-align:justify"><i>
+<font size="4" face="Georgia">Величины, которые кроме числового значения имеют 
+направление, называются <font color="#000066"><b> <u>векторными величинами</u>. </b>
+</font> </font></i></p>
+<p class="MsoNormal" style="text-align:justify"><font size="4" face="Georgia">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Перемещение — это векторная величина, потому что имеет и числовое 
+значение (модуль), и направление.<br>
+Перемещение однозначно определяет конечное положение тела. Значения пройденного 
+пути и перемещения совпадают только при движении по прямой, если движение 
+происходит в одном направлении. Во всех других случаях пройденный путь больше 
+перемещения. Например, если вы движетесь по окружности, то пройденный путь — это 
+длина дуги окружности, а перемещение — хорда, соединяющая начальную и конечную 
+точки движения. Если вы, двигаясь по окружности, совершите полный оборот, то 
+пройденный путь будет равен длине окружности, а перемещение — нулю.</font></p>
+<p class="MsoNormal" style="text-align:justify"><a href="v12_1/test.htm">
+<img border="0" id="img4" src="button203.jpg" height="30" width="150" alt="Вопрос 1" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'button197.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'button203.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'button198.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'button197.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос 1"></a><a href="z12_1/test.htm"><img border="0" id="img7" src="button156.jpg" height="30" width="150" alt="Задача" onmouseover="FP_swapImg(1,0,/*id*/'img7',/*url*/'button154.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img7',/*url*/'button156.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img7',/*url*/'button155.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img7',/*url*/'button154.jpg')" fp-style="fp-btn: Linked Row 7" fp-title="Задача"></a></p>
+<p class="MsoNormal" style="text-align:justify"><a href="v12_2/test.htm">
+<img border="0" id="img5" src="button204.jpg" height="30" width="150" alt="Вопрос 2" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'button199.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'button204.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'button200.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'button199.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос 2"></a></p>
+<p class="MsoNormal" style="text-align:justify"><a href="v12_3/test.htm">
+<img border="0" id="img6" src="button205.jpg" height="30" width="150" alt="Вопрос 3" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'button201.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'button205.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'button202.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'button201.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос 3"></a></p>
+<p class="MsoNormal" style="text-align:justify"><font face="Calibri">Метки: 
+векторные величины, модуль, материальная точка, путь, перемещение, траектория</font></p></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

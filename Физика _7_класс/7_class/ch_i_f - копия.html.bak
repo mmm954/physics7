@@ -1,0 +1,70 @@
+﻿<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html>
+<head><title>Тайна ЕНТ</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ </style>
+
+</head>
+<body><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1>§1. Что изучает физика?</h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<img src="" align="right" />
+<p class="par">
+Дорогие ребята, вы начинаете изучать новый для вас предмет, который называется «Физика». Впервые это слово ввел в науку великий древнегреческий мыслитель и философ  А р и с т о т е л ь. Слово «физика» образовано от греческого слова «фюзис», что означает «природа». Природа — это все, что нас окружает — растения, животные, Земля, Луна, Солнце и далекие звезды. Если внимательно приглядеться, можно заметить, что в окружающем нас мире постоянно происходят изменения, или как говорят, физические явления.	Основная цель физики — исследование различных физических явлений, происходящих в природе и открытие законов, устанавливающих связь между этими явлениями. Например, падение различных предметов на землю обусловлено силой всемирного тяготения. В процессе исследования связей между явлениями природы открываются законы физики. Физика изучает механические, тепловые, электромагнитные, световые явления, а также строение вещества. 
+</p>
+
+<p class="par">
+Специальные слова, применяемые в физике для изучения ее законов, называются физическими терминами. Например, к терминам относятся такие слова, как путь, скорость, сила.
+Посмотрите вокруг. Вы видите деревья, дома, автомоби-ли, множество других предметов. 
+
+Отдельный предмет определенной формы, занимающий в пространстве конкретный объем, называют физическим телом. 
+
+То, из чего состоит тело, называют веществом. 
+
+Все, что существует во Вселенной, называют материей. 
+
+	Например, стол — это физическое тело, а дерево, из ко-торого он сделан — вещество; ложка — физическое тело, а серебро, из которого она сделана —  вещество. И тела, и вещества относятся к материи.  На рисунке изображена мензурка с водой. Мензурка — это сосуд для измерения объема жидкостей. Теперь мы знаем, что мензурка — это физическое тело, а стекло, из которого изготовлена мензурка — вещество. А какое еще вещество вы видите на рисунке?
+
+</p>
+
+
+</td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

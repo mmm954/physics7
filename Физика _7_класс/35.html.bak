@@ -1,0 +1,212 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Строение вещества</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="35.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ table.MsoTableGrid
+	{border:1.0pt solid windowtext;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	}
+</style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]-->
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+<!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+
+</head>
+<body onload="FP_preloadImgs(/*url*/'button299.jpg', /*url*/'button300.jpg', /*url*/'button301.jpg', /*url*/'button302.jpg', /*url*/'button1E1.jpg', /*url*/'button1F1.jpg')"><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><b><span style="font-family: Calibri; color: #000066">§ 35. 
+		Строение вещества</span></b></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<p class="MsoNormal" style="text-align: justify; text-indent: 35.4pt; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">Как устроено вещество? 
+Что будет, если мы начнем делить вещество на части? Существует ли самая 
+маленькая частица вещества? Современная наука утверждает, что вещество состоит 
+из мельчайших частиц — </span><font color="#000066"> <b><i>атомов</i></b>,</font><span style="color: black"> которые находятся&nbsp; в беспрерывном 
+движении, притягиваются на небольшом расстоянии, но отталкиваются, если их 
+плотнее прижать друг к другу. </span> </font></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Вы можете 
+спросить: &nbsp;почему же тогда тела выглядят сплошными? Возьмите книгу и посмотрите 
+на страницу этой книги из дальнего угла комнаты. Как она выглядит? Как сплошной 
+серый лист с белыми краями. Если вы подойдете поближе, вы увидите не сплошной 
+серый лист, а тёмные полоски с белыми промежутками. Подойдите ещё ближе. Теперь, 
+когда вы стоите рядом, вы видите отдельные буквы и пробелы между ними. 
+Вспомните, как выглядит зеленый луг из иллюминатора самолета. Правильно, как 
+сплошной зеленый ковер. А когда мы гуляем по нему, мы видим множество отдельных 
+травинок, между которыми ничего не растёт. Рой пчёл издалека выглядит как 
+сплошной шар, а вблизи видно каждую пчелу, а между ними есть расстояния. </font>
+</span></p>
+<div align="center">
+	<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none" id="table11">
+		<tr style="height: 97.65pt">
+			<td width="547" valign="top" style="width: 410.55pt; height: 97.65pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align: center; text-autospace: none">
+			<span style="color: black"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1027" type="#_x0000_t75" style='width:366.75pt;
+ height:225.75pt'>
+ <v:imagedata src="35.files/image001.jpg" o:title="pchel3"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=489 height=301
+src="35.files/image002.jpg" v:shapes="_x0000_s1027"><![endif]></font></span></td>
+		</tr>
+	</table>
+</div>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Просто &nbsp;частицы 
+вещества так малы, что мы их не видим.</font></span></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">Рассмотрите капельку 
+воды на стекле<i>. </i>Вы увидите сплошную поверхность.<i> </i>&nbsp;Если каплю 
+увеличить в 2000 раз, &nbsp;капля размером станет как большая комната, мы все равно 
+увидим сплошную поверхность. И лишь при увеличении в <i>миллиард раз</i> вы 
+увидите картину, которая изображена на рисунке. </font></span></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;</font></span></p>
+<p class="MsoNormal" align="center" style="text-align: center; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1026" type="#_x0000_t75" style='width:243pt;height:243pt'>
+ <v:imagedata src="35.files/image003.jpg" o:title="h2o1"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=324 height=324
+src="35.files/image004.jpg" v:shapes="_x0000_s1026"><![endif]></font></span></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;</font></span></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; На рисунке 
+красный шарик изображает <i>атом</i> кислорода, синий — <i>атом</i> водорода. 
+Если атомы соединяются друг с другом, такая группа называется </span>
+<font color="#000066"> <b><i>молекулой</i></b></font><span style="color: black">.</span></font></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">Бросьте в сосуд с водой 
+маленькую крупинку марганцовки и размешайте. Через некоторое время вода станет 
+малиновой. </font></span></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">Поскольку мы растворили 
+в воде очень маленькую крупинку марганцовки, а окрасилась вся вода в сосуде, то 
+можно предположить, что крупинка состояла из большого числа мельчайших частиц.</font></span></p>
+<p class="MsoNormal" align="center" style="text-align: center; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1025" type="#_x0000_t75" style='width:382.5pt;height:224.25pt'>
+ <v:imagedata src="35.files/image005.jpg" o:title="diffusion"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=510 height=299
+src="35.files/image006.jpg" v:shapes="_x0000_s1025"><![endif]></font></span></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<font size="4" face="Georgia">&nbsp;</font></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Этот опыт и 
+многие другие подтверждают гипотезу о том, что вещества состоят из очень 
+маленьких частиц.</font></span></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">Как определить размер 
+молекул? Представьте себе, что на поверхность озера высыпали ящик теннисных 
+шариков. </font></span></p>
+<span style="font-family: Georgia; color: black"><font size="4">Понятно, что 
+шарики будут расплываться по воде до тех пор, пока не образуется слой, толщиной 
+в один шарик. А если капнуть на воду масло? Точно так же капля масла будет 
+расплываться, пока не образуется слой, толщиной в одну молекулу. Измерьте 
+площадь масляного пятна и, зная объем капли масла, вы сможете примерно оценить 
+размер молекулы. </font></span>&nbsp;<p><a href="v35_1/test.htm">
+<img border="0" id="img3" src="button303.jpg" height="30" width="150" alt="Вопрос 1" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'button299.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button303.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'button300.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'button299.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос 1"></a></p>
+<p><a href="v35_2/test.htm">
+<img border="0" id="img4" src="button304.jpg" height="30" width="150" alt="Вопрос 2" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'button301.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'button304.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'button302.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'button301.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос 2"></a></p>
+<p>&nbsp;</td>
+</tr>
+<tr>
+<td align="justify">
+<a href="contr_3/test.htm">
+<img border="0" id="img16" src="button1D1.jpg" height="33" width="165" alt="Контрольная работа" onmouseover="FP_swapImg(1,0,/*id*/'img16',/*url*/'button1E1.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img16',/*url*/'button1D1.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img16',/*url*/'button1F1.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img16',/*url*/'button1E1.jpg')" fp-style="fp-btn: Linked Row 2" fp-title="Контрольная работа"></a><p>
+<font face="Calibri">Метки: атом, вещество, молекула</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

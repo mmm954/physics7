@@ -1,0 +1,86 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Джеймс Прескотт Джоуль</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ </style>
+
+</head>
+<body><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font face="Calibri" color="#000080">Блез Паскаль</font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<img border="0" src="pascal1.gif" align="right" width="273" height="289"><font face="Georgia" size="4">Блез 
+Паскаль родился 19 июня 1623 в Клермон-Ферран, в семье высокообразованного 
+юриста. Отец занимался математикой и воспитывал своих детей под влиянием 
+педагогических идей М. Монтеня.<br>
+<br>
+Паскаль рано проявил выдающиеся математические способности. Первый 
+математический трактат, &quot;Опыт теории конических сечений&quot;, был написан в 1639 
+(издан в 1640, математический трактат, содержащий одну из основных теорем 
+проективной геометрии - Паскаля теорему).<br>
+<br>
+В 1641 (по другим сведениям, в 1642) Паскаль сконструировал суммирующую машину.<br>
+<br>
+В &quot;Письмах к провинциалу&quot; (1653) Паскаль борется с иезуитами, осуждает насилие и 
+деспотизм. Книга выдержала выдержала более 60 изданий.<br>
+<br>
+Паскаль положил начало синтетической геометрии, теории вероятностей, теории 
+циклоиды, открыл закон равновесия жидкостей, способ нивелирования при помощи 
+барометра, нашел общий алгоритм для нахождения признаков делимости любого целого 
+числа на любое другое целое число (трактат &quot;О характере делимости чисел&quot;), 
+способ вычисления биномиальных коэффициентов (см. Арифметический треугольник), 
+сформулировал ряд основных положений элементарной теории вероятностей (&quot;Трактат 
+об арифметическом треугольнике&quot;, опубликованный в 1665, и переписка с Ферма). В 
+этих работах Паскаль впервые точно определил и применил для доказательства метод 
+математической индукции.<br>
+<br>
+К 1654 закончил ряд работ по арифметике, теории чисел, алгебре и теории 
+вероятностей (опубликованы в 1665).<br>
+<br>
+Вместе с Г. Галилеем и С. Стевином Паскаль считается основоположником 
+классической гидростатики. Разочаровавшись в &quot;отвлеченности&quot; точных наук, 
+обращается к религиозным интересам и философской антропологии. С 1655, 
+сблизившись с представителями янсенизма, удалившись в янсенистскую обитель 
+Пор-Руаяль-де-Шан.<br>
+<br>
+Умер Блез Паскаль 19 августа 1662 в Париже.</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

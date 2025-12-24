@@ -1,0 +1,116 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Торичелли</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+<link rel="File-List" href="toricelli.files/filelist.xml">
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ </style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]--><!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+
+</head>
+<body><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font face="Calibri" color="#000080">Торичелли</font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<span style="font-size: 12.0pt; font-family: Times New Roman"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1025" type="#_x0000_t75" alt="" style='width:139.5pt;
+ height:155.25pt;mso-position-vertical:absolute;float:right' o:allowoverlap="f">
+ <v:imagedata src="toricelli.files/image001.png" o:title="аристотель"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=186 height=207
+src="toricelli.files/image002.jpg" align=right v:shapes="_x0000_s1025"><![endif]></span><font face="Georgia" size="4">Аристотель 
+— древнегреческий философ и учёный. Ученик Платона. С 343 до н. э. — воспитатель 
+Александра Македонского. В 335/4 г. до н. э. основал Ликей (Лицей, или 
+перипатетическую школу). Основоположник формальной логики. Создал понятийный 
+аппарат, который до сих пор пронизывает философский лексикон и сам стиль 
+научного мышления.<br>
+<br>
+Аристотель был первым учёным, создавшим всестороннюю систему философии, 
+охватившую все сферы человеческого развития — социологию, философию, политику, 
+логику, физику. Его взгляды на онтологию имели серьёзное влияние на последующее 
+развитие человеческой мысли.</font><p><font face="Georgia" size="4">Аристотель 
+родился в Стагире, греческой колонии, недалеко от Афонской горы, в 384 г. до 
+нашей эры. Отец Аристотеля был врачом при дворе Аминты III, царя Македонского. 
+Он происходил из семьи потомственных лекарей, в которой врачебное искусство 
+передавалось из поколения в поколение. Отец был первым наставником Аристотеля. 
+Уже в детстве Аристотель познакомился с Филиппом, будущим отцом Александра 
+Македонского, что сыграло не последнюю роль в его будущем назначении 
+воспитателем Александра.<br>
+<br>
+В 369 году до н. э. Аристотель лишился родителей. Опекуном юного философа стал 
+Проксен (впоследствии Аристотель тепло отзывался о нём, а когда Проксен умер, 
+усыновил его сына Никанора). Под руководством своего опекуна Аристотель изучал 
+растения и животных, что в будущем развилось в отдельную работу «О возникновении 
+животных».<br>
+<br>
+Юношеские годы Аристотеля пришлись на время начала расцвета Македонии. 
+Аристотель получил греческое образование и был носителем этого языка, он 
+симпатизировал демократическому образу правления, но в то же время он был 
+подданным македонского правителя. Это противоречие сыграет определённую роль в 
+его судьбе.</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

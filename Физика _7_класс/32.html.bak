@@ -1,0 +1,304 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Равновесие твердых тел</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="32.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ table.MsoTableGrid
+	{border:1.0pt solid windowtext;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	}
+h3
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:Arial;
+	color:#000099;
+	font-weight:bold}
+span.podzag81
+	{font-family:"Times New Roman";
+	color:#0066FF;
+	font-weight:bold}
+</style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]-->
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+<!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+
+</head>
+<body onload="FP_preloadImgs(/*url*/'button100.jpg', /*url*/'button101.jpg')"><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font color="#000066"><b>
+		<span lang="KZ" style="font-family: Calibri">§</span><span style="font-family: Calibri">32</span><span lang="KZ" style="font-family: Calibri">.
+		</span><span style="font-family: Calibri">Равновесие твердых тел</span></b></font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<p class="MsoNormal" style="text-align:justify;text-indent:35.4pt">
+<font face="Georgia" size="4"><span style="color: black">Маленькие дети любят 
+возиться с кубиками, строят из </span></font></p>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" align="left" style="border-collapse: collapse; border: medium none; margin-left: 6.75pt; margin-right: 6.75pt" id="table11">
+	<tr style="height: 215.8pt">
+		<td width="385" valign="top" style="width: 288.75pt; height: 215.8pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" style="text-align: justify">
+		<font face="Georgia" size="4"><span style="color: black">&nbsp;</span></font></p>
+		<p class="MsoNormal" style="text-align: justify">
+		<font face="Georgia" size="4"><span style="color: black"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1033" type="#_x0000_t75" style='width:264pt;
+ height:199.5pt'>
+ <v:imagedata src="32.files/image001.jpg" o:title="kubiki"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=352 height=266
+src="32.files/image002.jpg" v:shapes="_x0000_s1033"><![endif]></span></font></td>
+	</tr>
+</table>
+<p class="MsoNormal" style="text-align:justify"><font face="Georgia">
+<font size="4">
+<span style="color: black">них сказочные башни, домики, но 
+нередко, к большому огорчению малыша, почти достроенная башня рассыпается. Это 
+значит, что нарушено условие <i>равновесия</i>.&nbsp; В природе существуют три вида 
+равновесия: </span><b><font color="#000066"> <i>безразличное</i>, </font></b> </font>
+<b><font color="#000066"><i><font size="4">устойчивое</font></i></font></b><span style="color: black"><font size="4"> 
+и </span> <i><font color="#000066"><b>неустойчивое.</b></font><span style="color: black"> </span> </i>
+<span style="color: black">&nbsp;</span></font></font></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<font face="Georgia" size="4">На рисунке показаны три шара. Первый шар лежит на 
+плоской горизонтальной поверхности, второй <i>&nbsp;</i>— на дне чашки,&nbsp; третий — на 
+выпуклой поверхности.&nbsp; Если первый шар, передвинуть влево или вправо шар 
+по-прежнему будет находиться в положении равновесия. Такое положение равновесия 
+называют <font color="#000066"><b><u> <i>безразличным.</i></u></b></font></font></p>
+<div align="center">
+	<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none" id="table12">
+		<tr>
+			<td width="219" valign="top" style="width: 164.2pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align: center; text-autospace: none">
+			<font face="Georgia" size="4"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1032" type="#_x0000_t75" style='width:160.5pt;height:138pt'>
+ <v:imagedata src="32.files/image003.jpg" o:title="graph8"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=214 height=184
+src="32.files/image004.jpg" v:shapes="_x0000_s1032"><![endif]></font></td>
+			<td width="219" valign="top" style="width: 164.25pt; border-left: medium none; border-right: 1.0pt solid white; border-top: 1.0pt solid white; border-bottom: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align: center; text-autospace: none">
+			<font face="Georgia" size="4"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1031" type="#_x0000_t75" style='width:153.75pt;height:133.5pt'>
+ <v:imagedata src="32.files/image005.jpg" o:title="graph10"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=205 height=178
+src="32.files/image006.jpg" v:shapes="_x0000_s1031"><![endif]></font></td>
+			<td width="219" valign="top" style="width: 164.25pt; border-left: medium none; border-right: 1.0pt solid white; border-top: 1.0pt solid white; border-bottom: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align: center; text-autospace: none">
+			<font face="Georgia" size="4"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1030" type="#_x0000_t75" style='width:158.25pt;height:137.25pt'>
+ <v:imagedata src="32.files/image007.jpg" o:title="graph9"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=211 height=183
+src="32.files/image008.jpg" v:shapes="_x0000_s1030"><![endif]></font></td>
+		</tr>
+	</table>
+</div>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<font face="Georgia" size="4"><i>&nbsp;</i></font></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<font face="Georgia" size="4">Иначе обстоит дело со вторым шаром. Если мы его 
+отведем вправо или влево и отпустим, шар вернется в первоначальное положение. 
+Это произойдет потому, что при отклонении шара равнодействующая сила направлена 
+к положению равновесия и возвращает шар в положение равновесия. Такое положение 
+равновесия называют <i>устойчивым.</i></font></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<font face="Georgia" size="4"><i>&nbsp;Если при малых отклонениях тела из состояния равновесия возникают силы или 
+моменты сил, стремящиеся возвратить тело в равновесное состояние, такое 
+равновесие называется<b> <font color="#000066"> <u>устойчивым</u>.</font></b></i></font></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<font face="Georgia" size="4">По-другому ведет себя третий шар<i>. </i>Если мы 
+слегка отведем его от положения равновесия, то шар упадет. Такое положение 
+равновесия называют <i>неустойчивым. </i>Это происходит потому, что 
+равнодействующая сил направлена в сторону от положения равновесия. </font></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<font face="Georgia" size="4"><i><b>&nbsp;</b>Если при малом отклонении тела из состояния 
+равновесия возникают силы или моменты сил, стремящиеся удалить тело от положения 
+равновесия, такое состояние называют<b> <font color="#000066"> <u>неустойчивым</u>.</font></b></i></font></p>
+<p style="text-align:justify"><font face="Georgia" size="4">Если тело имеет 
+неподвижную ось вращения, возможны все три вида равновесия. Тело, имеющее ось 
+вращения, находится в равновесии, когда вертикальная прямая, проходящая через 
+центр масс тела, проходит через ось вращения этого тела.</font></p>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none" id="table13">
+	<tr>
+		<td width="219" valign="top" style="width: 164.2pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p align="center" style="text-align:center">
+		<font face="Georgia" size="4"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1029" type="#_x0000_t75" style='width:148.5pt;height:129pt'>
+ <v:imagedata src="32.files/image009.jpg" o:title="graph"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=198 height=172
+src="32.files/image010.jpg" v:shapes="_x0000_s1029"><![endif]></font></td>
+		<td width="219" valign="top" style="width: 164.25pt; border-left: medium none; border-right: 1.0pt solid white; border-top: 1.0pt solid white; border-bottom: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p align="center" style="text-align:center">
+		<font face="Georgia" size="4"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1028" type="#_x0000_t75" style='width:147.75pt;height:128.25pt'>
+ <v:imagedata src="32.files/image011.jpg" o:title="graph1"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=197 height=171
+src="32.files/image012.jpg" v:shapes="_x0000_s1028"><![endif]></font></td>
+		<td width="219" valign="top" style="width: 164.25pt; border-left: medium none; border-right: 1.0pt solid white; border-top: 1.0pt solid white; border-bottom: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p align="center" style="text-align:center">
+		<font face="Georgia" size="4"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1027" type="#_x0000_t75" style='width:145.5pt;height:126pt'>
+ <v:imagedata src="32.files/image013.jpg" o:title="graph2"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=194 height=168
+src="32.files/image014.jpg" v:shapes="_x0000_s1027"><![endif]></font></td>
+	</tr>
+</table>
+<p class="MsoNormal"><font face="Georgia" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;а)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;б)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;в)</font></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify">
+<font face="Georgia" size="4">&nbsp;</font></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify">
+<font face="Georgia" size="4">Установим линейку так, чтобы ее центр масс С 
+находится выше оси вращения О (рис. а). Малейший наклон линейки приведет к тому, 
+что опрокинется по дуге вокруг оси О к поверхности Земли. Следовательно, 
+равновесие линейки является <i>неустойчивым</i>. Таким образом, тело, имеющее 
+ось вращения, находится в неустойчивом равновесии тогда, когда <i>центр масс 
+расположен выше оси вращения</i>. </font></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify">
+<font face="Georgia" size="4">Пусть теперь центр масс линейки находится ниже 
+точки подвеса (рис. б). Если мы отклоним линейку из этого положения, и отпустим, 
+она вернется в исходное положение. Следовательно, равновесие линейки устойчиво. 
+Это значит, что равновесие тела, имеющего ось вращения, является <i>устойчивым
+</i>тогда, когда <i>центр масс находится ниже оси вращения</i>.</font></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify">
+<font face="Georgia" size="4">В случае, когда ось вращения линейки проходит 
+через ее центр масс (рис. в), равновесие является безразличным, так как линейка 
+может находиться в любом положении. Безразличное равновесие возникает, когда <i>
+ось вращения<u> </u>проходит через центр масс</i>.</font></p>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify">
+<font face="Georgia" size="4">&nbsp;</font></p>
+<h3 style="margin:0cm;margin-bottom:.0001pt;text-align:justify"><u>
+<span style="font-family: Georgia; color: windowtext; font-weight: normal">
+<font size="4">Равновесие тел, имеющих площадь опоры.</font></span></u></h3>
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify">
+<font size="4" face="Georgia">Большинство тел покоится</font><font size="4"><span class="podzag81"><span style="color: windowtext"><font face="Georgia">
+</font></span><i><span style="color: windowtext; font-weight: normal">
+<font face="Georgia">на опорах, </font>
+</span></i></span></font><font size="4" face="Georgia">в том числе и человек.&nbsp; 
+Стоящий предмет (тело, имеющее площадь опоры), находится в равновесии, если 
+вертикальная линия, проведенная через центр масс тела, проходит через <i>площадь 
+опоры, </i>то есть<i> </i>внутри контура, образованного линиями, соединяющими 
+точки опоры. Если же эта линия не пересекает площадь опоры, то тело 
+опрокидывается.</font></p>
+<div align="center">
+	<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none" id="table14">
+		<tr>
+			<td width="328" valign="top" style="width: 246.35pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p align="center" style="margin:0cm;margin-bottom:.0001pt;text-align:center">
+			<font face="Georgia" size="4"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1026" type="#_x0000_t75" style='width:174pt;height:150.75pt'
+ o:allowoverlap="f">
+ <v:imagedata src="32.files/image015.jpg" o:title="graph3"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=232 height=201
+src="32.files/image016.jpg" v:shapes="_x0000_s1026"><![endif]></font></td>
+			<td width="328" valign="top" style="width: 246.35pt; border-left: medium none; border-right: 1.0pt solid white; border-top: 1.0pt solid white; border-bottom: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p align="center" style="margin:0cm;margin-bottom:.0001pt;text-align:center">
+			<font face="Georgia" size="4"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1025" type="#_x0000_t75" style='width:167.25pt;height:145.5pt'
+ o:allowoverlap="f">
+ <v:imagedata src="32.files/image017.jpg" o:title="graph4"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=223 height=194
+src="32.files/image018.jpg" v:shapes="_x0000_s1025"><![endif]></font></td>
+		</tr>
+	</table>
+</div>
+<span style="font-family: Georgia"><font size="4">На первом рисунке показано 
+тело, имеющее форму цилиндра. Если его чуть-чуть наклонить и отпустить, оно 
+возвратится в исходное положение, так как вертикальная линия, проведенная через 
+центр масс тела, проходит через площадь опоры. Если же его отклонить на большой 
+угол, при котором вертикальная прямая, проходящая через центр масс тела, выйдет 
+за пределы площади опоры, то тело опрокинется. </font></span>&nbsp;<p>
+<a href="v32_1/test.htm">
+<img border="0" id="img1" src="button102.jpg" height="30" width="150" alt="Вопрос" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button100.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button102.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button101.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button100.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос"></a></p>
+<p><font face="Calibri">Метки: равновесие</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

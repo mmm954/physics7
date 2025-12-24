@@ -1,0 +1,79 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Торичелли</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ </style>
+
+</head>
+<body><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font face="Calibri" color="#000066">Эванджелиста Торичелли</font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<font face="Georgia" size="4"><img border="0" src="torice1.gif" align="right">Итальянский 
+математик и физик Эванджелиста Торричелли родился в Фаэнце в небогатой семье; 
+воспитывался у дяди, бенедиктинского монаха. Учился в иезуитском колледже, а 
+затем получил математическое образование в Риме у Б. Кастелли, друга и ученика 
+Г. Галилея. В 1641 г. Торричелли переехал в Арчетри, где помогал Галилею в 
+обработке его трудов. С 1642 г., после смерти Галилея, придворный математик 
+великого герцога</font><font face="Georgia" size="4"> Тосканского и одновременно 
+профессор математики Флорентийского университета.<br>
+<br>
+Наиболее известны труды Торричелли в области пневматики и механики. В 1643 г. он 
+показал, что воздух имеет вес и что насос не может вытянуть воду на высоту более 
+10 м. В 1644 г. развил теорию атмосферного давления, доказал возможность 
+получения так называемой «торричеллиевой пустоты» (тем самым нанеся удар по 
+аристотелевскому утверждению «природа боится пустоты») и изобрёл ртутный 
+барометр. Обнаружил изменение высоты ртутного столба в зависимости от погодных 
+условий, объяснил ветер изменениями атмосферного давления. Открытие и 
+исследование атмосферного давления вызвало большой резонанс среди 
+учёных-современников.<br>
+<br>
+В своём основном труде по механике «О движении свободно падающих и брошенных 
+тяжёлых тел» (1641) Торричелли развивал идеи Галилея о движении, сформулировал 
+принцип движения центров тяжести, установил параболичность траектории тел, 
+брошенных под углом к горизонту, доказал другие теоремы баллистики. Торричелли 
+заложил основы гидравлики, вывел формулу для скорости истечения идеальной 
+жидкости из сосуда (формула Торричелли). Ему принадлежат также работы по 
+математике (в частности, развил метод «неделимых») и баллистике, 
+усовершенствованию оптических приборов, шлифовке линз. Усовершенствовал 
+воздушный термоскоп Галилея, переделав его в спиртовой термометр.</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

@@ -1,0 +1,245 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Масса тела. Инертность</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="18.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ table.MsoTableGrid
+	{border:1.0pt solid windowtext;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	}
+</style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]-->
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+<!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+
+</head>
+<body onload="FP_preloadImgs(/*url*/'button172.jpg', /*url*/'button173.jpg', /*url*/'button174.jpg', /*url*/'button175.jpg', /*url*/'buttonA4.jpg', /*url*/'buttonB4.jpg', /*url*/'buttonD1.jpg', /*url*/'buttonE1.jpg')"><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><font color="#000080"><b>
+		<span lang="KZ" style="font-family: Calibri"><font size="6">§</font></span><span style="font-family: Calibri"><font size="6">18</font></span><span lang="KZ" style="font-family: Calibri"><font size="6">.
+		</font></span><span style="font-family: Calibri"><font size="6">Масса 
+		тела. Инертность</font></span></b></font></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table style="font-family: Georgia; font-size: 14pt">
+<tr>
+<td align="justify">
+<p class="MsoNormal" style="text-align: justify; text-indent: 35.4pt; text-autospace: none; background: white"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1030" type="#_x0000_t75" alt="" style='width:286.5pt;
+ height:208.5pt;float:right'>
+ <v:imagedata src="18.files/image001.jpg" o:title="nozhi"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=382 height=278
+src="18.files/image002.jpg" align=right v:shapes="_x0000_s1030"><![endif]><font size="4">Проведем 
+два несложных опыта. Расстелите на столе шелковый платок, на него поставьте 
+стакан, наполовину заполненный водой. Теперь резко дерните за край платка. Раз! 
+Платок очутился у вас в руках, а стакан даже не пошевелился. Второй опыт еще 
+интереснее. Закрепите в штативах два ножа остриями вверх, оденьте на них два 
+бумажных кольца и&nbsp; подвесьте в этих кольцах&nbsp; тонкую, сухую палку длиной около 
+метра. Если резко ударить по ней другой палкой, первая палка переломится, а 
+бумажные кольца останутся целыми. Почему так происходит? В этих опытах 
+проявляется свойство всех тел — <i>инертность</i>.&nbsp; Инертность тел приводит к 
+тому, что мгновенно изменить скорость тела невозможно: действие на него другого 
+тела должно длиться определенное время. </font></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<span style="color: black"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Чтобы изменить скорость тела 
+нужно, чтобы на него подействовало&nbsp; другое тело.</font></span></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Проделаем опыт. К тележке 
+прикрепим упругую пластинку, изогнем ее и свяжем нитью. Затем вплотную к 
+согнутой пластинке поставим еще одну такую же тележку и пережжем нить. Тележки 
+разъезжаются в разные стороны<i>. </i>Чтобы </font></span><font size="4"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1029" type="#_x0000_t75" alt="" style='width:274.5pt;height:199.5pt;
+ mso-position-horizontal-relative:text;mso-position-vertical-relative:text;float:right'>
+ <v:imagedata src="18.files/image003.jpg" o:title="telegi1"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=366 height=266
+src="18.files/image004.jpg" align=right v:shapes="_x0000_s1029"><![endif]></font><span style="color: black"><font size="4">изменить 
+скорость тележки, понадобилось второе тело. Тележки действуют друг на друга<i>.
+</i>Значит, действие одного тела на другое не может быть односторонним, оба тела 
+действуют друг на друга, т. е.</font><i><font size="4"> </font>
+</i></span><i><font size="4"> <b><font color="#000066">взаимодействуют. </font>
+</b> </font>
+</i></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Но можно заметить, что после 
+взаимодействия тела не всегда одинаково изменяют скорости. Например, после 
+выстрела из ружья скорость пули гораздо больше скорости, которую приобретает 
+само ружье после взаимодействия.</font></span><span style="color: black; layout-grid-mode: line; border: 1.0pt none black; padding: 0cm; background: black"><font size="4">
+</font></span></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<font size="4"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1028" type="#_x0000_t75" alt="" style='width:282pt;height:205.5pt;float:right'>
+ <v:imagedata src="18.files/image005.jpg" o:title="telegi"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=376 height=274
+src="18.files/image006.jpg" align=right v:shapes="_x0000_s1028"><![endif]></font><span style="color: black"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Почему так происходит? Повторим предыдущий опыт, но&nbsp; теперь на одну из тележек 
+положим груз. После того, как нить пережгли, тележки начинают разъезжаться с 
+различными скоростями. Про тележку, которая после взаимодействия приобрела 
+меньшую скорость, говорят, что она массивнее другой тележки. У нее больше </span> <i>
+<font color="#000066"><b>масса.</b></font><span style="color: black"> </span> </i><span style="color: black">Тележка, которая после взаимодействия движется с большей 
+скоростью, имеет меньшую массу. </span> </font></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<span style="color: black"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Чем <i>меньше меняется </i>
+скорость тела при взаимодействии, тем большую массу оно имеет. Такое тело 
+называют </font><i><font size="4">более </span><font color="#000066"><b>инертным</b></font><span style="color: black">.</span></font></i></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<font size="4">&nbsp;</font><i><b><u><span style="color: #000066"><font size="4">Масса тела</font></span></u><span style="color: black"><font size="4"> 
+</font></span></b><span style="color: black"><font size="4"> 
+— это физическая величина, которая характеризует его инертность.</font></span></i></p>
+<p class="MsoNormal" style="text-autospace: none; background: white"><b><i>
+<span style="color: black"><font size="4">&nbsp;</font></span></i></b></p>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none" id="table11">
+	<tr>
+		<td width="328" valign="top" style="width: 246.35pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" style="text-autospace: none">
+		<span style="color: black"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1027" type="#_x0000_t75" style='width:232.5pt;height:126.75pt'>
+ <v:imagedata src="18.files/image007.jpg" o:title="lodka"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=310 height=169
+src="18.files/image008.jpg" v:shapes="_x0000_s1027"><![endif]></font></span></td>
+		<td width="328" valign="top" style="width: 246.35pt; border-left: medium none; border-right: 1.0pt solid white; border-top: 1.0pt solid white; border-bottom: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" style="text-autospace: none">
+		<span style="color: black"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1026" type="#_x0000_t75" style='width:234pt;height:127.5pt'>
+ <v:imagedata src="18.files/image009.jpg" o:title="lodka1"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=312 height=170
+src="18.files/image010.jpg" v:shapes="_x0000_s1026"><![endif]></font></span></td>
+	</tr>
+</table>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<span style="color: black"><font size="4">&nbsp;</font></span></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Мальчик выпрыгивает из лодки на берег, при этом лодка 
+движется в другую сторону. Если масса лодки больше, чем масса мальчика, она 
+меньше изменит&nbsp; скорость. Значит, лодка более инертна или мы будем говорить, что 
+у нее больше масса.</font></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<font size="4">&nbsp;<!--[if gte vml 1]><v:shape
+ id="_x0000_s1025" type="#_x0000_t75" alt="" style='width:198pt;height:225pt;float:right'>
+ <v:imagedata src="18.files/image011.jpg" o:title="etalon"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=264 height=300
+src="18.files/image012.jpg" align=right v:shapes="_x0000_s1025"><![endif]></font><span style="color: black"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Массу обозначают буквой </font><i><font size="4">т. </font></i></span>
+<font size="4">В 1899 г. за единицу массы был принят 1<i>кг</i> (<font color="#000066"><i><b>килограмм</b></i></font>). 
+Килограмм - это масса, равная массе международного прототипа (образца) 
+килограмма. Эталон, имеющий массу 1 кг (прототип килограмма), представляет собой 
+отлитый из сплава платины и иридия цилиндр, у которого высота и диаметр равны 39<i>мм</i>.&nbsp; 
+Этот эталон хранится во Франции в Международном бюро мер и весов. Во всех 
+странах, принявших метрическую конвенцию, имеются копии этого эталона, 
+изготовленные с высокой точностью. При обычных расчетах можно с достаточной 
+точностью считать, что массой 1 кг обладает 1 литр (т. е. 1<i>дм</i><sup>3</sup>) 
+химически чистой воды при 15°<i>С</i>.</font></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4">На практике используют и другие 
+единицы массы: </font></span></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<span style="color: black"><font size="4">&nbsp;1 т (<i>тонна)</i> = 1000<i>кг</i> (10<sup>3</sup>
+<i>кг</i>); </font></span></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<span style="color: black"><font size="4">1 г (<i>грамм)</i> = 0,001<i>кг</i> 
+(10<sup>-3<span style="vertical-align:baseline"> <i>кг</i></span></sup>) </font>
+</span></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<span style="color: black"><font size="4">1 мг (<i>миллиграмм)=</i> 0,001<i>г</i> 
+(10<sup>-3<span style="vertical-align:baseline"> <i>г</i></span></sup>) </font>
+</span></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<a href="v18_1/test.htm">
+<img border="0" id="img4" src="button176.jpg" height="30" width="150" alt="Вопрос 1" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'button174.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'button176.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'button175.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'button174.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос 1"></a><a href="z18_1/test.htm"><img border="0" id="img7" src="button177.jpg" height="30" width="150" alt="Задача" onmouseover="FP_swapImg(1,0,/*id*/'img7',/*url*/'button172.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img7',/*url*/'button177.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img7',/*url*/'button173.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img7',/*url*/'button172.jpg')" fp-style="fp-btn: Linked Row 7" fp-title="Задача"></a></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<a href="v18_2/test.htm">
+<img border="0" id="img5" src="button178.jpg" height="30" width="150" alt="Вопрос 2" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'buttonA4.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'button178.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'buttonB4.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'buttonA4.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос 2"></a></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<a href="v18_3/test.htm">
+<img border="0" id="img6" src="buttonC4.jpg" height="30" width="150" alt="Вопрос 3" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'buttonD1.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'buttonC4.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'buttonE1.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'buttonD1.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос 3"></a></p><p><font face="Calibri" size="3">Метки:&nbsp; килограмм, инертность, 
+масса, скорость, эталон</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

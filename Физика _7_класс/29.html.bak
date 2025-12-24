@@ -1,0 +1,284 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Рычаг, блок. Закон равновесия рычага</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="29.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ table.MsoTableGrid
+	{border:1.0pt solid windowtext;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	}
+span.podzag81
+	{font-family:"Times New Roman";
+	color:#0066FF;
+	font-weight:bold}
+span.podzagssilki1
+	{font-family:"Times New Roman";
+	color:#FF9900;
+	font-weight:bold}
+span.podzag71
+	{font-family:"Times New Roman";
+	color:#009900;
+	font-weight:bold}
+span.podzag91
+	{font-family:"Times New Roman";
+	color:#FF3300;
+	font-weight:bold}
+</style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+span.zag91
+	{font-family:"Times New Roman";
+	color:#FF3300;
+	font-weight:bold}
+</style>
+<![endif]-->
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+<!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+
+</head>
+<body onload="FP_preloadImgs(/*url*/'button97.jpg', /*url*/'button98.jpg', /*url*/'button248.jpg', /*url*/'button249.jpg', /*url*/'button431.jpg', /*url*/'button432.jpg', /*url*/'button433.jpg', /*url*/'button434.jpg')"><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p>
+		<p><font color="#000066"><b>
+		<span lang="KZ" style="font-family: Calibri"><font size="6">§</font></span><span lang="EN-US" style="font-family: Calibri"><font size="6">29</font></span><span lang="KZ" style="font-family: Calibri"><font size="6">.
+		</font></span><span style="font-family: Calibri"><font size="6">Рычаг, 
+		блок. Закон равновесия рычага</font></span></b></font></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<p class="MsoNormal" style="text-align: justify; text-indent: 35.4pt; text-autospace: none; background: white">
+<font face="Georgia" size="4"><span style="color: black">Рычагом называют 
+твердое &nbsp;тело, которое может вращаться вокруг некоторой оси. При помощи рычага 
+можно маленькой силой уравновесить большую силу. С помощью лома человек может 
+приподнять груз, который без него он не сможет даже сдвинуть с места. Но не надо 
+думать, что рычаг — это обязательно длинный и тонкий предмет. Например, колесо — 
+тоже рычаг, так как это твердое тело, вращающееся вокруг оси.</span></font></p>
+<p class="MsoNormal" style="text-align: justify"><font face="Georgia" size="4">
+<span style="color: black">Кратчайшее расстояние от оси рычага до линии действия 
+силы называется <i>плечом силы.</i> Из курса геометрии вы знаете, что кратчайшее 
+расстояние от точки до прямой — это перпендикуляр к этой прямой. <i>Произведение 
+силы на ее плечо называют </i></span><font color="#000066"><u> <b><i>моментом силы</i></b></u></font><span style="color: black">:</span></font></p>
+<p class="MsoNormal" align="center" style="text-align: center">
+<span style="color: black"><font face="Georgia" size="4">
+<span style="position: relative; top: 3.0pt"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1031" type="#_x0000_t75" style='width:74.25pt;
+ height:20.25pt'>
+ <v:imagedata src="29.files/image001.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=99 height=27
+src="29.files/image002.gif" v:shapes="_x0000_s1031"><![endif]></span></font><!--[if gte mso 9]><![endif]--></span></p>
+<p class="MsoNormal"><font face="Georgia" size="4"><span style="color: black">
+где<i> M</i> - момент силы, <i>&nbsp;F</i> - сила,&nbsp;&nbsp; <i>d</i> - плечо силы.</span></font></p>
+<p class="MsoNormal" style="text-align: justify"><font face="Georgia" size="4">
+<span style="color: black">Единицей измерения момента силы служит 1 Н·м.</span></font></p>
+<p class="MsoNormal" style="text-align: justify"><font face="Georgia" size="4">
+Продемонстрируем правило моментов&nbsp; при помощи школьного рычага и набора грузов. 
+Изменяя массу грузов на правом или левом плече и перемещая их по рычагу, можно 
+убедиться, что&nbsp; рычаг находится в равновесии только в случае, если суммы 
+моментов сил, вращающих рычаг в противоположные стороны (по ходу часовой стрелки 
+или против), равны друг другу. </font></p>
+<p class="MsoNormal" align="center" style="text-align: center">
+<font face="Georgia" size="4"><span style="position: relative; top: 5.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1030" type="#_x0000_t75" style='width:102.75pt;height:24pt'>
+ <v:imagedata src="29.files/image003.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=137 height=32
+src="29.files/image004.gif" v:shapes="_x0000_s1030"><![endif]></span></font><!--[if gte mso 9]><![endif]--></p>
+<p class="MsoNormal" style="text-align:justify"><font face="Georgia" size="4">
+При равновесии на рычаге двух сил большая сила всегда имеет меньшее плечо и 
+наоборот.</font></p>
+<p class="MsoNormal" style="text-align:center"><font face="Georgia" size="4">&nbsp;&nbsp;<!--[if gte vml 1]><v:shape
+ id="_x0000_s1029" type="#_x0000_t75" style='width:219.75pt;height:111.75pt'>
+ <v:imagedata src="29.files/image005.jpg" o:title="gruz"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=293 height=149
+src="29.files/image006.jpg" v:shapes="_x0000_s1029"><![endif]><!--[if gte vml 1]><v:shape
+ id="_x0000_s1028" type="#_x0000_t75" style='width:215.25pt;height:109.5pt'>
+ <v:imagedata src="29.files/image007.jpg" o:title="gruz1"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=287 height=146
+src="29.files/image008.jpg" v:shapes="_x0000_s1028"><![endif]></font></p>
+<p class="MsoNormal" align="right" style="text-align:right">
+<font face="Georgia" size="4">&nbsp;</font></p>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" align="right" style="border-collapse: collapse; border: medium none; margin-left: 6.75pt; margin-right: 6.75pt" id="table11">
+	<tr>
+		<td width="315" valign="top" style="width: 236.45pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p align="right" style="text-align: right">
+		<font face="Georgia" size="4"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1027" type="#_x0000_t75" style='width:213pt;height:173.25pt'>
+ <v:imagedata src="29.files/image009.jpg" o:title="block2"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=284 height=231
+src="29.files/image010.jpg" v:shapes="_x0000_s1027"><![endif]></font></td>
+	</tr>
+</table>
+<p style="text-align:justify"><span class="podzag81"><i>
+<span style="color: #000066; ">
+<font face="Georgia" size="4">Подвижный</font></span></i><span style="color: windowtext; font-weight: normal"><font face="Georgia" size="4"> 
+и </span><font color="#000066"> <i>неподвижный блок</i></font><span style="color: windowtext; font-weight: normal"> </span> </font></span><font size="4" face="Georgia">
+такие же древние механизмы, как и рычаги. Что такое &nbsp;блок? Это </font>
+<font size="4"><span class="podzagssilki1"><span style="font-weight: normal">
+<font face="Georgia" color="#000000">колесо с желобом</font></span></span><font face="Georgia"> 
+по окружности для каната или цепи, ось которого жестко прикреплена к стене или 
+потолочной балке. Блоки применяются в </font><span class="podzag71">
+<span style="color: windowtext; font-weight: normal"><font face="Georgia">
+грузоподъемных устройствах. </font></span></span></font>
+<font size="4" face="Georgia">Неподвижный блок можно рассматривать как 
+равноплечий рычаг, у которого плечи сил равны радиусу блока. Неподвижный блок <b>
+<i><font color="#000066">не 
+дает выигрыша в силе, он позволяет только&nbsp; менять направление действия силы</font></i></b>, что 
+иногда необходимо.</font></p>
+<p style="text-align:justify"><a href="demons/blok2.html">
+<img border="0" id="img15" src="button435.jpg" height="30" width="150" alt="Демонстрация" onmouseover="FP_swapImg(1,0,/*id*/'img15',/*url*/'button431.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img15',/*url*/'button435.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img15',/*url*/'button432.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img15',/*url*/'button431.jpg')" fp-style="fp-btn: Linked Row 5" fp-title="Демонстрация"></a></p>
+<p class="MsoNormal" style="text-align: justify"><font face="Georgia" size="4">
+Подвижный блок — это блок, ось которого поднимается и опускается вместе с 
+грузом. Подвижный&nbsp; блок&nbsp; представляет собой неравноплечий рычаг, <b>
+<i><font color="#000066">дающий </font></i></b> </font>
+<font size="4"><span class="podzag81">
+<font face="Georgia">
+<i><font color="#000066">выигрыш в силе в 2 раза.</font></i><span style="color: windowtext; font-weight: normal"> 
+&nbsp;Выигрывая в силе в 2 раза, мы проигрываем в 2 раза в расстоянии. </span> </font></span><font face="Georgia">Обычно на практике 
+применяют комбинацию неподвижного блока с подвижным. </font>
+</font></p>
+<p class="MsoNormal" style="text-align: justify"><a href="demons/blok1.html">
+<img border="0" id="img16" src="button436.jpg" height="30" width="150" alt="Демонстрация" onmouseover="FP_swapImg(1,0,/*id*/'img16',/*url*/'button433.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img16',/*url*/'button436.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img16',/*url*/'button434.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img16',/*url*/'button433.jpg')" fp-style="fp-btn: Linked Row 5" fp-title="Демонстрация"></a></p>
+<p class="MsoNormal" style="text-align: justify"><font size="4">
+<span class="podzag91"><span style="color: windowtext; font-weight: normal">
+<font face="Georgia">Система блоков </font></span></span><font face="Georgia">и 
+тросов, предназначенная для повышения грузоподъемности, называется</font></font><span class="podzag81"><span style="color: windowtext; font-weight: normal"><font size="4" face="Georgia">
+</span><span style="color: #000066; ">
+<i>полиспастом</i></span><span style="color: windowtext; font-weight: normal">.</span></font></span><font face="Georgia" size="4"><span style="color: black; layout-grid-mode: line; border: 1.0pt none black; padding: 0cm; background: black">
+</span></font></p>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none" id="table12">
+	<tr>
+		<td width="328" valign="top" style="width: 246.35pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" align="center" style="text-align: center">
+		<font face="Georgia" size="4">
+		<span style="color: black; layout-grid-mode: line; border: 1.0pt none black; padding: 0cm; background: black"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1026" type="#_x0000_t75" style='width:210.75pt;height:171pt'>
+ <v:imagedata src="29.files/image011.jpg" o:title="block3"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=281 height=228
+src="29.files/image012.jpg" v:shapes="_x0000_s1026"><![endif]></span></font></td>
+		<td width="328" valign="top" style="width: 246.35pt; border-left: medium none; border-right: 1.0pt solid white; border-top: 1.0pt solid white; border-bottom: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" align="center" style="text-align: center">
+		<font face="Georgia" size="4">
+		<span style="color: black; layout-grid-mode: line; border: 1.0pt none black; padding: 0cm; background: black"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1025" type="#_x0000_t75" style='width:207pt;height:168.75pt'>
+ <v:imagedata src="29.files/image013.jpg" o:title="block1"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=276 height=225
+src="29.files/image014.jpg" v:shapes="_x0000_s1025"><![endif]></span></font></td>
+	</tr>
+</table>
+<p style="text-align:justify"><font size="4" face="Georgia">открытием этого 
+закона связано много легенд. Древнегреческий ученый </font><font size="4">
+<span class="zag91"><i><span style="font-weight: normal"><font face="Georgia">
+<a href="arhimed.html">Архимед</a></font></span></i><span style="font-weight: normal"><font face="Georgia">
+</font></span></span></font><font size="4" face="Georgia">изучил механические 
+свойства подвижного блока и применил его на практике. По свидетельству <i>Афинея</i>, 
+он с помощью полиспастов одним движением руки спустил на воду огромный и тяжелый 
+корабль &quot;Сирокосия&quot;, построенный царем Гиероном. Это и послужило поводом для его 
+крылатой фразы: &quot;Дайте мне точку опоры, и я сдвину Землю!&quot;</font></p>
+<p style="text-align:justify"><font face="Georgia" size="4">Архимед явился 
+крупнейшим инженером своего времени. Ему принадлежит более 40 изобретений, в том 
+числе и чрезвычайно сложный по конструкции планетарий. Основные его изобретения 
+относятся к области военной техники. Им созданы метательные машины, способные 
+бросать с большой скоростью камни массой около 250 кг; машины, которые с помощью 
+крюков поднимали из воды суда противника и переворачивали их; механизмы, 
+бросающие с берега на суда тяжелые бревна. Вся созданная им военная техника 
+нашла свое эффективное применение при защите Сиракуз от атаки римлян, 
+возглавляемых полководцем Марцеллом. Приведенные в действие машины Архимеда 
+привели в ужас атакующих римлян, а сам Марцелл вынужден был невесело пошутить: 
+&quot;Что же, придется нам прекратить войну против геометра&quot;. После чего он отвел 
+флот и сухопутные войска от стен Сиракуз, перейдя к длительной осаде. И только 
+предательство помогло римлянам захватить город. Архимед, занятый своими 
+вычислениями, погиб от меча римского воина, успев, как гласит предание, 
+воскликнуть: &quot;Не тронь мои чертежи!!!&quot;</font></p>
+<p class="MsoNormal" align="left"><a href="v29_1/test.htm">
+<img border="0" id="img1" src="button99.jpg" height="30" width="150" alt="Вопрос" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button97.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button99.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button98.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button97.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос"></a><a href="z29_1/test.htm"><img border="0" id="img2" src="button250.jpg" height="30" width="150" alt="Задача" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'button248.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'button250.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'button249.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'button248.jpg')" fp-style="fp-btn: Linked Row 7" fp-title="Задача"></a></p>
+<font face="Calibri">Метки: Архимед, момент силы, неподвижный блок, плечо силы, 
+подвижный блок</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

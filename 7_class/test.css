@@ -1,0 +1,79 @@
+.outer {
+	text-align: center;
+	margin: 0px auto;
+	width: 535px;
+	height: 390px;
+	color: #006;
+}
+.container {
+	font: 14pt Calibri, Arial, sans-serif;
+	margin-top: 100px;
+	padding-top: 10px;
+	background-image: url('back.jpg');
+	background-repeat: no-repeat;
+	width: 535px;
+	height: 335px;
+	color: #006;
+}
+.main {
+	padding-left: 25px;
+	padding-right: 15px;
+	text-align: center;
+}
+.tInp {
+	width: 200px;
+	height: 20px;
+	font-size: 18px;
+	font-family: Arial;
+}
+
+
+#panel {
+	margin: 0px auto;
+	text-align: justify;
+	text-indent: 5px;
+	background: #754c24;
+	width: 400px;
+	height: 100px;
+	display: none;
+	color: #fff;
+	font: 14pt Arial, Helvetica, sans-serif;
+	border-left: 2px solid #754c24;
+	border-right: 2px solid #754c24;
+}
+.slide {
+	text-align: center;
+	width: 400px;
+	margin: 0px auto;
+	padding: 0;
+	border-top: solid 4px #422410; 
+	background: url(files/slid.gif) no-repeat center top; 
+}
+.btn-slide {
+	background: url(files/ar.gif) no-repeat right -50px;
+	text-align: center;color: #fff;
+	width: 144px;
+	height: 31px;
+	padding: 10px 10px 0 0;	
+	margin: 0 auto;
+	display: block;
+	font: bold 120%/100% Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+.active {
+	background-position: right 12px;
+}
+.button {
+	margin: 0 auto;
+	width: 127px;
+	height: 37px;
+	background-image: url('but.jpg');
+	background-repeat: no-repeat;
+	cursor: hand;
+}
+.button:hover {
+	background-image: url('but_h.jpg');
+}
+.button:active {
+	background-image: url('but_p.jpg');
+}

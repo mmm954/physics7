@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Тестирование по физике</title>
+<meta name="Физика" content="Подготовка к ЕНТ" />
+<link rel="stylesheet" type="text/css" title="mymenu" href="../css/style.css" />
+</head>
+
+<body>
+
+<div id="container">
+ <a href="http://fizikatest.ucoz.ru" id="namelink">
+ <div id="logo"><img src="imgs/logo_large.jpg" width="90" height="90" /></div>
+ <div id="nameline">Подготовка к ЕНТ по физике on-line</div></a>
+ 
+<ul id="menu">
+ <li><a href="#">Тесты</a>
+ <ul id="tests">
+ <li><a href="#">Тематические</a>
+ <ul id="thematic">
+ <li><a href="#nogo4">Кинематика</a></li>
+ <li><a href="/test/meh_din/test.htm">Динамика</a></li>
+ <li><a href="/test/meh_zs/test.htm">Законы сохранения</a></li>
+ <li><a href="/test/mf_t_mkt/test.htm">Основы МКТ</a></li>
+ <li><a href="#nogo6">Термодинамика</a></li>
+ <li><a href="#nogo6">Свойства жидких и твердых тел</a></li>
+ <li><a href="#nogo6">Электростатика</a></li>
+ <li><a href="#nogo6">Законы постоянного тока</a></li>
+ <li><a href="#nogo6">Магнитное поле</a></li>
+ <li><a href="#nogo6">Электрический ток в различных средах</a></li>
+ <li><a href="#nogo6">Механические колебания</a></li>
+ <li><a href="#nogo6">Электромагнитные колебания</a></li>
+ <li><a href="#nogo6">Механические волны</a></li>
+ <li><a href="#nogo6">Электромагнитные волны</a></li>
+ <li><a href="#nogo6">Геометрическая оптика</a></li>
+ <li><a href="#nogo6">Световые волны</a></li>
+ <li><a href="#nogo6">Элементы теории относительности</a></li>
+ <li><a href="#nogo6">Световые кванты</a></li>
+ <li><a href="#nogo6">Атомная физика</a></li>
+ <li><a href="#nogo6">Физика атомного ядра</a></li>
+ </ul>
+ </li>
+ <li id="comp"><a href="#">Комплексные</a>
+ 
+ <ul id="complexes">
+ <li><a href="complex/1/test.htm">Вариант 1</a></li>
+ <li><a href="complex/16/test.htm">Вариант 2</a></li>
+ <li><a href="complex/17/test.htm">Вариант 3</a></li>
+ <li><a href="complex/18/test.htm">Вариант 4</a></li>
+ <li><a href="complex/19/test.htm">Вариант 5</a></li>
+ <li><a href="complex/2/test.htm">Вариант 6</a></li>
+ <li><a href="complex/3/test.htm">Вариант 7</a></li>
+ <li><a href="complex/4/test.htm">Вариант 8</a></li>
+ <li><a href="complex/5/test.htm">Вариант 9</a></li>
+ <li><a href="complex/6/test.htm">Вариант 10</a></li>
+ <li><a href="complex/7/test.htm">Вариант 11</a></li>
+ <li><a href="complex/8/test.htm">Вариант 12</a></li>
+ <li><a href="complex/9/test.htm">Вариант 13</a></li>
+ <li><a href="complex/10/test.htm">Вариант 14</a></li>
+ <li><a href="complex/11/test.htm">Вариант 15</a></li>
+ <li><a href="complex/12/test.htm">Вариант 16</a></li>
+ <li><a href="complex/13/test.htm">Вариант 17</a></li>
+ <li><a href="complex/14/test.htm">Вариант 18</a></li>
+ <li><a href="complex/15/test.htm">Вариант 19</a></li>
+ <li><a href="complex/20/test.htm">Вариант 20</a></li>
+ <li><a href="complex/21/test.htm">Вариант 21</a></li>
+ <li><a href="complex/22/test.htm">Вариант 22</a></li>
+ <li><a href="complex/23/test.htm">Вариант 23</a></li>
+ <li><a href="complex/24/test.htm">Вариант 24</a></li>
+ <li><a href="complex/25/test.htm">Вариант 25</a></li>
+
+ </ul>
+ </li>
+ </ul>
+ </li>
+ <div class="border">1</div>
+ <li><a href="#">Задачи</a>
+ <ul id="tasks">
+ <li><a href="#nogo4">Кинематика</a></li>
+ <li><a href="#nogo5">Динамика</a></li>
+ <li><a href="#nogo6">Законы сохранения</a></li>
+ <li><a href="#nogo6">Основы МКТ</a></li>
+ <li><a href="#nogo6">Термодинамика</a></li>
+ <li><a href="#nogo6">Свойства жидких и твердых тел</a></li>
+ <li><a href="#nogo6">Электростатика</a></li>
+ <li><a href="#nogo6">Законы постоянного тока</a></li>
+ <li><a href="#nogo6">Магнитное поле</a></li>
+ <li><a href="#nogo6">Электрический ток в различных средах</a></li>
+ <li><a href="#nogo6">Механические колебания</a></li>
+ <li><a href="#nogo6">Электромагнитные колебания</a></li>
+ <li><a href="#nogo6">Механические волны</a></li>
+ <li><a href="#nogo6">Электромагнитные волны</a></li>
+ <li><a href="#nogo6">Геометрическая оптика</a></li>
+ <li><a href="#nogo6">Световые волны</a></li>
+ <li><a href="#nogo6">Элементы теории относительности</a></li>
+ <li><a href="#nogo6">Световые кванты</a></li>
+ <li><a href="#nogo6">Атомная физика</a></li>
+ <li><a href="#nogo6">Физика атомного ядра</a></li>
+ </ul>
+ </li>
+ <div class="border">1</div>
+ <li><a href="about.html">Об авторе</a></li>
+ <div class="border">1</div>
+ <li><a href="contacts.html">Контакты</a></li>
+ <div class="border">1</div>
+ <li><a href="http://fizikatest.ucoz.ru/forum/">Форум</a></li>
+</ul>
+
+<div id="textOfTasks">
+<p>При решении любой кинематической задачи надо, в первую очередь, выбрать систему отсчета, которая состоит из тела отсчета, связанной с ним системы координат и начала отсчета времени. Выполняя чертеж к задаче, следует изобразить в нем систему отсчета, траекторию движения, все векторные величины, определяемые условием и положением тела в начальный момент времени. Далее составляются кинематические уравнения (законы) движения для каждого тела в векторной форме и в проекциях на выбранные оси координат.</Б.
+<p><span id="subTitle">Задача 1.</span> Под каким углом к течению должен плыть пловец, чтобы переправиться на противоположный берег реки в кратчайшее время? Какой путь он проплывет, если скорость течения реки 1 м/с, скорость пловца относительно воды 2 м/с, ширина реки 50 м.</p>  
+<p>Дано: υ1 = 1 м/с; υ2 = 2 м/с; L= 50 м;    α = ?   S — ? </p>
+<p>Решение: Выбираем за систему отсчета берег, связывая начало координат с отправной точкой движения пловца. Ось ОХ направим вдоль берега, ось ОУ – перпендикулярно берегу. Скорость пловца относительно  берега</p>
+
+
+</div>
+</div>
+
+</body>
+</html>

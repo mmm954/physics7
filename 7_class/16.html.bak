@@ -1,0 +1,211 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>График равномерного прямолинейного движения</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="16.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ </style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]--><!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+
+</head>
+<body><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font color="#000080"><b>
+		<span lang="KZ" style="font-family: Calibri">§</span><span style="font-family: Calibri">16</span><span lang="KZ" style="font-family: Calibri">.
+		</span><span style="font-family: Calibri">График равномерного 
+		прямолинейного движения</span></b></font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<p style="text-align:justify;text-indent:35.4pt"><font face="Georgia" size="4">
+Многие физические величины, описывающие движения тел, с течением времени 
+изменяются. Поэтому для большей наглядности движение тела часто изображают 
+графически.</font></p>
+<p style="text-align:justify"><font face="Georgia" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Для 
+построения графиков используют <font color="#000066"><b> <i>прямоугольную систему координат</i>.</b></font> Если на 
+горизонтальной оси (<i>оси абсцисс</i>) в выбранном масштабе откладывать время, 
+прошедшее с момента начала его отсчета, а на вертикальной оси (<i>оси ординат</i>) 
+тоже в определенном масштабе откладывать значения какой-либо физической 
+величины, то построенный по этим данным график наглядно выразит зависимость этой 
+величины от времени.</font></p>
+<p style="text-align:justify"><font face="Georgia" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Покажем, как 
+графически изображаются зависимости от времени кинематических величин, 
+описывающих прямолинейное равномерное и равноускоренное движения.</font></p>
+<p style="text-align:justify"><font face="Georgia" size="4"><u>
+<span style="text-decoration: none">&nbsp;</span></u></font></p>
+<p style="text-align:justify"><font face="Georgia" size="4"><u>График скорости 
+равномерного прямолинейного движения</u></font></p>
+<p style="text-align:justify"><font face="Georgia" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Для того 
+чтобы построить график скорости, на оси абсцисс откладывают время движения, а на 
+оси ординат <i><span style="color:black">—</span></i> скорость тела. 
+<font color="#000066"><b> <i>График 
+скорости</i></b></font> показывает, как изменяется скорость тела с течением времени. В 
+прямолинейном равномерном движении скорость с течением времени не изменяется.
+</font></p>
+<p style="text-align:justify"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1030" type="#_x0000_t75" alt="" style='width:4in;
+ height:188.25pt;float:right'>
+ <v:imagedata src="16.files/image001.jpg" o:title="graph11"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=384 height=251
+src="16.files/image002.jpg" align=right v:shapes="_x0000_s1030"><![endif]>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Поэтому график скорости такого движения представляет собой прямую, параллельную 
+оси абсцисс (оси времени). На рисунке изображены графики скорости двух тел. 
+Верхний относится к случаю, когда тело движется в положительном направлении оси 
+(скорость тела положительна), нижний <i><span style="color:black">—</span></i> к 
+случаю, когда тело движется против положительного направления оси&nbsp;&nbsp; (скорость 
+тела отрицательна). </font></p>
+<p style="text-align:justify"><font face="Georgia"><font size="4"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1029" type="#_x0000_t75" alt="" style='width:4in;height:188.25pt;float:right'>
+ <v:imagedata src="16.files/image003.jpg" o:title="graph12"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=384 height=251
+src="16.files/image004.jpg" align=right v:shapes="_x0000_s1029"><![endif]>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+По графику скорости можно определить путь, пройденный телом.&nbsp; Путь, пройденный 
+телом в положительном направлении в прямолинейном равномерном движении за 
+промежуток времени <i>t</i>, численно равен площади прямоугольника, 
+ограниченного графиком скорости, осями координат и ординатой, соответствующей 
+скорости тела в момент времени<i> t</i>.</font></font></p>
+<p class="MsoNormal" style="text-align:justify"><u>
+<font face="Georgia" size="4">График зависимости координаты тела от времени</font><span style="font-family: Georgia"><font size="4">
+</font></span></u></p>
+<p style="text-align:justify"><font face="Georgia" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Для 
+построения этого графика (который иначе называют <font color="#000066"><b> <i>графиком движения</i></b></font>) на 
+оси абсцисс откладывают время движения, а на оси ординат <i>
+<span style="color:black">—</span></i> координату движущегося тела.</font></p>
+<p style="text-align:justify"><font face="Georgia" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Пусть тело 
+движется равномерно вдоль оси <i>0х</i>.&nbsp;&nbsp; Тогда уравнение движения тела имеет 
+вид </font></p>
+<p align="center" style="text-align:center"><font face="Georgia" size="4"><i>х = 
+x<sub>0</sub>+υ<sub>x</sub>·t.</i></font></p>
+<p class="MsoNormal" style="text-align:justify"><font face="Georgia" size="4">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Из этой формулы видно, что зависимость <i>х</i> от <i>t</i> линейная, 
+следовательно, график этой зависимости представляет собой прямую линию</font></p>
+<p style="text-align:justify"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1028" type="#_x0000_t75" alt="" style='width:228pt;height:198pt;float:left'>
+ <v:imagedata src="16.files/image005.jpg" o:title="graph5"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=304 height=264
+src="16.files/image006.jpg" align=left v:shapes="_x0000_s1028"><![endif]>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+На рисунке&nbsp; изображены графики движения двух тел. Тело, графиком которого 
+является прямая 1, движется в положительном направлении оси, а тело, график 
+движения которого <i><span style="color:black">—</span></i> прямая 2, движется 
+противоположно положительному направлению оси.</font></p>
+<p class="MsoNormal" style="text-align:justify"><font face="Georgia" size="4">
+<u><span style="text-decoration: none">&nbsp;</span></u></font></p>
+<p class="MsoNormal" style="text-align:justify"><font face="Georgia"><u>
+<font size="4">График пути равномерного прямолинейного движения</font></u><font size="4">
+</font></font></p>
+<p style="text-align:justify"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1027" type="#_x0000_t75" alt="" style='width:234pt;height:203.25pt;float:left'>
+ <v:imagedata src="16.files/image007.jpg" o:title="graph7"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=312 height=271
+src="16.files/image008.jpg" align=left v:shapes="_x0000_s1027"><![endif]>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Для выражения зависимости пути, проходимого телом, от времени его движения 
+строят <font color="#000066"><b> <i>график пути</i>.</b></font> Для этого на оси абсцисс откладывают время, а на оси 
+ординат <i><span style="color:black">—</span></i> пройденный телом путь. График 
+этой зависимости является прямой линией. Эта прямая проходит через начало 
+координат. Угол наклона этой прямой к оси абсцисс тем больше, чем больше 
+скорость тела. На рисунке изображены графики пути двух тел. Из этого рисунка 
+видно, что за одно и то же время <i>t</i> тело 1, имеющее большую скорость, чем 
+тело 2, проходит больший путь (<i>s<sub>1</sub>&gt;s<sub>2</sub></i>).</font></p>
+<p class="MsoNormal" style="line-height: 120%"><font face="Georgia" size="4"><u>
+<span style="text-decoration: none; line-height: 120%" lang="KZ">&nbsp;</span></u></font></p>
+<p class="MsoNormal" style="line-height: 120%"><font face="Georgia" size="4"><u>
+<span lang="KZ" style="line-height: 120%">Пример</span></u></font></p>
+<p class="MsoNormal" style="text-align: justify"><font face="Georgia">
+<font size="4"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1026" type="#_x0000_t75" alt="" style='width:243.75pt;height:211.5pt;float:right'>
+ <v:imagedata src="16.files/image009.jpg" o:title="graph13"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=325 height=282
+src="16.files/image009.jpg" align=right v:shapes="_x0000_s1026"><![endif]></font><span lang="KZ"><font size="4">На 
+рисунке изображен график движения тела. Сколько времени двигалось тело? Какой 
+путь прошло тело за 1,5 часа? Какой путь прошло тело за 2 часа?</font></span></font></p>
+<p class="MsoNormal" style="text-align: justify"><font face="Georgia" size="4">
+<span lang="KZ">С какой скоростью двигалось тело?</span></font></p>
+<p class="MsoNormal" style="text-align: justify; line-height: 120%">
+<font face="Georgia"><span lang="KZ" style="line-height: 120%"><font size="4">
+Решение. По </font></span><span style="line-height: 120%"><font size="4">оси 
+абсцисс откладывается время в часах, а по оси ординат - пройденный телом путь в 
+километрах. Из графика видно, что полное время движения тела равно 2 часам. За 
+первые 0,5 часа тело прошло 10 км, затем, до 1,5 находилось в покое. Поэтому 
+путь, пройденный телом за 1,5 часа, равен 10<i>км</i>. Затем тело прошло еще 5 
+километров. Значит, путь, пройденный телом за 2 часа, равен 15<i>км</i>. 
+Движение тела неравномерное, поэтому определим среднюю скорость движения тела:</font></span></font></p>
+<p class="MsoNormal" align="center" style="text-align: center; line-height: 120%">
+<span style="line-height: 120%"><font face="Georgia" size="4">
+<span style="position: relative; top: 16.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1025" type="#_x0000_t75" style='width:161.25pt;height:45pt'>
+ <v:imagedata src="16.files/image010.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=215 height=60
+src="16.files/image011.gif" v:shapes="_x0000_s1025"><![endif]></span></font><!--[if gte mso 9]><![endif]--></span></p>
+<p class="MsoNormal"><font face="Georgia"><font size="4">Ответ:</font><span lang="KZ"><font size="4"> 
+время</font></span><font size="4"> движения тела 2 часа; за 1,5 часа тело прошло 
+10<i>км</i>;&nbsp; за 2 часа тело прошло 15<i>км</i>; средняя скорость тела равна 7,5<i>км/ч</i>.
+</font></font></p>
+<p class="MsoNormal">&nbsp;</p><font face="Calibri">Метки: график, равномерное 
+движение, скорость, путь</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

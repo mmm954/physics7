@@ -1,0 +1,161 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Инерция</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="17.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ </style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]-->
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+<!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+
+
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</head>
+<body onload="FP_preloadImgs(/*url*/'buttonB6.jpg', /*url*/'buttonC6.jpg', /*url*/'buttonE2.jpg', /*url*/'buttonF1.jpg', /*url*/'button206.jpg', /*url*/'button207.jpg')"><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font color="#000066"><b><span lang="KZ" style="font-family: Calibri">§</span><span style="font-family: Calibri">17</span><span lang="KZ" style="font-family: Calibri">.
+		</span><span style="font-family: Calibri">Инерция</span></b></font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<p class="MsoNormal" style="text-align:justify"><font size="4" face="Georgia">
+Что нужно для движения тела с постоянной скоростью?&nbsp; Долгое время общепринятой 
+была&nbsp; точка зрения, высказанная&nbsp; Аристотелем: если на тело не действуют другие 
+тела, тело находится в состоянии покоя, а для движения с постоянной скоростью 
+необходимо приложение постоянной силы. Впервые усомнился в этом Галилео Галилей, 
+который после множества опытов заключил, что для движения тела с постоянной 
+скоростью не нужно какой-либо внешней причины. Тщательные опыты по изучению 
+движения тел&nbsp; позволили ему установить, что если на тело не действуют другие 
+тела, то оно</font></p>
+<p class="MsoNormal" align="center" style="text-align:center">
+<font size="4" face="Georgia"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1025" type="#_x0000_t75" style='width:376.5pt;
+ height:273.75pt' o:allowoverlap="f">
+ <v:imagedata src="17.files/image001.jpg" o:title="telega"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=502 height=365
+src="17.files/image002.jpg" v:shapes="_x0000_s1025"><![endif]></font></p>
+<p class="MsoNormal" align="center" style="text-align:center">
+<span lang="EN-US"><font size="4" face="Georgia">&nbsp;</font></span></p>
+<p class="MsoNormal" style="text-align:justify"><font size="4" face="Georgia">
+находится или в покое, или движется прямолинейно и равномерно относительно 
+Земли.</font></p>
+<p class="MsoNormal" style="text-align:justify;text-indent:35.4pt">
+<font size="4" face="Georgia">Возьмем тележку и будем скатывать ее с наклонной 
+плоскости на дорожку с различным покрытием. Скатившись на дорожку с песком, она 
+очень быстро останавливается. На дорожке с толстой тканью она проходит большее 
+расстояние, а на стеклянной дорожке она пройдет еще большее расстояние. Значит, 
+чем меньше препятствие на пути тележки, тем больший путь она проходит и тем 
+больше это движение ближе к равномерному.&nbsp;</font></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<font face="Georgia"><i><font size="4">Явление сохранения скорости тела при 
+отсутствии действия на него других тел называют<b> <font color="#000066"> <u>инерцией</u>.</font></b></font></i><font size="4" color="#000066">&nbsp;</font></font></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<font face="Georgia"><i><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Инерция</font></i><font size="4"> 
+— от лат. <i>inertia</i> — бездействие. Таким образом, движение тела при 
+отсутствии действия на него других тел называют движением по инерции.</font></font></p>
+<span style="font-family: Georgia"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Когда вы катаетесь на 
+велосипеде, вы сначала крутите педали, набираете скорость, а потом катитесь по 
+инерции. А что бы было, если явления инерции не существовало? Правильно! Как 
+только вы перестали бы крутить педали, велосипед вместе с вами мгновенно 
+остановился. А так как есть инерция, он сохраняет&nbsp; скорость своего движения. 
+Итак, </font><i><font size="4">если на тело не действуют другие тела, то оно 
+движется <u><b><font color="#000066">с постоянной скоростью</font></b></u>.</font></i></span>&nbsp;<p>
+<a href="v17_1/test.htm">
+<img border="0" id="img4" src="buttonA6.jpg" height="30" width="150" alt="Вопрос 1" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'buttonB6.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'buttonA6.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'buttonC6.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'buttonB6.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос 1"></a></p>
+<p><a href="v17_2/test.htm">
+<img border="0" id="img5" src="buttonD2.jpg" height="30" width="150" alt="Вопрос 2" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'buttonE2.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'buttonD2.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'buttonF1.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'buttonE2.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос 2"></a></p>
+<p><a href="v17_3/test.htm">
+<img border="0" id="img6" src="button208.jpg" height="30" width="150" alt="Вопрос 3" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'button206.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'button208.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'button207.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'button206.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос 3"></a></p>
+<p><font face="Calibri">Метки: Галилео Галилей, инерция, скорость, путь</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

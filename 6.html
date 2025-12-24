@@ -1,0 +1,183 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Погрешности прямых измерений</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="6.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ </style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]-->
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+<!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+
+
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</head>
+<body onload="FP_preloadImgs(/*url*/'button386.jpg', /*url*/'button387.jpg')"><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font color="#000080"><b>
+		<span lang="KZ" style="font-family: Calibri">§6. </span>
+		<span style="font-family: Calibri">Погрешности прямых измерений</span></b></font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table width="704">
+<tr>
+<td align="justify">
+<p class="MsoNormal" style="text-align: justify; text-indent: 35.4pt">
+<font face="Georgia" size="4"><span style="color: black">Не существует абсолютно 
+точных измерительных приборов и мер. Все они вносят в результат измерения 
+некоторую погрешность. Кроме того, каждый из нас немного по-своему проводит 
+измерения, например, прикладывает тело к линейке, располагает глаза по отношению 
+к шкале и так далее. Эти наши действия также вносят в результат измерения 
+некоторую погрешность. </span></font></p>
+<p class="MsoNormal" style="text-align: justify"><font face="Georgia" size="4">
+<span style="color: black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Возьмем два груза по 100 г, поставим их на 
+чаши лабораторных весов. Они покажут, что массы гирь не вполне одинаковы. Причин 
+этому несколько: неточность изготовления гирь, их износ при длительном 
+использовании, налипание частиц пыли и другие. Подобные причины всегда приводят 
+к тому, что <i>измерительные приборы и меры вносят в результат измерения 
+некоторую неточность – </i></span> <i><b><u><font color="#000066">погрешность.</font></u></b></i></font></p>
+<span style="font-family: Georgia"><font size="4"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1027" type="#_x0000_t75" alt="" style='width:268.5pt;
+ height:195pt;float:right' o:allowoverlap="f">
+ <v:imagedata src="6.files/image001.jpg" o:title="pencil12"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=358 height=260
+src="6.files/image002.jpg" align=right v:shapes="_x0000_s1027"><![endif]></font></span><p class="MsoNormal" style="text-align: justify">
+<font face="Georgia" size="4"><span style="color: black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Измерьте длину 
+карандаша с помощью линейки, но в первый раз смотрите на него сверху, 
+склонившись над партой. А затем произведите измерение, глядя на карандаш 
+спереди, сидя на стуле. Измеряя линейкой длину одного и того же карандаша, вы 
+получите отличающиеся результаты. Например, 7,4 см и 7,5 см. </span></font></p>
+<p class="MsoNormal" style="text-align: justify"><font face="Georgia" size="4">
+<i><span style="color: black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Наши действия с измерительными приборами 
+или мерами тоже вносят в результат измерения некоторую погрешность.</span></i></font></p>
+<p class="MsoNormal" style="text-align: justify"><font face="Georgia" size="4">
+<span style="color: black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Можно сделать вывод: неточность измерительных 
+приборов и мер, а также неточность наших действий с ними приводят к тому, что <i>
+результат любого измерения всегда имеет некоторую погрешность.</i> </span>
+</font></p>
+<p class="MsoNormal" style="text-align: justify"><font face="Georgia" size="4">
+<span style="color: black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Учет всех возникающих погрешностей — сложное 
+дело. Поэтому мы упрощенно будем считать<i>, что наибольшая погрешность 
+результата измерения равна </i></span><i><u> <b><font color="#000066">половине цены одного деления шкалы.</font></b></u></i></font></p>
+<p class="MsoNormal" style="text-align: justify"><font face="Georgia" size="4">
+<span style="color: black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Например, цена одного деления линейки равна 
+0,1 см. Тогда наибольшая погрешность измерения длины карандаша составит 0,05 см. 
+Образец записи результата измерения с учетом наибольшей погрешности:</span></font></p>
+<p class="MsoNormal" align="center" style="text-align: center">
+<font face="Georgia"><i><span lang="EN-US" style="color: black"><font size="4">l</font></span><sub><span style="color: black"><font size="4">кар</font></span></sub></i><span style="color: black"><font size="4">= 
+7,4 см ± 0,05 см</font></span></font></p>
+<span style="font-family: Georgia; color: black"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Число 
+7,4 см – это <i>измеренное значение</i> длины карандаша. Правее, после знака 
+&quot;плюс-минус&quot; мы видим 0,05 см. Это – наибольшая погрешность результата 
+измерения. Знак &quot;плюс-минус&quot; символизирует границы, в которых заключено <i>
+истинное значение</i> длины карандаша. Изобразим наш результат на числовой 
+прямой. Знак &quot;плюс-минус&quot; показывает, что к 7,4 см сначала нужно прибавить 0,05 
+см (получим 7,45 см), а затем нужно отнять 0,05 см (получим 7,35 см). Эти числа 
+отметим синими точками на числовой прямой.</font></span><p align="center">
+<span style="font-family: Georgia; color: black"><font size="4"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1026" type="#_x0000_t75" style='width:435pt;height:48.75pt'>
+ <v:imagedata src="6.files/image003.png" o:title="интер"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=580 height=65
+src="6.files/image004.jpg" v:shapes="_x0000_s1026"><![endif]></font></span></p>
+<p><font face="Georgia" size="4"><span style="color: black">Мы не можем сказать, 
+чему равно истинное значение при любом способе измерений. Для данного измерения 
+мы можем лишь сказать, что длина карандаша больше 7,35 см, но меньше 7,45 см.</span></font><span style="font-size: 18.0pt; font-family: Times New Roman; color: black">
+</span></p>
+<p align="center"><span style="font-size: 18.0pt; font-family: Times New Roman"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1025" type="#_x0000_t75" style='width:354pt;height:105pt'>
+ <v:imagedata src="6.files/image005.png" o:title="интер1"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=472 height=140
+src="6.files/image006.jpg" v:shapes="_x0000_s1025"><![endif]></span></p>
+<p align="center">&nbsp;</p>
+<p align="left"><a href="demons/pencilfla.html">
+<img border="0" id="img6" src="button388.jpg" height="30" width="150" alt="Демонстрация" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'button386.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'button388.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'button387.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'button386.jpg')" fp-style="fp-btn: Linked Row 5" fp-title="Демонстрация"></a></p>
+<font face="Calibri">Метки: погрешность</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

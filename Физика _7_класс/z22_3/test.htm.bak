@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Тест</title>
+<link rel="stylesheet" href="../test.css" type="text/css">
+<script type="text/javascript" src="../jquery.js"></script>
+<script type="text/javascript" src="../test_h.js" encoding="utf-8"></script>
+</head>
+<body id="body">
+<div id="cool">	
+	<span id="num">1.</span>Вопрос:<div id="ques" class="qu">
+		<span style="font-family: Times New Roman">При подвешивании груза к 
+		пружине, она растянулась на &nbsp;2см. Какова масса груза, если жесткость 
+		пружины равна &nbsp;40Н/м? (<span lang="en-us">g=10</span>Н/кг)</span></div>
+		Ответ:<div id="answ"  class="an">80</div>
+		Единицы:<div id="ed"  class="an">г</div>
+		Подсказка:<div id="hint"  class="an">Сначала определите силу упругости </div>
+</div>
+</body>
+</html>

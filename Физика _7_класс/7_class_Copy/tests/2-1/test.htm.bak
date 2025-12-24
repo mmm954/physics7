@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Тест</title>
+<link rel="stylesheet" href="test.css" type="text/css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="test.js" encoding="utf-8"></script>
+<style>
+<!--
+ p.MsoNormal
+	{mso-style-parent:"";
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	margin-left:0cm; margin-right:0cm; margin-top:0cm}
+-->
+</style>
+</head>
+<body id="body">
+<div id="cool">	
+	<span id="num">1.</span><div id="ques1" class="qu">
+		<p class="MsoNormal"><font size="4" face="Georgia">Формула скорости при 
+		равномерном прямолинейном движении:</font></div>
+		<div id="answ11"  class="an"><font face="Georgia"><span lang="EN-US">
+			<font size="4"><i>F</i> = </font><i><font size="4">mg.</font></i></span></font></div>
+		<div id="answ12"  class="an"><font face="Georgia"><i><font size="4">ρ</font></i><span lang="EN-US"><font size="4"> 
+			= </font><i><font size="4">m/V.</font></i></span></font></div>
+		<div id="answ13"  class="an"><font face="Georgia"><i><span lang="EN-US">
+			<font size="4">V</font></span><font size="4"> = </font>
+			<span lang="EN-US"><font size="4">a</font></span><font size="4">·</font><span lang="EN-US"><font size="4">b</font></span><font size="4">·</font><span lang="EN-US"><font size="4">c</font></span><font size="4">.</font></i></font></div>
+		<div id="answ14"  class="an"><font face="Georgia"><i><font size="4">υ</font></i><span lang="EN-US"><font size="4"> 
+			= <i>S/t</i>.</font></span></font></div>
+		<div id="answ15"  class="an"><font face="Georgia"><i><span lang="EN-US">
+			<font size="4">p</font></span><font size="4"> = </font>
+			<span lang="EN-US"><font size="4">F</font></span><font size="4">/</font><span lang="EN-US"><font size="4">S</font></span></i><font size="4">.</font></font></div>
+	<span id="num">2.</span><div id="ques2" class="qu">
+		<font size="4" face="Georgia">При встряхивании термометра столбик ртути 
+		в нем опускается. В основе этого явления лежит:</font></div>
+		<div id="answ21"  class="an"><font face="Georgia"><i><font size="4">
+			Трение.</font></i></font></div>
+		<div id="answ22"  class="an"><font face="Georgia"><i><font size="4">
+			Тяготение.</font></i></font></div>
+		<div id="answ23"  class="an"><font face="Georgia"><i><font size="4">
+			Диффузия.</font></i></font></div>
+		<div id="answ24"  class="an"><i><font size="4" face="Georgia">Инерция.</font></i></div>
+		<div id="answ25"  class="an"><font face="Georgia"><i><font size="4">
+			Давление.</font></i></font></div>
+	<span id="num">3.</span><div id="ques3" class="qu">
+		<p class="MsoNormal"><font face="Georgia"><font size="4">Скорость тела 
+		54 <i>км/ч</i>. Выразите ее в </font><i><font size="4">м/с.</font></i></font></div>
+		<div id="answ31"  class="an"><font face="Georgia"><i><font size="4">
+			540м/с</font></i></font></div>
+		<div id="answ32"  class="an"><font face="Georgia"><i><font size="4">
+			0,015м/с</font></i></font></div>
+		<div id="answ33"  class="an"><font face="Georgia"><i><font size="4">
+			54&nbsp;000м/с</font></i></font></div>
+		<div id="answ34"  class="an"><i><font size="4" face="Georgia">15м/с</font></i></div>
+		<div id="answ35"  class="an"><font face="Georgia"><i><font size="4">
+			54м/с</font></i></font></div>
+	<span id="num">4.</span><div id="ques4" class="qu">
+		<p class="MsoNormal"><font size="4" face="Georgia">Линия в пространстве, 
+		которую при своем движении &quot;описывает&quot; материальная точка, называется…</font></div>
+		<div id="answ41"  class="an"><font face="Georgia"><i><font size="4">
+			Путь.</font></i></font></div>
+		<div id="answ42"  class="an"><font face="Georgia"><i><font size="4">
+			Скорость.</font></i></font></div>
+		<div id="answ43"  class="an"><font face="Georgia"><i><font size="4">
+			Перемещение.</font></i></font></div>
+		<div id="answ44"  class="an"><i><font size="4" face="Georgia">
+			Траектория.</font></i></div>
+		<div id="answ45"  class="an"><font face="Georgia"><i><font size="4">
+			Время.</font></i></font></div>
+	<span id="num">5.</span><div id="ques5" class="qu">
+		<p class="MsoNormal"><font size="4" face="Georgia">Вектор, проведенный 
+		из начального положения тела в его конечное положение, называют </font></div>
+		<div id="answ51"  class="an"><font face="Georgia"><i><font size="4">
+			Скоростью.</font></i></font></div>
+		<div id="answ52"  class="an"><font face="Georgia"><i><font size="4">
+			Временем.</font></i></font></div>
+		<div id="answ53"  class="an"><font face="Georgia"><i><font size="4">
+			Путем.</font></i></font></div>
+		<div id="answ54"  class="an"><i><font size="4" face="Georgia">
+			Перемещением.</font></i></div>
+		<div id="answ55"  class="an"><font face="Georgia"><i><font size="4">
+			Траекторией. </font></i></font></div>
+	<span id="num">6.</span><div id="ques6" class="qu">
+		<p class="MsoNormal"><font size="4" face="Georgia">Длина траектории 
+		называется </font></div>
+		<div id="answ61"  class="an"><font face="Georgia"><i><font size="4">
+			Траекторией. </font></i></font></div>
+		<div id="answ62"  class="an"><font face="Georgia"><i><font size="4">
+			Перемещением.</font></i></font></div>
+		<div id="answ63"  class="an"><font face="Georgia"><i><font size="4">
+			Скорость.</font></i></font></div>
+		<div id="answ64"  class="an"><i><font size="4" face="Georgia">Путем.
+			</font></i></div>
+		<div id="answ65"  class="an"><font face="Georgia"><i><font size="4">
+			Временем.</font></i></font></div>
+	<span id="num">7.</span><div id="ques7" class="qu">
+		<p class="MsoNormal"><font size="4" face="Georgia">Движение одного и 
+		того же тела может выглядеть по-разному с точки зрения различных 
+		наблюдателей. Это явление называют</font></div>
+		<div id="answ71"  class="an"><font face="Georgia"><i><font size="4">
+			Механическим движением.</font></i></font></div>
+		<div id="answ72"  class="an"><font face="Georgia"><i><font size="4">
+			Перемещением.</font></i></font></div>
+		<div id="answ73"  class="an"><font face="Georgia"><i><font size="4">
+			Пройденным путем.</font></i></font></div>
+		<div id="answ74"  class="an"><i><font size="4" face="Georgia">
+			Относительностью механического движения.</font></i></div>
+		<div id="answ75"  class="an"><font face="Georgia"><i><font size="4">
+			Траекторией.</font></i></font></div>
+	<span id="num">8.</span><div id="ques8" class="qu">
+		<p class="MsoNormal"><font size="4" face="Georgia">Основная единица&nbsp; 
+		скорости в Международной системе единиц.</font></div>
+		<div id="answ81"  class="an"><font face="Georgia"><i><font size="4">
+			км/час</font></i></font></div>
+		<div id="answ82" class="an"><font face="Georgia"><i><font size="4">км/с</font></i></font></div>
+		<div id="answ83"  class="an"><font face="Georgia"><i><font size="4">см/с</font></i></font></div>
+		<div id="answ84"  class="an"><font size="4" face="Georgia"><i>м/с</i></font></div>
+		<div id="answ85"  class="an"><font face="Georgia"><i><font size="4">
+			км/мин</font></i></font></div>
+	<span id="num">9.</span><div id="ques9" class="qu">
+		<p style="margin:0cm;margin-bottom:.0001pt">
+		<font size="4" face="Georgia">Тело, собственными размерами которого в 
+		данных условиях можно пренебречь, называют </font></div>
+		<div id="answ91"  class="an"><font face="Georgia"><i><font size="4">
+			Физическим телом.</font></i></font></div>
+		<div id="answ92" class="an"><font face="Georgia"><i><font size="4">
+			Веществом.</font></i></font></div>
+		<div id="answ93"  class="an"><font face="Georgia"><i><font size="4">
+			Точкой отсчета.</font></i></font></div>
+		<div id="answ94"  class="an"><i><font size="4" face="Georgia">
+			Материальной точкой.</font></i></div>
+		<div id="answ95"  class="an"><font face="Georgia"><i><font size="4">
+			Системой отсчета.</font></i></font></div>
+	<span id="num">10.</span><div id="ques10" class="qu">
+		<p class="MsoNormal"><font size="4" face="Georgia">Какая из приведенных 
+		величин – векторная?</font></div>
+		<div id="answ101"  class="an"><font face="Georgia"><i><font size="4">
+			Время.</font></i></font></div>
+		<div id="answ102" class="an"><font face="Georgia"><i><font size="4">
+			Путь.</font></i></font></div>
+		<div id="answ103"  class="an"><font face="Georgia"><i><font size="4">
+			Объем.</font></i></font></div>
+		<div id="answ104"  class="an"><i><font size="4" face="Georgia">Скорость.</font></i></div>
+		<div id="answ105"  class="an"><font face="Georgia"><i><font size="4">
+			Длина.</font></i></font></div>
+		</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body { }
+
+a { color: #000; text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:active { color: #ffa500; }
+a:visited { color: #8b00ff; }
+
+.border { width: 1px; height: 35px; background-color: #006; float: left; background-image: url('../imgs/border.jpg'); padding-top: 5px;}
+
+#menu a, #menu a:hover, #menu a:visited { text-decoration: none; color: #fff; }
+
+#menu { width: 443px; position: relative; left: 50%; margin-left: -220px; padding: 0; borde1r: 1px dotted #000; color: #fff; text-indent: 0px; margin-top: 0; }
+#menu li ul { text-indent: 0px; }
+#menu, #menu ul { list-style: none; }
+#menu ul, #menu ul ul { display: none; }
+#menu li:hover > ul { display: block; }
+#tests li:hover #thematic { display: block; }
+
+#menu > li { float: left; width: 110px; height: 35px; font: 16px Tahoma, Verdana, Helvetica; background-color:#1E7AD7; border-bottom: 1px solid #fff; background-image: url('../imgs/menu_back.jpg'); padding-top: 5px; text-align: center; }
+
+#menu li ul { font: 12px Tahoma, Verdana, Helvetica; text-align: left; }
+
+#menu > li > ul { position: absolute; margin-left: -40px; margin-top: 17px; }
+
+#thematic { float: right; position: absolute; margin-left: 51px; margin-top: -14px; width: 250px; }
+
+#tasks { width: 250px; }
+
+#tasks > li { padding-left: 3px; }
+
+#thematic > li { 1border: 1px solid #009; padding-left: 3px; }
+
+#tests > li{ width: 90px; padding-left: 3px; }
+
+#tests li { background-color: #06F; height: 22px; }
+#tasks li { background-color: #06F; height: 22px; }
+
+#logo { width: 90px; height:90px; border: 0px dotted #000; float: left; background: #4EA6FE; background-image: url('../imgs/logo_n1ew.jpg'); margin-left: 50px; }
+#nameline { padding-top: 10px; height: 90px; border: 0px dotted #000; text-align: center; font: 45px Palatino Linotype, Times New Roman; margin-left: 0; }
+#text { position: relative; left: 50%; margin-left: -400px; width: 800px; border: 0px dotted #000; text-align: justify; font: 20px Palatino Linotype, Times New Roman; padding-left: 20px; padding-right: 20px; padding-top: 20px; }
+#ads { text-align: left; font: 10px Verdana, Arial, Helvetica; float: left; }
+#footer { text-align: right; font: 10px Verdana, Arial, Helvetica; }
+#namelink { color: #000; text-decoration: none; }
+#namelink:hover { color:#666; text-decoration: none; }
+#marker { font: 8px Tahoma, Verdana, Helvetica; color: #fff; }
+
+p { text-indent: 20px; }
+
+#menu li:hover { background-color:#039; background-image: url('../imgs/menu_over.jpg'); }
+#tests li:hover { background-color:#039; }
+#thematic li:hover { background-color:#039; }
+#tasks li:hover { background-color:#039; }
+
+
+#table { width: 440px; margin: 0 auto; border: 0px solid #000; }
+td { width: 110px; height: 40px; text-align: center; }

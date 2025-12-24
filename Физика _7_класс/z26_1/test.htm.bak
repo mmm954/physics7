@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Тест</title>
+<link rel="stylesheet" href="../test.css" type="text/css">
+<script type="text/javascript" src="../jquery.js"></script>
+<script type="text/javascript" src="../test_h.js" encoding="utf-8"></script>
+</head>
+<body id="body">
+<div id="cool">	
+	<span id="num">1.</span>Вопрос:<div id="ques" class="qu">На пути 500м была 
+		совершена работа 150кДж. Какая сила действовала на тело?</div>
+		Ответ:<div id="answ"  class="an">300</div>
+		Единицы:<div id="ed"  class="an">Н</div>
+		Подсказка:<div id="hint"  class="an">Механической работой называют 
+		величину, равную произведению силы на путь</div>
+</div>
+</body>
+</html>

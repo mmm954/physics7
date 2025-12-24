@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Тест</title>
+<link rel="stylesheet" href="test.css" type="text/css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="test.js" encoding="utf-8"></script>
+<style>
+<!--
+ p.MsoNormal
+	{mso-style-parent:"";
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	margin-left:0cm; margin-right:0cm; margin-top:0cm}
+-->
+</style>
+</head>
+<body id="body">
+<div id="cool">	
+	<span id="num">1.</span><div id="ques1" class="qu">
+		<p class="MsoNormal"><span style="font-size:14.0pt;font-family:Georgia">
+		По какой формуле можно рассчитать давление, оказываемое телом на 
+		поверхность?</span></div>
+		<div id="answ11"  class="an">
+			<span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">
+			<i>F = mg</i></span></div>
+		<div id="answ12"  class="an">
+			<span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">
+			<i>F = ρgV</i></span></div>
+		<div id="answ13"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>υ = </i>
+			</span><i>
+			<span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">S</span><span style="font-size:14.0pt;font-family:Georgia">/</span><span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">t</span></i></div>
+		<div id="answ14"  class="an">
+			<span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">
+			<i>p = F/S</i></span></div>
+		<div id="answ15"  class="an"><i>
+			<span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">V</span><span style="font-size:14.0pt;font-family:Georgia"> 
+			= </span>
+			<span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">m</span><span style="font-size:14.0pt;font-family:Georgia">/</span><span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">ρ</span></i></div>
+	<span id="num">2.</span><div id="ques2" class="qu">
+		<span style="font-size: 14.0pt; font-family: Georgia">Какова единица 
+		измерения выталкивающей силы?</span></div>
+		<div id="answ21"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>кг</i></span></div>
+		<div id="answ22"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>м/с</i></span></div>
+		<div id="answ23"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>с</i></span></div>
+		<div id="answ24"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">Н</span></i></div>
+		<div id="answ25"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Па</i></span></div>
+	<span id="num">3.</span><div id="ques3" class="qu">
+		<p class="MsoNormal">
+		<span style="font-size: 14.0pt; font-family: Georgia">Кто предложил 
+		способ измерения атмосферного давления?</span></div>
+		<div id="answ31"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Ньютон.</i></span></div>
+		<div id="answ32"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Паскаль.</i></span></div>
+		<div id="answ33"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Королев.</i></span></div>
+		<div id="answ34"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">Торричелли.</span></i></div>
+		<div id="answ35"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Декарт.</i></span></div>
+	<span id="num">4.</span><div id="ques4" class="qu">
+		<span style="font-size: 14.0pt; font-family: Georgia">Масса лыжника 
+		вместе с лыжами 70<i>кг</i>. Площадь опоры двух лыж равна 2300<i>см</i><sup>2</sup>. 
+		Чему равно давление, оказываемое лыжником на снег?</span></div>
+		<div id="answ41"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>161&nbsp;0</i>00<i>Па</i></span></div>
+		<div id="answ42"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>300Па</i></span></div>
+		<div id="answ43"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>0,3Па</i></span></div>
+		<div id="answ44"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>3043</i> <i>
+			Па</i></span></div>
+		<div id="answ45"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>0,03Па</i></span></div>
+	<span id="num">5.</span><div id="ques5" class="qu">
+		<p class="MsoNormal">
+		<span style="font-size: 14.0pt; font-family: Georgia">Цилиндр объемом 20 
+		см<sup>3</sup> погрузили в подсолнечное масло. Чему равна величина 
+		выталкивающей силы, действующей на цилиндр? Плотность подсолнечного 
+		масла 940 кг/м<sup>3</sup>.</span></div>
+		<div id="answ51"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>188&nbsp;000Н</i></span></div>
+		<div id="answ52"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>18&nbsp;800Н</i></span></div>
+		<div id="answ53"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>0,0188Н</i></span></div>
+		<div id="answ54"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">0,188Н</span></i></div>
+		<div id="answ55"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>180Н</i></span></div>
+	<span id="num">6.</span><div id="ques6" class="qu">
+		<span style="font-size: 14.0pt; font-family: Georgia">Какова единица 
+		измерения давления?</span></div>
+		<div id="answ61"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>кг</i></span></div>
+		<div id="answ62"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>м/с</i></span></div>
+		<div id="answ63"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Н</i></span></div>
+		<div id="answ64"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">Па</span></i></div>
+		<div id="answ65"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>с</i></span></div>
+	<span id="num">7.</span><div id="ques7" class="qu">
+		<p class="MsoNormal">
+		<span style="font-size: 14.0pt; font-family: Georgia">По какой формуле 
+		можно рассчитать значение выталкивающей силы, действующей на тело, 
+		погруженное в жидкость или газ?</span><span style="font-size:14.0pt;font-family:Georgia">&nbsp;</span></div>
+		<div id="answ71"  class="an">
+			<span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">
+			<i>F = mg</i></span></div>
+		<div id="answ72"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>υ = </i>
+			</span><i>
+			<span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">S</span><span style="font-size:14.0pt;font-family:Georgia">/</span><span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">t</span></i></div>
+		<div id="answ73"  class="an">
+			<span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">
+			<i>p = F/S</i></span></div>
+		<div id="answ74"  class="an">
+			<span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">
+			<i>F = ρgV</i></span></div>
+		<div id="answ75"  class="an"><i>
+			<span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">V</span><span style="font-size:14.0pt;font-family:Georgia"> 
+			= </span>
+			<span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">m</span><span style="font-size:14.0pt;font-family:Georgia">/</span><span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">ρ</span></i></div>
+	<span id="num">8.</span><div id="ques8" class="qu">
+		<span style="font-size: 14.0pt; font-family: Georgia">Какова единица 
+		измерения атмосферного давления?</span></div>
+		<div id="answ81"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>с</i></span></div>
+		<div id="answ82" class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>кг</i></span></div>
+		<div id="answ83"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>м/с</i></span></div>
+		<div id="answ84"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">Па</span></i></div>
+		<div id="answ85"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Н</i></span></div>
+	<span id="num">9.</span><div id="ques9" class="qu">
+		<p class="MsoNormal">
+		<span style="font-size: 14.0pt; font-family: Georgia">Чему равно 
+		значение нормального атмосферного давления (на уровне моря)?</span></div>
+		<div id="answ91"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>1Н</i></span></div>
+		<div id="answ92" class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>1Па</i></span></div>
+		<div id="answ93"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>760Н</i></span></div>
+		<div id="answ94"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">760 мм рт.ст</span></i></div>
+		<div id="answ95"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>120Па</i></span></div>
+	<span id="num">10.</span><div id="ques10" class="qu">
+		<p class="MsoNormal">
+		<span style="font-size: 14.0pt; font-family: Georgia">На поверхности 
+		воды плавает деревянный брусок массой 50 г. Чему равна выталкивающая 
+		сила, действующая на брусок, и куда она направлена?</span></div>
+		<div id="answ101"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>
+			Выталкивающей силы нет.</i></span></div>
+		<div id="answ102" class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>0,5Н; вниз.</i></span></div>
+		<div id="answ103"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>500Н; 
+			вверх.</i></span></div>
+		<div id="answ104"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>0,5Н; вверх</i>.</span></div>
+		<div id="answ105"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>50Н; вниз</i>.</span></div>
+		</div>
+</body>
+</html>

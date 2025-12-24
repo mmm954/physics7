@@ -1,0 +1,390 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Сила трения</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="24.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ span.podzag81
+	{font-family:"Times New Roman";
+	color:#0066FF;
+	font-weight:bold}
+table.MsoTableGrid
+	{border:1.0pt solid windowtext;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	}
+span.podzag71
+	{font-family:"Times New Roman";
+	color:#009900;
+	font-weight:bold}
+</style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]--><!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</head>
+<body onload="FP_preloadImgs(/*url*/'button9.jpg',/*url*/'button8.jpg')"><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font color="#000080"><b><span style="font-family: Calibri">§ 24. 
+		Сила трения</span></b></font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<p class="MsoNormal" style="text-indent: 35.4pt; text-autospace: none; background: white">
+<font size="4"><font face="Georgia">Существует<b> </b></font>
+<span class="podzag81"><span style="color: windowtext; font-weight: normal">
+<font face="Georgia">несколько видов трения: </span>
+<span style="color: #000066; ">
+<i>трение скольжения</i>, <i>трение 
+покоя, вязкое трение</i></span><span style="color: windowtext; font-weight: normal">.</span></font></span><font face="Georgia"><i> </i>В 
+основе сил трения лежат силы взаимодействия молекул.</font></font><font face="Georgia"><b><font size="4"><br>
+&nbsp;</font></b></font></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<font face="Georgia"><b><i><font size="4">Трение покоя.</font></i><span style="color:lime"><font size="4">
+</font></span></b><span style="color: black"><font size="4">Если вы немного 
+наклоните стол, книга не соскальзывает со стола, причина этого — шероховатость 
+поверхности стола и обложки книги. Эта шероховатость может быть незаметна на 
+ощупь, но под микроскопом видно, что поверхность твердого тела напоминает горную 
+страну. Бесчисленные выступы цепляются друг за друга и не дают книге скользить.
+</font></span></font></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;</font></span></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;</font></span></p>
+<p class="MsoNormal" align="center" style="text-align: center; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1032" type="#_x0000_t75" style='width:276.75pt;
+ height:180pt'>
+ <v:imagedata src="24.files/image001.jpg" o:title="tren"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=369 height=240
+src="24.files/image002.jpg" v:shapes="_x0000_s1032"><![endif]></font></span></p>
+<p><font size="4" face="Georgia">&nbsp;</font></p>
+<p><font size="4"><font face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Сила трения покоя зависит от 
+того, </font><span class="podzag81">
+<span style="color: windowtext; font-weight:400">
+<font face="Georgia">с <i>какой силой прижимаются</i> </font></span></span>
+<font face="Georgia">друг к другу соприкасающиеся предметы. </font></font></p>
+<p><a href="demons/tren.html">
+<img border="0" id="img3" src="button7.jpg" height="30" width="150" alt="Демонстрация" fp-style="fp-btn: Linked Row 5; fp-orig: 0" fp-title="Демонстрация" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'button8.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button7.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'button9.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'button8.jpg')"></a></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Например, шкаф сдвинуть гораздо тяжелее, 
+чем книгу, лежащую на столе, потому что он сильнее прижимается к полу.</font></p>
+<div align="center">
+	<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none" id="table11">
+		<tr>
+			<td width="462" valign="top" style="width: 346.65pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" style="text-autospace: none">
+			<font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1031" type="#_x0000_t75" style='width:322.5pt;height:234.75pt'>
+ <v:imagedata src="24.files/image003.jpg" o:title="shkaf"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=430 height=313
+src="24.files/image004.jpg" v:shapes="_x0000_s1031"><![endif]></font></td>
+		</tr>
+	</table>
+</div>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<font face="Georgia"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Чтобы </font>
+<span style="color:black"><font size="4">передвинуть шкаф, вы действуете на него 
+силой, направленной горизонтально. При этом шкаф не сразу сдвигается с места. 
+Это происходит потому, что кроме силы, приложенной вами, на шкаф действует сила, 
+равная по модулю приложенной вами силе и направленная противоположно ей&nbsp; <i>— 
+сила трения покоя</i>.</font></span></font></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<font size="4" face="Georgia">&nbsp;</font><i><b><font size="4" face="Georgia"><u><font color="#000066">Сила 
+трения покоя</font></u><span style="color: black"> — </span></font></b>
+<font size="4" face="Georgia"><span style="color: black">это сила, действующая 
+на данное тело со стороны соприкасающегося с ним другого тела вдоль поверхности 
+соприкосновения тел в случае, когда тела покоятся относительно друг друга.</span></font></i></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<font size="4" face="Georgia">&nbsp;</font><span style="color: black"><font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Вы начинаете 
+толкать шкаф сильнее, а он продолжает оставаться на месте. Значит, одновременно 
+возрастает и сила трения покоя.</font></span></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<font face="Georgia"><span style="color: black"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Сила 
+трения покоя равна по модулю и направлена противоположно силе, приложенной к 
+телу параллельно поверхности соприкосновения его с другим телом.</font><i><font size="4">
+</font></i><font size="4">Если параллельно этой поверхности не приложено никаких 
+сил, то сила трения покоя равна нулю.</font></span></font></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<font size="4" face="Georgia">&nbsp;&nbsp;</font></p>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" align="right" style="border-collapse: collapse; border: medium none; margin-left: 6.75pt; margin-right: 6.75pt" id="table12">
+	<tr>
+		<td width="313" valign="top" style="width: 234.8pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" align="right" style="text-align: right">
+		<span style="color: black"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1030" type="#_x0000_t75" style='width:210.75pt;height:134.25pt'>
+ <v:imagedata src="24.files/image005.jpg" o:title="velosiped"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=281 height=179
+src="24.files/image006.jpg" v:shapes="_x0000_s1030"><![endif]></font></span></td>
+	</tr>
+</table>
+<p class="MsoNormal" style="text-align:justify"><font face="Georgia"><i><b>
+<span style="color: black"><font size="4">Трение скольжения</font></span></b></i><span style="color: black"><font size="4"><i>. 
+</i>При </font></span></font><font size="4" face="Georgia">
+<span style="color: black">
+скольжении одного тела по поверхности другого 
+между ними возникает сила </span><font color="#000066"> <b><i>трения скольжения.</i></b></font><span style="color: black">&nbsp; <i>Силой трения</i> 
+называют силу, которая мешает скольжению одного тела по поверхности другого. 
+Сила трения всегда направлена<i> <b>п</b></i></span><i><b><font color="#000066">ротивоположно</font></b></i><span style="color: black">
+направлению 
+проскальзывания рассматриваемого тела по поверхности другого. Например, при 
+резком торможении велосипеда его колеса проскальзывают вперед, значит, 
+действующая на них сила трения о дорогу направлена в противоположную сторону, то 
+есть назад. При скольжении рвутся молекулярные связи между молекулами на 
+поверхности брусков подобно тому, как у шероховатых поверхностей разрушаются 
+связи в самих бугорках. Разрыв молекулярных связей — вот то главное, чем 
+отличаются силы трения от сил упругости, при возникновении которых таких 
+разрывов не происходит.<i> </i>Из-за этого силы трения <b><i>з</i></b></span><b><i><font color="#000066">ависят от скорости</font></i></b><font color="#000066">.</font></font></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; При скольжении 
+одного тела по поверхности другого происходит «скалывание» бугорков, разрыв 
+молекулярных связей, не способных выдержать возросшую нагрузку. Именно из-за 
+такого «скалывания» трущиеся детали изнашиваются.</font></span></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Может быть, для 
+уменьшения силы трения нужно отполировать поверхности?&nbsp; До известной степени это 
+так. Шлифовка снижает, например, силу трения между двумя стальными брусками. Но 
+не беспредельно. При дальнейшем увеличении гладкости поверхностей сила трения 
+начинает увеличиваться!</font></span></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; При слишком 
+гладкой поверхности тела сблизятся настолько, что силы притяжения молекул 
+охватят значительную часть поверхности соприкосновения брусков. Эти силы начнут 
+препятствовать смещению брусков относительно друг друга, что приводит к 
+увеличению силы&nbsp; трения.</font></span></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;</font></span></p>
+<p class="MsoNormal" align="center" style="text-align: center; text-autospace: none; background: white">
+<font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1029" type="#_x0000_t75" style='width:276.75pt;height:180pt'>
+ <v:imagedata src="24.files/image007.jpg" o:title="Копия tren"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=369 height=240
+src="24.files/image008.jpg" v:shapes="_x0000_s1029"><![endif]></font></p>
+<p style="text-align:justify"><font size="4"><font face="Georgia">Силу трения 
+можно измерить при помощи динамометра. &nbsp;При</font><span class="podzag81"><span style="color: windowtext"><font face="Georgia">
+</font></span><font face="Georgia">
+<span style="color: windowtext; font-weight: normal">равномерном</span></font><span style="color: windowtext"><font face="Georgia">
+</font></span></span><font face="Georgia">движении тела динамометр показывает 
+силу тяги, равную силе трения. Единица измерения силы трения в СИ (как и любой 
+другой силы) — 1 Ньютон.</font></font></p>
+<div align="center">
+	<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none" id="table13">
+		<tr>
+			<td width="476" valign="top" style="width: 357.1pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p align="center" style="text-align:center">
+			<font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1028" type="#_x0000_t75" style='width:333pt;height:243pt'>
+ <v:imagedata src="24.files/image009.jpg" o:title="din3"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=444 height=324
+src="24.files/image010.jpg" v:shapes="_x0000_s1028"><![endif]></font></td>
+		</tr>
+	</table>
+</div>
+<p><font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Как и в случае трения покоя, сила 
+трения скольжения зависит от того, <i>с какой силой прижимаются</i> друг 
+к другу соприкасающиеся предметы. Трение всегда тормозит движение. </font></p>
+<p class="podzag9"><span style="color: windowtext">
+<font size="4" face="Georgia"><i><b>Трение качения.</b></i> </font></span>
+<font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Как легче перемещать предметы — тащить 
+или катить? Посмотрите на мальчика, который перемещает бочку. В первом случае он 
+тащит её, во втором — катит.</font></p>
+<div align="center">
+	<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none" id="table14">
+		<tr>
+			<td width="480" valign="top" style="width: 360.3pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p align="center" style="text-align:center">
+			<font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1027" type="#_x0000_t75" style='width:341.25pt;height:168pt'>
+ <v:imagedata src="24.files/image011.jpg" o:title="trenie"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=455 height=224
+src="24.files/image012.jpg" v:shapes="_x0000_s1027"><![endif]></font></td>
+		</tr>
+	</table>
+</div>
+<p><font size="4" face="Georgia">&nbsp;</font></p>
+<p><font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Чтобы поддерживать качение, нужно 
+прикладывать гораздо <i>меньшую</i> силу, чем для поддержания скольжения 
+с той же скоростью. Поэтому понятно, что во втором случае ему намного легче.</font></p>
+<div align="right">
+	<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none" id="table15">
+		<tr>
+			<td width="657" valign="top" style="width: 492.7pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p align="center" style="text-align:center">
+			<font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1026" type="#_x0000_t75" style='width:293.25pt;height:193.5pt'>
+ <v:imagedata src="24.files/image013.jpg" o:title="trenie1"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=391 height=258
+src="24.files/image013.jpg" v:shapes="_x0000_s1026"><![endif]></font></td>
+		</tr>
+	</table>
+</div>
+<p class="podzag9" style="margin:0cm;margin-bottom:.0001pt">
+<font face="Georgia"><font size="4">&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font><span style="color: windowtext; font-weight: normal">
+<font size="4">Сила трения качения в десятки раз меньше, чем сила трения 
+скольжения.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Во вращающихся частях механизмов применяется подшипник качения, или
+</font></span></font><span class="podzag81"><i><span style="color: #000066">
+<font face="Georgia" size="4">шариковый подшипник</font></span></i><span style="color: windowtext"><font face="Georgia" size="4">.
+</font></span></span></p>
+<div align="center">
+	<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none" id="table16">
+		<tr>
+			<td width="270" valign="top" style="width: 202.8pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="podzag9" align="center" style="margin:0cm;margin-bottom:.0001pt;
+  text-align:center"><span style="color: windowtext; font-weight: normal">
+			<font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1025" type="#_x0000_t75" style='width:177.75pt;height:177.75pt'>
+ <v:imagedata src="24.files/image014.jpg" o:title="pod"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=237 height=237
+src="24.files/image014.jpg" v:shapes="_x0000_s1025"><![endif]></font></span><span class="podzag81"></span></td>
+		</tr>
+	</table>
+</div>
+<p class="podzag9" style="margin:0cm;margin-bottom:.0001pt">
+<span class="podzag81"><span style="color: windowtext">
+<font size="4" face="Georgia">&nbsp;</font></span></span></p>
+<p class="podzag9" style="margin:0cm;margin-bottom:.0001pt;text-align:justify">
+<span style="color: windowtext; font-weight: normal">
+<font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Подшипник состоит из двух колец. Одно из 
+них — внутреннее — плотно насажено на ось и вращается вместе с ней. Наружное же 
+кольцо закреплено в корпусе машины. Между кольцами находятся</font></span><span class="podzag71"><span style="color: windowtext"><font size="4" face="Georgia"> 
+<span style="font-weight: 400"><i>стальные шарики.</i></span> </font></span></span>
+<span style="color: windowtext; font-weight: normal">
+<font size="4" face="Georgia">При кручении подшипника шарики катятся по канавкам 
+в кольцах.</font></span></p>
+<p class="podzag9" style="margin:0cm;margin-bottom:.0001pt;text-align:justify">
+<span style="color: windowtext; font-weight: normal">
+<font size="4" face="Georgia"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></span><span class="podzag71">
+<font face="Georgia" size="4"><i><font color="#000066">Вязкое</font></i><span style="color: windowtext">
+<span style="font-weight: 400">(</span></span></font><font face="Georgia"><span style="color: windowtext; font-weight: normal"><font size="4">иначе</font></span></font><font face="Georgia" size="4"><span style="color: windowtext"> </span>
+<font color="#000066">жидкое</font><span style="color: windowtext"><span style="font-weight: 400">)</span>
+<span style="font-weight: 400">трение</span></span></font></span><font size="4" face="Georgia"><span style="color: windowtext; "> </span><span style="color: windowtext; font-weight: normal">возникает при движении твёрдых тел в жидкой или газообразной среде,&nbsp; или когда 
+жидкость или газ текут мимо неподвижных твёрдых тел.<br>
+&nbsp;</span></font></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><font size="4" face="Georgia">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Способы уменьшения силы трения:</font></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><font size="4" face="Georgia">&nbsp;</font></p>
+<p style="text-indent: -18.0pt; margin-left: 36.0pt; margin-right: 0cm; margin-top: 0cm; margin-bottom: .0001pt">
+<font size="4"><span style="font-family: Georgia">·</span></font><span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Georgia"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></span><font size="4" face="Georgia">шлифовка трущихся поверхностей;</font></p>
+<p style="text-indent: -18.0pt; margin-left: 36.0pt; margin-right: 0cm; margin-top: 0cm; margin-bottom: .0001pt">
+<font size="4"><span style="font-family: Georgia">·</span></font><span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Georgia"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></span><font size="4" face="Georgia">применение смазки; </font></p>
+<p style="text-indent: -18.0pt; margin-left: 36.0pt; margin-right: 0cm; margin-top: 0cm; margin-bottom: .0001pt">
+<font size="4"><span style="font-family: Georgia">·</span></font><span style="font-style: normal; font-variant: normal; font-weight: normal; font-family: Georgia"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font></span><font size="4" face="Georgia">замена трения скольжения трением 
+качения. </font></p>
+<p style="margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;
+margin-bottom:.0001pt;text-align:justify"><font size="4" face="Georgia">&nbsp;</font></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<font size="4"><font face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Также сила трения зависит </font>
+<span class="podzag71"><font face="Georgia" color="#000000"><i>
+<span style="font-weight: 400">от материала 
+соприкасающихся поверхностей.</span></i> <span style="font-weight: normal">Например, вы</span>
+</font></span><font face="Georgia">легко скользите на коньках по льду. А 
+попробуйте покататься на коньках по бетону!<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></font><font face="Georgia">
+<span style="color: black"><font size="4">Но всегда ли 
+трение вредно и его нужно уменьшать? Иногда трение может быть полезным. Без 
+трения покоя мы с вами не могли бы ходить по земле, так как при ходьбе мы 
+отталкиваемся ногами от земли. Вспомните, как тяжело ходить в гололед!&nbsp; Не будь 
+трения, все предметы выскальзывали бы из рук. Без трения мы не могли бы 
+застегнуть пуговицы, не могли бы сидеть на стуле, все предметы скатились бы в 
+один угол. Поэтому</font></span><font size="4">,</font><span style="color:black"><font size="4"> 
+когда трение полезно, его стараются увеличить. Например, чтобы было хорошее 
+сцепление с дорогой, поверхность шин у автомобиля делают с ребристыми выступами.
+</font></span></font></p>&nbsp;<p><font face="Calibri">Метки: динамометр, трение, сила, шариковый 
+подшипник</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

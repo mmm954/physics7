@@ -1,0 +1,152 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Поршневой жидкостный насос</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="48.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ table.MsoTableGrid
+	{border:1.0pt solid windowtext;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	}
+</style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]-->
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+<!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+
+</head>
+<body onload="FP_preloadImgs(/*url*/'button269.jpg', /*url*/'button270.jpg', /*url*/'button446.jpg', /*url*/'button447.jpg')"><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font color="#000066"><b>
+		<span lang="KZ" style="font-family: Calibri">§</span><span style="font-family: Calibri">48.</span></b></font><font face="Calibri" color="#000080"> 
+		Поршневой жидкостный насос</font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<span style="color:black"><font size="4" face="Georgia">Под действием атмосферного давления 
+вода поднимается за </font> </span><font face="Georgia">
+<span style="color:black"><font size="4">поршнем. На этом основано действие 
+</font></span> <i>
+<font size="4"><font color="#000066"><b>поршневых насосов</b></font><span style="color:black">.</span></font></i></font></p>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" align="left" style="border-collapse: collapse; border: medium none; margin-left: 6.75pt; margin-right: 6.75pt" id="table11">
+	<tr>
+		<td width="191" valign="top" style="width: 143.4pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" style="text-autospace: none">
+		<span style="color:black"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1025" type="#_x0000_t75" style='width:115.5pt;
+ height:286.5pt'>
+ <v:imagedata src="48.files/image001.jpg" o:title="nasos"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=154 height=382
+src="48.files/image002.jpg" v:shapes="_x0000_s1025"><![endif]></font></span></td>
+	</tr>
+</table>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color:black"><font size="4" face="Georgia">Насос схематически изображен на 
+рисунке. &nbsp;Он состоит из цилиндра, внутри которого ходит вверх и вниз плотно 
+прилегающий к стенкам поршень <i>1. </i>В нижней части цилиндра и в самом поршне 
+установлены клапаны 2, открывающиеся только вверх. При движении поршня вверх 
+вода под действием атмосферного давления входит в трубу, поднимает нижний клапан 
+и движется за поршнем. При движении поршня вниз вода, находящаяся под поршнем, 
+давит на нижний клапан, и он закрывается. Одновременно под давлением воды 
+открывается клапан внутри поршня, и вода переходит в пространство над поршнем. 
+При последующем движении поршня вверх вместе с ним поднимается и находящаяся над 
+ним вода, которая и выливается в отводящую трубу. Одновременно за поршнем 
+поднимается новая порция воды, которая при последующем опускании поршня окажется 
+над ним, и т. д.</font></span></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<a href="demons/nasos.html">
+<img border="0" id="img15" src="button448.jpg" height="30" width="150" alt="Демонстрация" onmouseover="FP_swapImg(1,0,/*id*/'img15',/*url*/'button446.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img15',/*url*/'button448.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img15',/*url*/'button447.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img15',/*url*/'button446.jpg')" fp-style="fp-btn: Linked Row 5" fp-title="Демонстрация"></a></p>
+<a href="z48_1/test.htm">
+<img border="0" id="img1" src="button271.jpg" height="30" width="150" alt="Задача" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button269.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button271.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button270.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button269.jpg')" fp-style="fp-btn: Linked Row 7" fp-title="Задача"></a><p><font face="Calibri">Метки: поршневой жидкостный насос</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

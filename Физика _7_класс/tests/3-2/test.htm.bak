@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Тест</title>
+<link rel="stylesheet" href="test.css" type="text/css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="test.js" encoding="utf-8"></script>
+<style>
+<!--
+ p.MsoNormal
+	{mso-style-parent:"";
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	margin-left:0cm; margin-right:0cm; margin-top:0cm}
+-->
+</style>
+</head>
+<body id="body">
+<div id="cool">	
+	<span id="num">1.</span><div id="ques1" class="qu">
+		<p class="MsoNormal"><span style="font-size:14.0pt;font-family:Georgia">
+		Какую массу имеет тело весом 9,8<i>Н</i>?</span></div>
+		<div id="answ11"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>9,8 кг</i></span></div>
+		<div id="answ12"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>98 кг</i></span></div>
+		<div id="answ13"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>0,98 кг</i></span></div>
+		<div id="answ14"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">1 кг</span></i></div>
+		<div id="answ15"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>10 кг</i></span></div>
+	<span id="num">2.</span><div id="ques2" class="qu">
+		<p class="MsoNormal">
+		<span style="font-size: 14.0pt; font-family: Georgia">Чему равен вес 10 
+		м<sup>3</sup> воздуха? Плотность воздуха 1,3 кг/м<sup>3 </sup>.</span></div>
+		<div id="answ21"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Воздух 
+			невесом</i></span></div>
+		<div id="answ22"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>≈ 1,3 Н</i></span></div>
+		<div id="answ23"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>≈ 13 Н</i></span></div>
+		<div id="answ24"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">≈ 130 Н</span></i></div>
+		<div id="answ25"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>≈1300 Н</i></span></div>
+	<span id="num">3.</span><div id="ques3" class="qu">
+		<span style="font-size: 14.0pt; font-family: Georgia">Чему равна сила 
+		тяжести, действующая на тело массой 20 кг?</span></div>
+		<div id="answ31"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>1960Н</i></span></div>
+		<div id="answ32"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>0,196Н</i></span></div>
+		<div id="answ33"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>19,6Н</i></span></div>
+		<div id="answ34"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>196Н</i></span></div>
+		<div id="answ35"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>0,49Н</i></span></div>
+	<span id="num">4.</span><div id="ques4" class="qu">
+		<p class="MsoNormal">
+		<span style="font-size: 14.0pt; font-family: Georgia">В результате 
+		деформации сжатия длина пружины уменьшилась. Как при этом изменилась 
+		сила упругости?</span></div>
+		<div id="answ41"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>
+			Уменьшилась.</i></span></div>
+		<div id="answ42"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Не 
+			изменилась</i>.</span></div>
+		<div id="answ43"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Сначала 
+			уменьшилась, затем увеличилась.</i></span></div>
+		<div id="answ44"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">Увеличилась.</span></i></div>
+		<div id="answ45"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Другой 
+			ответ. </i></span></div>
+	<span id="num">5.</span><div id="ques5" class="qu">
+		<span style="font-size: 14.0pt; font-family: Georgia">Какая сила 
+		заставляет все тела падать на поверхность Земли?</span></div>
+		<div id="answ51"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Сила 
+			трения.</i></span></div>
+		<div id="answ52"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Вес тела.</i></span></div>
+		<div id="answ53"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Сила 
+			упругости.</i></span></div>
+		<div id="answ54"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">Сила тяготения 
+			(сила тяжести).</span></i></div>
+		<div id="answ55"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Архимедова 
+			сила.</i></span></div>
+	<span id="num">6.</span><div id="ques6" class="qu">
+		<p class="MsoNormal">
+		<span style="font-size: 14.0pt; font-family: Georgia">На брусок 
+		действует горизонтальная сила, равная 1,5 Н, при этом он движется 
+		равномерно. Чему равна сила трения скольжения?</span><span style="font-size:14.0pt;font-family:Georgia">&nbsp;</span></div>
+		<div id="answ61"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>0</i></span></div>
+		<div id="answ62"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>0,5 Н</i></span></div>
+		<div id="answ63"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>1 Н</i></span></div>
+		<div id="answ64"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>1,5</i> <i>
+			Н</i></span></div>
+		<div id="answ65"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>2</i> <i>Н</i></span></div>
+	<span id="num">7.</span><div id="ques7" class="qu">
+		<span style="font-size: 14.0pt; font-family: Georgia">Выберите из 
+		предложенных формул закон Гука.</span></div>
+		<div id="answ71"  class="an">
+			<span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">
+			<i>F</i> = <i>mg</i></span></div>
+		<div id="answ72"  class="an"><i>
+			<span style="font-size:14.0pt;
+font-family:Georgia">υ</span></i><span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia"> 
+			= <i>S/t</i></span></div>
+		<div id="answ73"  class="an"><i>
+			<span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">F</span><span lang="EN-US" style="font-size:14.0pt;font-family:Georgia">
+			</span></i><span style="font-size:14.0pt;font-family:Georgia">= <i>μ·</i></span><i><span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">N</span></i></div>
+		<div id="answ74"  class="an">
+			<span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">
+			<i>F</i> = -<i>k·x</i></span></div>
+		<div id="answ75"  class="an"><i>
+			<span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">p</span></i><span style="font-size:14.0pt;font-family:Georgia"> 
+			= </span><i>
+			<span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">F</span><span style="font-size:14.0pt;font-family:Georgia">/</span><span lang="EN-US" style="font-size: 14.0pt; font-family: Georgia">S</span></i></div>
+	<span id="num">8.</span><div id="ques8" class="qu">
+		<p class="MsoNormal">
+		<span style="font-size: 14.0pt; font-family: Georgia">Изменение формы 
+		или размеров тела называют…</span><span style="font-size:14.0pt;font-family:Georgia">&nbsp;</span></div>
+		<div id="answ81"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Инерцией.</i></span></div>
+		<div id="answ82" class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Диффузией.</i></span></div>
+		<div id="answ83"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Скоростью.</i></span></div>
+		<div id="answ84"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">Деформацией.</span></i></div>
+		<div id="answ85"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Массой.</i></span></div>
+	<span id="num">9.</span><div id="ques9" class="qu">
+		<span style="font-size: 14.0pt; font-family: Georgia">Если после 
+		прекращения действия силы тело полностью восстанавливает свою форму и 
+		размеры, такую деформацию называют </span></div>
+		<div id="answ91"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Нулевой.</i></span></div>
+		<div id="answ92" class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>
+			Естественной.</i></span></div>
+		<div id="answ93"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>
+			Пластической.</i></span></div>
+		<div id="answ94"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">Упругой.</span></i></div>
+		<div id="answ95"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Формальной.</i></span></div>
+	<span id="num">10.</span><div id="ques10" class="qu">
+		<p class="MsoNormal">
+		<span style="font-size: 14.0pt; font-family: Georgia">Силу, с которой 
+		тело действует на опору или подвес называют</span></div>
+		<div id="answ101"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Опорной 
+			силой.</i></span></div>
+		<div id="answ102" class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Массой 
+			тела.</i></span></div>
+		<div id="answ103"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Силой 
+			тяжести.</i></span></div>
+		<div id="answ104"  class="an"><i>
+			<span style="font-size: 14.0pt; font-family: Georgia">Весом тела.</span></i></div>
+		<div id="answ105"  class="an">
+			<span style="font-size: 14.0pt; font-family: Georgia"><i>Силой 
+			упругости.</i></span></div>
+		</div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Тестирование по физике</title>
+<meta name="Физика" content="Подготовка к ЕНТ" />
+<link rel="stylesheet" type="text/css" title="mymenu" href="css/style.css" />
+</head>
+
+<body>
+
+<div id="container">
+	<a href="http://fizikatest.ucoz.ru" id="namelink">
+	<div id="logo"><img src="imgs/logo_large.jpg" width="90" height="90" /></div>
+	<div id="nameline">Подготовка к ЕНТ по физике on-line</div></a>
+	
+<ul id="menu">
+	<li><a href="#">Тесты</a>
+		<ul id="tests">
+			<li><a href="#">Тематические</a>
+				<ul id="thematic">
+						<li><a href="#nogo4">Кинематика</a></li>
+						<li><a href="#nogo5">Динамика</a></li>
+						<li><a href="#nogo6">Законы сохранения</a></li>
+						<li><a href="#nogo6">Основы МКТ</a></li>
+						<li><a href="#nogo6">Термодинамика</a></li>
+						<li><a href="#nogo6">Свойства жидких и твердых тел</a></li>
+						<li><a href="#nogo6">Электростатика</a></li>
+						<li><a href="#nogo6">Законы постоянного тока</a></li>
+						<li><a href="#nogo6">Магнитное поле</a></li>
+						<li><a href="#nogo6">Электрический ток в различных средах</a></li>
+						<li><a href="#nogo6">Механические колебания</a></li>
+						<li><a href="#nogo6">Электромагнитные колебания</a></li>
+						<li><a href="#nogo6">Механические волны</a></li>
+						<li><a href="#nogo6">Электромагнитные волны</a></li>
+						<li><a href="#nogo6">Геометрическая оптика</a></li>
+						<li><a href="#nogo6">Световые волны</a></li>
+						<li><a href="#nogo6">Элементы теории относительности</a></li>
+						<li><a href="#nogo6">Световые кванты</a></li>
+						<li><a href="#nogo6">Атомная физика</a></li>
+						<li><a href="#nogo6">Физика атомного ядра</a></li>
+				</ul>
+			</li>
+			<li id="comp"><a href="complex.html">Комплексные</a></li>
+		</ul>
+	</li>
+	<div class="border">1</div>
+	<li><a href="#">Задачи</a>
+		<ul id="tasks">
+						<li><a href="#nogo4">Кинематика</a></li>
+						<li><a href="#nogo5">Динамика</a></li>
+						<li><a href="#nogo6">Законы сохранения</a></li>
+						<li><a href="#nogo6">Основы МКТ</a></li>
+						<li><a href="#nogo6">Термодинамика</a></li>
+						<li><a href="#nogo6">Свойства жидких и твердых тел</a></li>
+						<li><a href="#nogo6">Электростатика</a></li>
+						<li><a href="#nogo6">Законы постоянного тока</a></li>
+						<li><a href="#nogo6">Магнитное поле</a></li>
+						<li><a href="#nogo6">Электрический ток в различных средах</a></li>
+						<li><a href="#nogo6">Механические колебания</a></li>
+						<li><a href="#nogo6">Электромагнитные колебания</a></li>
+						<li><a href="#nogo6">Механические волны</a></li>
+						<li><a href="#nogo6">Электромагнитные волны</a></li>
+						<li><a href="#nogo6">Геометрическая оптика</a></li>
+						<li><a href="#nogo6">Световые волны</a></li>
+						<li><a href="#nogo6">Элементы теории относительности</a></li>
+						<li><a href="#nogo6">Световые кванты</a></li>
+						<li><a href="#nogo6">Атомная физика</a></li>
+						<li><a href="#nogo6">Физика атомного ядра</a></li>
+		</ul>
+	</li>
+	<div class="border">1</div>
+	<li><a href="about.html">Об авторе</a></li>
+	<div class="border">1</div>
+	<li><a href="contacts.html">Контакты</a></li>
+</ul>
+
+<div id="text"><p>Этот сайт посвящён тестированию по физике с возможностью пройти тесты on-line. Прохождение пробных тестов и решение предложенных заданий помогут сдать ЕНТ по физике легко и набрать выокие баллы. Особенность представленных тестов в том, что задания регулярно меняются, поэтому Вам понадобятся хорошие школьные знания. Тесты делятся на <strong>Тематические</strong>, где представлены задания только из выбранного раздела, и <strong>Комплексные</strong>, содержащие задания из всего курса физики. Некоторые задания, встречающиеся в тестах, детально разбираются в разделе <strong>Задачи</strong>, где они разделены по темам.</p>
+<p>На сайте представлены все темы, которые утверждены Министерством образования и науки Республики Казахстан.</p>
+</div>
+<div id="ads"></div>
+<div id="footer">Физика 2010</div>
+</div>
+
+</body>
+</html>

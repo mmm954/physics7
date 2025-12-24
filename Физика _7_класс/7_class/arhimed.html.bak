@@ -1,0 +1,87 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Архимед</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ </style>
+
+</head>
+<body><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font face="Calibri" color="#000080">Архимед</font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<font face="Georgia" size="4"><img border="0" src="arhime1.gif" align="right"><br>
+Архимед (287 до н. э. — 212 до н. э.) — древнегреческий математик, физик, 
+механик и инженер из Сиракуз. Сделал множество открытий в геометрии. Заложил 
+основы механики, гидростатики, автор ряда важных изобретений.<br>
+&nbsp;</font><p><font face="Georgia" size="4">Архимед родился в Сиракузах, 
+греческой колонии на острове Сицилия. Отцом Архимеда был математик и астроном 
+Фидий, состоявший, как утверждает Плутарх, в близком родстве с Гиероном, тираном 
+Сиракуз. Отец привил сыну с детства любовь к математике, механике и астрономии. 
+Для обучения Архимед отправился в Александрию Египетскую — научный и культурный 
+центр того времени.</font></p>
+<p><font face="Georgia" size="4">Уже при жизни Архимеда вокруг его имени 
+создавались легенды, поводом для которых служили его поразительные изобретения, 
+производившие ошеломляющее действие на современников. Известен рассказ о том, 
+как Архимед сумел определить, сделана ли корона царя Гиерона из чистого золота 
+или ювелир подмешал туда значительное количество серебра. Удельный вес золота 
+был известен, но трудность состояла в том, чтобы точно определить объём короны: 
+ведь она имела неправильную форму! Архимед всё время размышлял над этой задачей. 
+Как-то он принимал ванну, и тут ему пришла в голову блестящая идея: погружая 
+корону в воду, можно определить её объём, измерив объём вытесненной ею воды. 
+Согласно легенде, Архимед выскочил голый на улицу с криком «Эври&shy;ка!» (εύρηκα), 
+то есть «Нашёл!». В этот момент был открыт основной закон гидростатики: закон 
+Архимеда.<br>
+<br>
+Другая легенда рассказывает, что построенный Гиероном в подарок египетскому царю 
+Птолемею тяжёлый многопалубный корабль «Сиракузия» никак не удавалось спустить 
+на воду. Архимед соорудил систему блоков (полиспаст), с помощью которой он смог 
+проделать эту работу одним движением руки. По легенде, Архимед заявил при этом: 
+«Будь в моём распоряжении другая Земля, на которую можно было бы встать, я 
+сдвинул бы с места нашу» (в другом варианте: «Дайте мне точку опоры, и я сдвину 
+Землю»).</font></p>
+<p><font face="Georgia" size="4">По рассказу Иоанна Цеца в разгар боя 75-летний 
+Архимед сидел на пороге своего дома, углублённо размышляя над чертежами, 
+сделанными им прямо на дорожном песке. В это время пробегавший мимо римский воин 
+наступил на чертёж, и возмущённый ученый бросился на римлянина с криком: «Не 
+тронь моих чертежей!» Солдат остановился и хладнокровно зарубил старика мечом.</font></p>
+<p>&nbsp;</td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

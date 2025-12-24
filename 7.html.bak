@@ -1,0 +1,295 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Международная система единиц</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ span.podzag81
+	{font-family:"Times New Roman";
+	color:#0066FF;
+	font-weight:bold}
+span.podzag71
+	{font-family:"Times New Roman";
+	color:#009900;
+	font-weight:bold}
+span.podzag91
+	{font-family:"Times New Roman";
+	color:#FF3300;
+	font-weight:bold}
+table.MsoTableGrid
+	{border:1.0pt solid windowtext;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	}
+</style>
+
+<script language="JavaScript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+</head>
+<body onload="FP_preloadImgs(/*url*/'button3.jpg', /*url*/'button2.jpg', /*url*/'button194.jpg', /*url*/'button195.jpg', /*url*/'buttonB5.jpg', /*url*/'buttonC5.jpg', /*url*/'button332.jpg', /*url*/'button333.jpg')"><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font color="#000080"><b>
+		<span lang="KZ" style="font-family: Calibri">§7.</span><span style="font-family: Calibri"> 
+		Международная система единиц</span></b></font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<p style="margin:0cm;margin-bottom:.0001pt;text-align:justify">
+<font size="4" face="Georgia">В древности у всех народов была собственная 
+система мер. Каждое, даже самое маленькое государство, каждый город стремились 
+измерять своими мерами. Это вносило большую неразбериху при учете ценностей и 
+особенно в торговле. Употреблялись такие единицы, как </font><font size="4">
+<span class="podzag81"><i><span style="color: windowtext; font-weight: normal">
+<font face="Georgia">локоть</font></span></i></span><font face="Georgia"><b> </b>
+— расстояние от локтя до кончиков пальцев, </font><i><font face="Georgia">с</font><span class="podzag71"><span style="color: windowtext; font-weight: normal"><font face="Georgia">ажень</font></span></span></i><font face="Georgia"> 
+— расстояние между концами пальцев широко расставленных рук взрослого мужчины,
+</font><i><font face="Georgia">к</font><span class="podzag91"><span style="color: windowtext; font-weight: normal"><font face="Georgia">осая 
+сажень</font></span></span></i><span class="podzag91"><span style="color: windowtext; font-weight: normal"><font face="Georgia">
+</font></span><span style="color: windowtext"><font face="Georgia">—</font></span></span><font face="Georgia"> 
+от подошвы ноги до конца пальцев вытянутой вверх руки (на Руси), </font>
+<span class="podzag91"><i><span style="color: windowtext; font-weight: normal">
+<font face="Georgia">дюйм</font></span></i><span style="color: windowtext"><font face="Georgia">
+</font></span></span><font face="Georgia">— ширина большого пальца, </font>
+<span class="podzag71"><i><span style="color: windowtext; font-weight: normal">
+<font face="Georgia">фут</font></span></i></span></font><font size="4" face="Georgia"><i>
+</i>— длина ступни (в Англии) и т.д. С развитием торговли&nbsp; пришлось 
+договариваться об общих единицах измерения.&nbsp; В 1875 г. большинством стран была 
+принята Метрическая система мер. А в 1960 г. на ее основе создана Международная 
+система единиц (</font><font face="Georgia"><span lang="EN-US"><font size="4">SI</font></span><font size="4"> 
+— </font><i><span lang="EN-US"><font size="4">System International</font></span></i><font size="4">), 
+которая принята в настоящее время во всем мире. </font></font></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><span class="podzag81">
+<span style="color: windowtext; font-weight: normal">
+<font face="Georgia" size="4">&nbsp;</font></span></span></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><span class="podzag81">
+<span style="color: windowtext; font-weight: normal">
+<font face="Georgia" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Основные единицы</font></span></span><font size="4" face="Georgia"> 
+измерений Международной системы единиц (</font><font size="4"><span class="podzag81"><i><span style="color: windowtext"><font face="Georgia">СИ</font></span></i></span><font face="Georgia"> 
+):<br>
+</font><span class="podzag91"><i>
+<span style="color: windowtext; font-weight: normal"><font face="Georgia">метр</font></span></i></span><font face="Georgia"><i> 
+(м)</i> — единица длины<br>
+</font><span class="podzag91"><i>
+<span style="color: windowtext; font-weight: normal"><font face="Georgia">
+секунда</font></span><span style="color: windowtext"><font face="Georgia">
+</font></span></i></span><font face="Georgia"><i>(с)</i> — единица времени<br>
+</font><span class="podzag91"><i>
+<span style="color: windowtext; font-weight: normal"><font face="Georgia">
+килограмм</font></span></i></span><font face="Georgia"><i> (кг)</i> — единица 
+массы<br>
+</font><span class="podzag91"><i>
+<span style="color: windowtext; font-weight: normal"><font face="Georgia">ампер</font></span></i></span><font face="Georgia"><i> 
+(А)</i> — единица силы электрического тока <br>
+</font><span class="podzag91"><i>
+<span style="color: windowtext; font-weight: normal"><font face="Georgia">
+кельвин</font></span><span style="color: windowtext"><font face="Georgia">
+</font></span></i></span><font face="Georgia"><i>(К)</i> — единица температуры<br>
+</font><span class="podzag91"><i>
+<span style="color: windowtext; font-weight: normal"><font face="Georgia">моль</font></span><span style="color: windowtext"><font face="Georgia">
+</font></span></i></span><font face="Georgia"><i>(моль)</i> — единица количества 
+вещества<br>
+</font><span class="podzag91"><i>
+<span style="color: windowtext; font-weight: normal"><font face="Georgia">
+кандела</font></span><span style="color: windowtext"><font face="Georgia">
+</font></span></i></span></font><font size="4" face="Georgia"><i>(кд.)</i> — 
+единица силы света.</font></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><font face="Georgia" size="4">
+<span lang="KZ">&nbsp;</span></font></p>
+<p style="margin:0cm;margin-bottom:.0001pt"><font face="Georgia" size="4">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Приставка <i>кило</i> обозначает <i>тысяча</i>, поэтому </font></p>
+<p class="MsoNormal" style="text-align:justify"><font face="Georgia" size="4">1
+<i>км</i> = 1000 <i>м</i></font></p>
+<p class="MsoNormal" style="text-align:justify"><font face="Georgia" size="4">1
+<i>киловольт</i> = 1000 <i>Вольт</i></font></p>
+<p class="MsoNormal" style="text-align:justify"><font face="Georgia" size="4">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Приставка <i>милли</i> обозначает <i>одну тысячную долю </i>единицы, 
+поэтому &nbsp;1<i>мм</i>=0,001 <i>м,&nbsp; </i>1 <i>мг</i> = 0,001 <i>г</i></font></p>
+<p class="MsoNormal" style="text-align:justify"><font face="Georgia" size="4">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Приставка <i>санти</i> обозначает <i>одну сотую долю еди</i>ницы, 
+поэтому 1 <i>см</i>=0,01 <i>м</i></font></p>
+<p align="center"><span style="font-family: Georgia"><font size="4">Десятичные 
+приставки</font></span></p>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none; margin-left: 23.4pt" id="table11">
+	<tr>
+		<td width="164" valign="top" style="width: 123.2pt; border: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font size="4" face="Calibri">Наименование приставки</font></td>
+		<td width="148" valign="top" style="width: 111.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: 1.0pt solid windowtext; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font size="4" face="Calibri">Обозначение</font></td>
+		<td width="200" valign="top" style="width: 149.8pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: 1.0pt solid windowtext; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font size="4" face="Calibri">Числовое </font></p>
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font size="4" face="Calibri">значение</font></td>
+		<td width="114" valign="top" style="width: 85.3pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: 1.0pt solid windowtext; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font size="4" face="Calibri">Краткая запись</font></td>
+	</tr>
+	<tr>
+		<td width="164" valign="top" style="width: 123.2pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">Гига</font></i></p>
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">Мега</font></i></p>
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">Кило</font></i></p>
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">Гекто</font></i></td>
+		<td width="148" valign="top" style="width: 111.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">Г</font></i></p>
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">М</font></i></p>
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">к</font></i></p>
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">г</font></i></td>
+		<td width="200" valign="top" style="width: 149.8pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font size="4" face="Calibri">1&nbsp;000&nbsp;000 000</font></p>
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font size="4" face="Calibri">1&nbsp;000&nbsp;000</font></p>
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font size="4" face="Calibri">1&nbsp;000</font></p>
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font size="4" face="Calibri">100</font></td>
+		<td width="114" valign="top" style="width: 85.3pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font face="Calibri"><font size="4">10</font><sup><font size="4">9</font></sup></font></p>
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font face="Calibri"><font size="4">10</font><sup><font size="4">6</font></sup></font></p>
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font face="Calibri"><font size="4">10</font><sup><font size="4">3</font></sup></font></p>
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font face="Calibri"><font size="4">10</font><sup><font size="4">2</font></sup></font></td>
+	</tr>
+	<tr>
+		<td width="164" valign="top" style="width: 123.2pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">Деци</font></i></p>
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">Санти</font></i></p>
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">Милли</font></i></p>
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">Микро</font></i></p>
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">Нано</font></i></p>
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">Пико</font></i></td>
+		<td width="148" valign="top" style="width: 111.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">д</font></i></p>
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">с</font></i></p>
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">м</font></i></p>
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">мк</font></i></p>
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">н</font></i></p>
+		<p class="MsoNormal" align="center" style="text-align:center"><i>
+		<font size="4" face="Calibri">п</font></i></td>
+		<td width="200" valign="top" style="width: 149.8pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font size="4" face="Calibri">0,1</font></p>
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font size="4" face="Calibri">0,01</font></p>
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font size="4" face="Calibri">0,001</font></p>
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font size="4" face="Calibri">0,000 001</font></p>
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font size="4" face="Calibri">0,000 000&nbsp;001</font></p>
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font size="4" face="Calibri">0,000 000 000 001</font></td>
+		<td width="114" valign="top" style="width: 85.3pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font face="Calibri"><font size="4">10</font><sup><font size="4">-1</font></sup></font></p>
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font face="Calibri"><font size="4">10</font><sup><font size="4">-2</font></sup></font></p>
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font face="Calibri"><font size="4">10</font><sup><font size="4">-3</font></sup></font></p>
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font face="Calibri"><font size="4">10</font><sup><font size="4">-6</font></sup></font></p>
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font face="Calibri"><font size="4">10</font><sup><font size="4">-9</font></sup></font></p>
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<font face="Calibri"><font size="4">10</font><sup><font size="4">-12</font></sup></font></td>
+	</tr>
+</table>
+<p style="margin:0cm;margin-bottom:.0001pt">&nbsp;</p>
+<p style="margin:0cm;margin-bottom:.0001pt"><a href="v7_1/test.htm">
+<img border="0" id="img3" src="button196.jpg" height="30" width="150" alt="Вопрос 1" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'button194.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button196.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'button195.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'button194.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос 1"></a></p>
+<p style="margin:0cm;margin-bottom:.0001pt">&nbsp;</p>
+<p style="margin:0cm;margin-bottom:.0001pt"><a href="v7_2/test.htm">
+<img border="0" id="img2" src="buttonA5.jpg" height="30" width="150" alt="Вопрос 2" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'buttonB5.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'buttonA5.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'buttonC5.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'buttonB5.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос 2"></a></p>
+<p class="MsoNormal" align="left">&nbsp;</td>
+</tr>
+<tr>
+<td align="justify">
+<a href="contr_2/test.htm">
+<img border="0" id="img9" src="button334.jpg" height="33" width="165" alt="Контрольная работа" onmouseover="FP_swapImg(1,0,/*id*/'img9',/*url*/'button332.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img9',/*url*/'button334.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img9',/*url*/'button333.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img9',/*url*/'button332.jpg')" fp-style="fp-btn: Linked Row 2" fp-title="Контрольная работа"></a><p>
+<font face="Calibri">Метки: метр, секунда, 
+килограмм, ампер, кельвин, моль, кандела, кило, милли, санти, Гига, Мега, микро, 
+нано, пико</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

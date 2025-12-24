@@ -1,0 +1,183 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Диффузия</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="36.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ </style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]-->
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+<!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+
+
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</head>
+<body onload="FP_preloadImgs(/*url*/'button305.jpg', /*url*/'button306.jpg', /*url*/'button307.jpg', /*url*/'button308.jpg')"><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font color="#000066"><b>
+		<span lang="KZ" style="font-family: Calibri">§</span><span style="font-family: Calibri">36</span><span lang="KZ" style="font-family: Calibri">. 
+		Диффузия</span></b></font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table width="704">
+<tr>
+<td align="justify">
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">Вы смотрите телевизор. 
+Из кухни донесся запах жареной картошки. Это значит, что в ваш нос попали 
+молекулы картошки. Распространение запахов происходит из-за того, что молекулы
+<i>непрерывно</i> <i>движутся.</i> В нашем случае молекулы картошки движутся 
+между молекулами воздуха. Из-за постоянных столкновений молекул друг с другом 
+это движение беспорядочное (или, как говорят, <i>хаотическое</i>). Чтобы 
+убедиться в том, что молекулы движутся, возьмите&nbsp; микроскоп с 600-кратным 
+увеличением, на предметное стекло поместите маленькую каплю молока, сверху 
+положите покровное стеклышко. &nbsp;Поместите препарат на столик микроскопа, и вы 
+сможете лично наблюдать, как молекулы «колотят» частички жира в капле молока.</font></span></p>
+<p class="MsoNormal" align="center" style="text-align: center; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1028" type="#_x0000_t75" style='width:401.25pt;
+ height:291.75pt'>
+ <v:imagedata src="36.files/image001.jpg" o:title="broun"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=535 height=389
+src="36.files/image001.jpg" v:shapes="_x0000_s1028"><![endif]></font></span></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;</font></span></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Впервые такое 
+хаотическое движение наблюдал английский ботаник Роберт Броун, и в честь него 
+это движение называется <i>броуновским</i>. Скорость этого хаотического движения 
+тем больше, чем больше температура тела, состоящего из этих молекул.</font></span></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;</font></span><b><i><font size="4" face="Georgia"><span style="color: black">&nbsp;</b>Явление, при котором 
+происходит взаимное проникновение молекул одного вещества между молекулами 
+другого, называют<b> </b></span><b><u><font color="#000066">диффузией.</font></u></b></font></i></p>
+<p class="MsoNormal" style="text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Вы положили 
+сахар в чай и размешали ложкой. Почти сразу же вода стала сладкой. Неужели 
+диффузия произошла так быстро? Попробуйте не размешивать сахар и ждите, когда 
+вода станет сладкой по всему объему. Вам придется ждать несколько дней!</font></span></p>
+<font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1027" type="#_x0000_t75" alt="" style='width:300.75pt;height:219pt;float:right'
+ wrapcoords="-60 0 -60 21518 21600 21518 21600 0 -60 0">
+ <v:imagedata src="36.files/image002.jpg" o:title="traekt"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=401 height=292
+src="36.files/image003.jpg" align=right v:shapes="_x0000_s1027"><![endif]></font><p class="MsoNormal" style="text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;</font></span><font face="Georgia"><font size="4"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1026" type="#_x0000_t75" style='position:absolute;margin-left:186pt;
+ margin-top:175.5pt;width:300.75pt;height:219pt;z-index:-1' wrapcoords="-60 0 -60 21518 21600 21518 21600 0 -60 0">
+ <v:imagedata src="36.files/image002.jpg" o:title="traekt"/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:-1;left:575px;top:1321px;width:401px;height:292px'><img
+width=401 height=292 src="36.files/image004.jpg" v:shapes="_x0000_s1026"></span><![endif]></font><span style="color: black"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Средняя скорость движения молекул приблизительно равна 400 м/с.&nbsp; Определим 
+скорость диффузии в газах. Для этого в одном конце комнаты прольем две-три капли 
+духов. Быстро бежим в другой конец комнаты и засекаем время от начала опыта до 
+момента, когда почувствуем запах. Скорость диффузии получим, разделив длину 
+комнаты на время, через которое мы почувствовали запах духов. &nbsp;Скорость диффузии 
+в газах получится около 1 см/с. Почему у нас получился такой результат? Дело в 
+том, что из-за постоянных столкновений с другими молекулами движение молекул 
+происходит не по прямой, а сложной ломаной линии. На рисунке показано, как 
+молекула может попасть из точки А в точку В. </font></span></font></p>
+<p class="MsoNormal" style="text-align: justify; text-autospace: none; background: white">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; В твердых телах 
+также происходит диффузия, но только очень медленно. При разборке старых зданий, 
+части которых были скреплены болтами, обнаружилось, что гайки невозможно 
+открутить. За десятки лет гайки и болты срослись, стали единым целым! Произошло 
+это благодаря диффузии.</font></span></p>
+<span style="font-family: Georgia; color: black"><font size="4">Процесс диффузии 
+ускоряется с повышением температуры. Это происходит потому, что с повышением 
+температуры увеличивается скорость движения молекул.</font></span>&nbsp;<p>
+<a href="v36_1/test.htm">
+<img border="0" id="img3" src="button309.jpg" height="30" width="150" alt="Вопрос 1" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'button305.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button309.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'button306.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'button305.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос 1"></a></p>
+<p><a href="v36_2/test.htm">
+<img border="0" id="img4" src="button310.jpg" height="30" width="150" alt="Вопрос 2" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'button307.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'button310.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'button308.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'button307.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос 2"></a></p>
+<p><font face="Calibri">Метки: диффузия, Роберт Броун, броуновское движение</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

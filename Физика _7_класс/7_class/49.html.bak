@@ -1,0 +1,340 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Архимедова сила</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="49.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ table.MsoTableGrid
+	{border:1.0pt solid windowtext;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	}
+ table.MsoNormalTable
+	{mso-style-parent:"";
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	}
+</style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]-->
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+<!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+
+</head>
+<body onload="FP_preloadImgs(/*url*/'button139.jpg', /*url*/'button140.jpg', /*url*/'button272.jpg', /*url*/'button273.jpg', /*url*/'button274.jpg', /*url*/'button275.jpg')"><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font color="#000066"><b>
+		<span lang="KZ" style="font-family: Calibri">§</span><span style="font-family: Calibri">49.</span></b></font><font face="Calibri" color="#000080"> 
+		Архимедова сила</font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<p class="MsoNormal" style="text-align: justify; text-indent: 1.0cm; background: white">
+<font face="Georgia"><span style="color: black; letter-spacing: -.15pt">
+<font size="4">Погрузите в воду теннисный мяч полностью и разожмите пальцы. Мяч
+</font></span><span style="color: black; letter-spacing: -.05pt"><font size="4">
+выпрыгивает из воды. Почему? Видимо, </font></span>
+<span style="color: black; letter-spacing: -.1pt"><font size="4">на мяч 
+подействовала сила, которая вытолкнула мяч из </font></span>
+<span style="color: black; letter-spacing: -.05pt"><font size="4">воды. Будем 
+называть ее </span><font color="#000066">
+<span style="letter-spacing: -.05pt; font-weight:700"> <i>выталкивающей силой</i></span></font><span style="color: black; letter-spacing: -.05pt">.</span></font></font></p>
+<p class="MsoNormal" style="text-align: justify; text-indent: 1.0cm; background: white">
+<font face="Georgia"><span style="color: black; letter-spacing: -.15pt">
+<font size="4">Опустим в тот же сосуд железный цилиндр, </font></span><em>
+<span style="color: black; letter-spacing: -.05pt; font-style: normal">
+<font size="4">он сразу утонет.</font></span></em><span style="color: black; letter-spacing: -.15pt"><font size="4"> 
+Действует ли </font></span><span style="color: black; letter-spacing: -.05pt">
+<font size="4">выталкивающая сила в этом случае?</font></span></font></p>
+<p class="MsoNormal" style="text-align: justify; text-indent: 1.0cm; background: white">
+<font face="Georgia"><span style="color: black; letter-spacing: -.15pt">
+<font size="4">Чтобы проверить это, подвесим наш железный цилиндр к </font>
+</span><span style="color: black"><font size="4">динамометру и пронаблюдаем за 
+стрелкой динамометра при погружении в </font>
+<span style="letter-spacing:-.05pt"><font size="4">воду. </font></span></span>
+</font></p>
+<p class="MsoNormal" style="text-align: justify; text-indent: 1.0cm; background: white">
+<span style="color: black; letter-spacing: -.05pt">
+<font size="4" face="Georgia">&nbsp;</font></span></p>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none; margin-left: 65.4pt" id="table11">
+	<tr>
+		<td width="241" valign="top" style="width: 180.95pt; border: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<span style="color: black; letter-spacing: -.05pt">
+		<font size="4" face="Georgia"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1034" type="#_x0000_t75" style='width:63.75pt;
+ height:191.25pt'>
+ <v:imagedata src="49.files/image001.jpg" o:title="arch1"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=85 height=255
+src="49.files/image002.jpg" v:shapes="_x0000_s1034"><![endif]></font></span></td>
+		<td width="231" valign="top" style="width: 173.05pt; border-left: medium none; border-right: 1.0pt solid white; border-top: 1.0pt solid white; border-bottom: 1.0pt solid white; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<span style="color: black; letter-spacing: -.05pt">
+		<font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1033" type="#_x0000_t75" style='width:66pt;height:195pt'>
+ <v:imagedata src="49.files/image003.jpg" o:title="arch2"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=88 height=260
+src="49.files/image004.jpg" v:shapes="_x0000_s1033"><![endif]></font></span></td>
+	</tr>
+</table>
+<p class="MsoNormal" style="text-align: justify; text-indent: 1.0cm; background: white">
+<span style="color: black; letter-spacing: -.05pt">
+<font size="4" face="Georgia">&nbsp;</font></span></p>
+<p class="MsoNormal" style="text-align: justify; text-indent: 1.0cm; background: white">
+<span style="color: black; letter-spacing: -.05pt">
+<font size="4" face="Georgia">Мы увидим, что при погружении тела в воду пружина 
+растягивается меньше, чем в воздухе; показание динамометра уменьшается! Значит, 
+выталкивающая сила действует и на те тела, которые тонут.</font></span></p>
+<p><em>
+<font size="4" face="Georgia"><span style="color: black; letter-spacing: -.1pt">
+На любые тела, погруженные в жидкость, действует<b> </b></span><b>
+<font color="#000066"><span style="letter-spacing: -.1pt">
+<u>выталкивающая сила,</u></span></font><span style="color: black; letter-spacing: -.1pt">
+</span></b><span style="color: black; letter-spacing: -.1pt">
+направленная вверх.</span></font></em></p>
+<p class="MsoNormal" style="text-align: justify"><span style="color: black">
+<font size="4" face="Georgia">Мы знаем, что к газам также применим закон 
+Паскаля. Поэтому на тела, находящиеся в газе, тоже действует выталкивающая 
+сила.&nbsp;&nbsp; </font></span></p>
+<p class="MsoNormal" style="text-align: justify"><span style="color: black">
+<font size="4" face="Georgia">Силу, выталкивающую тело из жидкости или газа, 
+называют </span><font color="#000066"><b> <i>архимедовой силой</i>,</b></font><span style="color: black">
+в честь древнегреческого ученого </span><font color="#000066"> <b><i>
+Архимеда,</i></b></font><span style="color: black">
+который впервые указал на ее существование и рассчитал 
+значение этой силы.</span></font></p>
+<p class="MsoNormal" style="text-align: justify"><font face="Georgia">
+<span style="color: black"><font size="4">По рисунку видно, что вес железного 
+цилиндра в воздухе равен 4<i>Н</i>. При погружении его в воду вес уменьшился до 
+3<i>Н</i>. Изменение веса Δ</font></span><i><span lang="EN-US" style="color: black"><font size="4">P
+</font></span></i><span style="color: black"><font size="4">равно:</font></span></font></p>
+<p class="MsoNormal" align="center" style="text-align: center">
+<span lang="EN-US" style="color: black">
+<span style="position: relative; top: 3.0pt"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1032" type="#_x0000_t75" style='width:128.25pt;height:18pt'>
+ <v:imagedata src="49.files/image005.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=171 height=24
+src="49.files/image006.gif" v:shapes="_x0000_s1032"><![endif]></font></span><!--[if gte mso 9]><![endif]--></span></p>
+<p class="MsoNormal" style="text-align: justify"><span style="color: black">
+<font size="4" face="Georgia">Почему изменился вес тела? Очевидно потому, что в 
+воде на него подействовала выталкивающая сила равная 1<i>Н</i>.&nbsp;&nbsp; </font></span>
+</p>
+<p class="MsoNormal" style="text-align: justify"><b><i>
+<span style="color: black"><font size="4" face="Georgia">&nbsp;</font></span></i></b><font face="Georgia"><i><span style="color: black"><font size="4">Причина изменения веса тел, 
+погруженных в жидкость или газ, – действие выталкивающей силы.</font></span></i><span style="color: black"><font size="4">
+</font></span></font></p>
+<p><span style="color: black"><font size="4" face="Georgia">Выясним, почему 
+возникает выталкивающая сила. <span style="letter-spacing:-.05pt">В сосуд с 
+водой опустим брусок в форме прямоугольного </span>параллелепипеда. </font>
+</span></p>
+<p align="center" style="text-align:center"><span style="color: black">
+<font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1031" type="#_x0000_t75" style='width:229.5pt;height:158.25pt'>
+ <v:imagedata src="49.files/image007.jpg" o:title="archimed"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=306 height=211
+src="49.files/image008.jpg" v:shapes="_x0000_s1031"><![endif]></font></span></p>
+<p><font face="Georgia"><span style="color: black"><font size="4">Силы, 
+действующие на брусок слева&nbsp; и справа, одинаковы, они сжимают брусок. Теперь 
+сравним давление на верхней и нижней гранях </font>
+<span style="letter-spacing:-.2pt"><font size="4">бруска. На верхнюю грань 
+бруска действует сила </font></span></span><i>
+<span lang="EN-US" style="color: black; letter-spacing: -.1pt"><font size="4">F</font></span></i><sub><span style="color: black; letter-spacing: -.1pt"><font size="4">1</font></span></sub><span style="color: black; letter-spacing: -.1pt"><font size="4">.
+</font></span><span style="color: black; letter-spacing: -.05pt"><font size="4">
+На нижнюю грань </font></span><span style="color: black"><font size="4">бруска в 
+соответствии с законом Паскаля передается давление, и вода действует на эту 
+грань снизу вверх с </font><span style="letter-spacing:-.1pt"><font size="4">
+силой </font></span></span><i>
+<span lang="EN-US" style="color: black; letter-spacing: -.1pt"><font size="4">F</font></span></i><sub><span style="color: black; letter-spacing: -.1pt"><font size="4">2</font></span></sub><span style="color: black; letter-spacing: -.1pt"><font size="4">.</font></span><span style="color: black; letter-spacing: -.3pt"><font size="4">&nbsp; 
+Так как столб воды </font></span><i>
+<span lang="EN-US" style="color: black; letter-spacing: -.3pt"><font size="4">h</font></span></i><sub><span style="color: black; letter-spacing: -.3pt"><font size="4">2</font></span></sub><span style="color: black; letter-spacing: -.3pt"><font size="4"> 
+больше, чем&nbsp; </font></span><i>
+<span lang="EN-US" style="color: black; letter-spacing: -.3pt"><font size="4">h</font></span></i><sub><span style="color: black; letter-spacing: -.3pt"><font size="4">1</font></span></sub><span style="color: black; letter-spacing: -.3pt"><font size="4">, 
+то&nbsp; </font></span><i>
+<span lang="EN-US" style="color: black; letter-spacing: -.1pt"><font size="4">F</font></span></i><sub><span style="color: black; letter-spacing: -.1pt"><font size="4">2
+</font></span></sub><span style="color: black; letter-spacing: -.1pt">
+<font size="4">&gt;</font></span><i><span lang="EN-US" style="color: black; letter-spacing: -.1pt"><font size="4">F</font></span></i><sub><span style="color: black; letter-spacing: -.1pt"><font size="4">1</font></span></sub><span style="color: black"><font size="4">. 
+Значит,&nbsp; в жидкости (или газе) существует выталкивающая сила, равная: </font>
+</span></font></p>
+<p align="center" style="text-align:center"><span style="color: black">
+<span style="position: relative; top: 6.0pt"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1030" type="#_x0000_t75" style='width:92.25pt;height:23.25pt'>
+ <v:imagedata src="49.files/image009.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=123 height=31
+src="49.files/image010.gif" v:shapes="_x0000_s1030"><![endif]></font></span><!--[if gte mso 9]><![endif]--></span></p>
+<p class="MsoNormal" style="text-align: justify"><span style="color: black">
+<font size="4" face="Georgia">Для вывода формулы, позволяющей определять силу 
+Архимеда, проделаем опыт с прибором, который называется «ведерко Архимеда». 
+Основные его части следующие: пружина со стрелкой – 1, ведерко – 2, тело – 3, 
+отливной сосуд – 4, стаканчик – 5. </font></span></p>
+<table class="MsoNormalTable" border="0" cellpadding="0" width="100%" style="width: 100.0%" id="table12">
+	<tr>
+		<td valign="top" style="padding:.75pt .75pt .75pt .75pt">
+		<p class="MsoNormal" align="center" style="text-align:center">
+		<span style="color: black"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1029" type="#_x0000_t75" style='width:393.75pt;height:166.5pt'>
+ <v:imagedata src="49.files/image011.jpg" o:title="vedro"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=525 height=222
+src="49.files/image012.jpg" v:shapes="_x0000_s1029"><![endif]></font></span></td>
+	</tr>
+</table>
+<p class="MsoNormal" style="text-align: justify"><span style="color: black">
+<font size="4" face="Georgia">Сначала пружину, ведерко и тело подвешивают к 
+штативу и отмечают положение стрелки меткой. Затем тело помещают в отливной 
+сосуд. По мере погружения тело вытесняет некоторый объем воды, который сливается 
+в стаканчик. Вес тела становится меньше, поэтому пружина сжимается, и стрелка 
+поднимается выше метки.</font></span></p>
+<p class="MsoNormal" style="text-align: justify"><span style="color: black">
+<font size="4" face="Georgia">Перельем воду, вытесненную телом, из стаканчика в 
+ведерко Разумеется, стрелка начнет опускаться вниз. Но самое удивительное в том, 
+что, когда вся вода будет перелита, стрелка не просто опустится вниз, а укажет 
+точно на метку! Значит, <i>вес влитой в ведерко воды уравновесил архимедову 
+силу.</i> В виде формулы этот вывод запишется так:</font></span></p>
+<p class="MsoNormal" align="center" style="text-align: center">
+<span style="color: black"><span style="position: relative; top: 6.0pt">
+<font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1028" type="#_x0000_t75" style='width:98.25pt;height:25.5pt'>
+ <v:imagedata src="49.files/image013.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=131 height=34
+src="49.files/image014.gif" v:shapes="_x0000_s1028"><![endif]></font></span><span style="font-size:13.0pt;color:black"><!--[if gte mso 9]><![endif]--></span></span><font face="Georgia"><font size="4"><span style="color: black">&nbsp;&nbsp;&nbsp;
+</span></font><span style="color: black"><font size="4">(1)</font></span></font></p>
+<p class="MsoNormal" style="text-align: justify"><span style="color: black">
+<font size="4" face="Georgia">где <i>Р</i><sub>жидкости</sub> – вес вытесненной 
+жидкости.</font></span></p>
+<p class="MsoNormal" style="text-align: justify"><span style="color: black">
+<font size="4" face="Georgia">Эта формула называется <i>законом Архимеда:</i>
+</font></span></p>
+<p class="MsoNormal" style="text-align: justify"><i>
+<span style="color: black"><font size="4" face="Georgia">выталкивающая сила, 
+действующая на тело в жидкости (или газе) равна </span><font color="#000066"><u>
+<b>весу жидкости (или газа)</b></u></font><span style="color: black">, 
+вытесненной этим телом, и направлена противоположно направлению веса.</span></font></i></p>
+<p class="MsoNormal"><font size="4" face="Georgia">Формула для вычисления 
+архимедовой силы имеет и другой вид. Мы знаем, что вес жидкости равен</font></p>
+<p class="MsoNormal" align="center"><font size="4" face="Georgia">&nbsp;</font><span style="position: relative; top: 6.0pt"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1027" type="#_x0000_t75" style='width:74.25pt;height:23.25pt'>
+ <v:imagedata src="49.files/image015.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=99 height=31
+src="49.files/image016.gif" v:shapes="_x0000_s1027"><![endif]></font></span><!--[if gte mso 9]><![endif]--><font size="4" face="Georgia">&nbsp;&nbsp; 
+(2)</font></p>
+<p class="MsoNormal"><font face="Georgia"><span style="color: black">
+<font size="4">где </font></span><i><span lang="EN-US" style="color: black">
+<font size="4">m</font></span></i><span lang="EN-US" style="color: black"><font size="4">
+</font></span><span style="color: black"><font size="4">– масса вытесненной 
+жидкости, равная:</font></span></font></p>
+<p class="MsoNormal" align="center" style="text-align:center">
+<span style="color: black"><span style="position: relative; top: 6.0pt">
+<font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1026" type="#_x0000_t75" style='width:77.25pt;height:24pt'>
+ <v:imagedata src="49.files/image017.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=103 height=32
+src="49.files/image018.gif" v:shapes="_x0000_s1026"><![endif]></font></span><span style="font-size:18.0pt;color:black"><!--[if gte mso 9]><![endif]--></span></span><font size="4" face="Georgia"><span style="color: black">&nbsp;&nbsp; 
+(3)</span></font></p>
+<p class="MsoNormal"><font face="Georgia"><i><span style="color: black">
+<font size="4">ρ</font></span></i><sub><span style="color: black"><font size="4">ж</font></span></sub><span style="color: black"><font size="4"> 
+– плотность жидкости, </font></span><i><span lang="EN-US" style="color: black">
+<font size="4">V</font></span></i><sub><span style="color: black"><font size="4">т</font></span></sub><span style="color: black"><font size="4"> 
+– объем тела, погруженного в жидкость.</font></span></font></p>
+<p class="MsoNormal"><span style="color: black"><font size="4" face="Georgia">
+Объединяя формулы 1, 2 и 3, получим: </font></span></p>
+<p class="MsoNormal" align="center"><span style="color: black"><font size="4" face="Georgia">&nbsp;</font><span style="position: relative; top: 6.0pt"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1025" type="#_x0000_t75" style='width:99pt;height:23.25pt'>
+ <v:imagedata src="49.files/image019.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=132 height=31
+src="49.files/image020.gif" v:shapes="_x0000_s1025"><![endif]></font></span><!--[if gte mso 9]><![endif]--></span></p>
+<p class="MsoNormal" align="center" style="text-align:left">
+<span style="color: black"><font size="4" face="Georgia">&nbsp;Следовательно, архимедова сила зависит от <i>плотности жидкости (газа),</i> и <i>
+объема</i> погруженного тела.</font></span></p><a href="v49_1/test.htm">
+<img border="0" id="img1" src="button141.jpg" height="30" width="150" alt="Вопрос" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button139.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button141.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button140.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button139.jpg')" fp-style="fp-btn: Linked Row 1" fp-title="Вопрос"></a><a href="z49_1/test.htm"><img border="0" id="img2" src="button276.jpg" height="30" width="150" alt="Задача 1" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'button272.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'button276.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'button273.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'button272.jpg')" fp-style="fp-btn: Linked Row 7" fp-title="Задача 1"></a><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="z49_2/test.htm">
+<img border="0" id="img3" src="button277.jpg" height="30" width="150" alt="Задача 2" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'button274.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button277.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'button275.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'button274.jpg')" fp-style="fp-btn: Linked Row 7" fp-title="Задача 2"></a></p>
+<p><font face="Calibri">Метки: выталкивающая сила, закон Архимеда</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

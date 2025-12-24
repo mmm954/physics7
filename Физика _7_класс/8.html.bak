@@ -1,0 +1,243 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Запись больших и малых чисел в стандартном виде</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="8.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ table.MsoTableGrid
+	{border:1.0pt solid windowtext;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	}
+</style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]--><!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+
+</head>
+<body><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p>
+		<p><font color="#000080"><b>
+		<span lang="KZ" style="font-family: Calibri"><font size="6">§8. </font>
+		</span><span style="font-family: Calibri"><font size="6">Запись больших 
+		и малых чисел в стандартном виде</font></span></b></font></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<p class="MsoBodyTextIndent" style="text-indent:35.4pt;line-height:normal">
+<font face="Georgia"><font size="4">В физике часто приходится иметь дела с очень 
+большими или очень малыми числами. Например, масса Земли — 
+5980000000000000000000000 кг, масса электрона равна 
+0,00000000000000000000000000000091 кг. Даже просто прочитать эти числа очень 
+сложно, а попробуйте перемножить или разделить их. Для того чтобы с ними было 
+удобно работать, такие числа нужно представлять в <font color="#000066"><b> <i>стандартном виде</i>.</b></font>
+</font><span style="color:#222222"><font size="4">Число считается записанным в 
+стандартном виде, если оно записано в виде:&nbsp; </font></span></font></p>
+<p class="MsoBodyTextIndent" style="text-indent:35.4pt;line-height:normal" align="center">
+<font face="Georgia"><span style="color: #222222"><font size="4">&nbsp;</font></span><b><i><font size="4">а
+</font></i><font size="4">· 10<i><sup>n</sup></i>,</font></b></font></p>
+<p class="MsoBodyTextIndent" style="text-indent:35.4pt;line-height:normal">
+<font size="4" face="Georgia">&nbsp;где 1 ≤ <i>a </i>&lt; 10. </font></p>
+<p class="MsoBodyTextIndent" style="text-indent:0cm;line-height:normal">
+<span style="color: #222222"><font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font>
+</span></p>
+<p class="MsoBodyTextIndent" style="line-height:normal"><font face="Georgia">
+<span style="color: #222222"><font size="4">Число <i>а</i> называют <i>первым 
+множителем</i>, </font></span><font size="4">10</font><i><sup><font size="4">n
+</font></sup></i><font size="4">— <i>вторым множителем,
+<span style="color:#222222">&nbsp;n</span></i><span style="color:#222222"> </span>—</font><span style="color:#222222"><font size="4"> 
+называют <i>порядком</i> числа или <i>показателем степени</i>.</font></span></font></p>
+<p class="MsoBodyTextIndent" style="line-height:normal">
+<font size="4" face="Georgia">&nbsp;</font><font face="Georgia"><u><font size="4">Пример</font></u><font size="4">. Расстояние от Солнца до Земли 
+равно 149000000 километрам, чтобы представить это число в стандартном виде, т.е. 
+в виде <i>a</i>·10<i><sup>n</sup></i>, где 1≤<i>a</i>&lt;10, нужно в данном числе 
+переставить запятую так, чтобы в целой части оказалась одна цифра, отличная от 
+нуля. В результате получили 1,49. Мы передвинули запятую на 8 знаков влево, 
+значит, порядок числа равен 8. Значит, число 149&nbsp;000 000 км в стандартном виде 
+будет выглядеть так: 1,49·10<sup>8 </sup>км.<b> </b>В данном примере 1,49 — 
+первый множитель, 10<sup>8</sup> — второй множитель.</font></font></p>
+<p class="MsoBodyTextIndent" style="line-height:normal">
+<font size="4" face="Georgia">&nbsp;Как представить в стандартном виде очень маленькие 
+число, например, 0,000015 (ноль целых 15 миллионных)? </font></p>
+<p class="MsoBodyTextIndent" style="line-height:normal">
+<font size="4" face="Georgia">Чтобы записать это число в стандартном виде, нужно 
+переставить запятую так, чтобы в целой части оказалась одна, отличная от нуля, 
+цифра. В результате получится 1,5. Мы переставили запятую вправо на 6 знаков, 
+поэтому порядок данного числа равен -6.</font></p>
+<p class="MsoBodyTextIndent" align="left" style="text-align:left;text-indent:0cm;
+line-height:normal"><font size="4" face="Georgia">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Отсюда, 0,000000015 = 
+1,5 · 10<sup>-6<b> </b></sup>&nbsp;(первый множитель —1,5,&nbsp; второй множитель —10<sup>-6</sup>).</font></p>
+<p class="MsoNormal"><font face="Georgia"><span style="color: #222222">
+<font size="4">&nbsp;&nbsp;&nbsp;&nbsp; В таблице приведены примеры больших и малых чисел, с</font></span><font size="4">тандартный 
+вид числа и порядок числа.</font></font></p>
+<div align="center">
+	<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: medium none" id="table11">
+		<tr>
+			<td width="183" valign="top" style="width: 137.4pt; border: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal"><span style="color: #222222">
+			<font size="4">Число </font></span></td>
+			<td width="217" valign="top" style="width: 163.1pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: 1.0pt solid windowtext; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal"><font size="4">Стандартный вид 
+			числа</font></td>
+			<td width="146" valign="top" style="width: 109.3pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: 1.0pt solid windowtext; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal"><font size="4">Порядок числа</font></td>
+		</tr>
+		<tr>
+			<td width="183" valign="top" style="width: 137.4pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal"><span style="color: #222222">
+			<font size="4">520 000 000&nbsp;000</font></span></td>
+			<td width="217" valign="top" style="width: 163.1pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal">
+			<span style="color: #222222"><font size="4">5,2·10</font><sup><font size="4">11</font></sup></span></td>
+			<td width="146" valign="top" style="width: 109.3pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align:center">
+			<span style="color: #222222"><font size="4">11</font></span></td>
+		</tr>
+		<tr>
+			<td width="183" valign="top" style="width: 137.4pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal"><span style="color: #222222">
+			<font size="4">152&nbsp;000 000</font></span></td>
+			<td width="217" valign="top" style="width: 163.1pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal">
+			<span style="color: #222222"><font size="4">1,52·10</font><sup><font size="4">8</font></sup></span></td>
+			<td width="146" valign="top" style="width: 109.3pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align:center">
+			<span style="color: #222222"><font size="4">8</font></span></td>
+		</tr>
+		<tr>
+			<td width="183" valign="top" style="width: 137.4pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal"><span style="color: #222222">
+			<font size="4">450 000</font></span></td>
+			<td width="217" valign="top" style="width: 163.1pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal">
+			<span style="color: #222222"><font size="4">4,5·10</font><sup><font size="4">5</font></sup></span></td>
+			<td width="146" valign="top" style="width: 109.3pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align:center">
+			<span style="color: #222222"><font size="4">5</font></span></td>
+		</tr>
+		<tr>
+			<td width="183" valign="top" style="width: 137.4pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal"><span style="color: #222222">
+			<font size="4">0,000 002</font></span></td>
+			<td width="217" valign="top" style="width: 163.1pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal">
+			<span style="color: #222222"><font size="4">2·10</font><sup><font size="4">-6</font></sup></span></td>
+			<td width="146" valign="top" style="width: 109.3pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align:center">
+			<span style="color: #222222"><font size="4">-6</font></span></td>
+		</tr>
+		<tr>
+			<td width="183" valign="top" style="width: 137.4pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal"><span style="color: #222222">
+			<font size="4">0,000 147</font></span></td>
+			<td width="217" valign="top" style="width: 163.1pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal">
+			<span style="color: #222222"><font size="4">1,47·10</font><sup><font size="4">-4</font></sup></span></td>
+			<td width="146" valign="top" style="width: 109.3pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="center" style="text-align:center">
+			<span style="color: #222222"><font size="4">-4</font></span></td>
+		</tr>
+	</table>
+</div>
+<p class="MsoBodyTextIndent" style="line-height:normal">
+<font size="4" face="Georgia">Разберем, как выполняются действия с числами в 
+стандартном виде, например, число 2,5·10<sup>3</sup> нужно умножить на 3·10<sup>5</sup>.</font></p>
+<p class="MsoBodyTextIndent" style="line-height:normal">
+<font size="4" face="Georgia">При умножении чисел сначала перемножают первые 
+множители, затем складывают показатели степени:</font></p>
+<p class="MsoBodyTextIndent" style="line-height:normal" align="center">
+<font size="4" face="Georgia">&nbsp;2,5·10<sup>3</sup> · 3·10<sup>5</sup>=2,5·3·10<sup>3+5
+</sup>= 7,5·10<sup>8</sup>.</font></p>
+<p class="MsoBodyTextIndent" style="line-height:normal">
+<font size="4" face="Georgia">&nbsp;В общем виде это выглядит так:</font></p>
+<p align="center"><span style="font-family: Georgia">
+<span style="position: relative; top: 3.0pt"><font size="4"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1026" type="#_x0000_t75" style='width:206.25pt;
+ height:23.25pt'>
+ <v:imagedata src="8.files/image001.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=275 height=31
+src="8.files/image002.gif" v:shapes="_x0000_s1026"><![endif]></font></span><!--[if gte mso 9]><![endif]--></span></p>
+<p class="MsoBodyTextIndent" style="line-height:normal">
+<font size="4" face="Georgia">Если нужно разделить одно число в стандартном виде 
+на другое, например, 6,4·10<sup>8 </sup>разделить на 2·10<sup>3</sup>, сначала 
+делят первые множители, затем, отнимают показатели степени:&nbsp;</font></p>
+<p class="MsoBodyTextIndent" align="center" style="text-align:center;line-height:
+normal"><font face="Georgia"><font size="4">6,4·10<sup>8 </sup>: 2·10<sup>3</sup>=6,4: 
+2·10<sup>8-3 </sup>= 3,2·10</font><sup><font size="4">5</font></sup></font></p>
+<p class="MsoBodyTextIndent" style="line-height:normal">
+<font size="4" face="Georgia">&nbsp;</font><span style="font-family: Georgia"><font size="4">Деление 
+в общем виде выполняют так:</font></span></p>
+<p align="center"><span style="font-family: Georgia">
+<span style="position: relative; top: 3.0pt"><font size="4"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1025" type="#_x0000_t75" style='width:206.25pt;height:22.5pt'>
+ <v:imagedata src="8.files/image003.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=275 height=30
+src="8.files/image004.gif" v:shapes="_x0000_s1025"><![endif]></font></span><!--[if gte mso 9]><![endif]--></span></p>
+<p align="center"><!--[if gte mso 9]><![endif]--></p>
+<p class="MsoNormal"><font face="Calibri">Метки: стандартный вид</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>

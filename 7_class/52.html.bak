@@ -1,0 +1,231 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head><title>Воздухоплавание</title><meta name="Author" content="Мухаметов М.М.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ru">
+
+<link rel="File-List" href="52.files/filelist.xml">
+
+
+<link rel="stylesheet" href="main.css" type="text/css"><link rel="stylesheet" href="theory.css" type="text/css">
+<style>
+.back {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('back.png');
+	cursor:pointer;
+}
+.soder {
+	width:50px;
+	height:50px;
+	border: 0px solid;
+	background-image:url('soder.png');
+	cursor:pointer;
+}
+.par { font-size: 18px; text-indent: 15px; }
+ span.podzag81
+	{font-family:"Times New Roman";
+	color:#0066FF;
+	font-weight:bold}
+span.podzag71
+	{font-family:"Times New Roman";
+	color:#009900;
+	font-weight:bold}
+span.podzagssilki1
+	{font-family:"Times New Roman";
+	color:#FF9900;
+	font-weight:bold}
+span.podzag91
+	{font-family:"Times New Roman";
+	color:#FF3300;
+	font-weight:bold}
+</style>
+
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]--><!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+
+</head>
+<body><center><center>
+<table width=645 cellspacing=0 cellpadding=0 id="table9" height="" border="1" bordercolor="#000080"><tr>
+	<td bgcolor=#ffffff height="">
+	<table width="706" height="" id="table10" border="0" bordercolor="#FFFFFF"><tr>
+		<td width=706 height="" align="center" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF" colspan="2">
+		<p><h1><font color="#000066"><b>
+		<span lang="KZ" style="font-family: Calibri">§</span><span style="font-family: Calibri">52.</span></b></font><font face="Calibri" color="#000080"> 
+		Воздухоплавание</font></h1></p></td>
+		</tr>
+		<tr>
+		<td width="348" height="" align="right" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		<a href="javascript:history.back()" title="Назад"><img src="imgs\back.png" width="50" height="50" border="0"></a>&nbsp;</td>
+		<td width="348" height="" align="left" style="vertical-align: middle; border-left-width:1px; border-right-width:1px; border-top-width:1px; border-bottom-style:solid; border-bottom-width:0px" bordercolor="#FFFFFF">
+		&nbsp;<a href="soder.htm" title="Содержание"><img src="imgs\soder.png" width="50" height="50" border="0"></a></td>
+		</tr>
+		
+			<table>
+<tr>
+<td align="justify">
+<p style="text-indent:35.4pt"><font size="4"><font face="Georgia">На все тела в 
+воздухе действует</font><span class="podzag81"><span style="color: windowtext"><font face="Georgia">
+</font></span><font face="Georgia"><i>
+<span style="color: windowtext; font-weight: normal">выталкивающая (архимедова)
+</span></i></font><span style="color: windowtext; font-weight: normal">
+<font face="Georgia">сила</font><i><font face="Georgia">. </font></i></span>
+</span><font face="Georgia">Чтобы найти архимедову силу<u><a style="color: blue; text-decoration: underline; text-underline: single" href="http://class-fizika.narod.ru/7_archim.htm">,</a></u> 
+действующую на тело в воздухе, надо рассчитать ее по формуле, умножив 
+коэффициент </font></font><font face="Georgia"><i><span lang="EN-US">
+<font size="4">g</font></span></i><span lang="EN-US"><font size="4"> </font>
+</span><font size="4">&nbsp;на плотность воздуха и на объем тела:</font></font></p>
+<p align="center" style="text-align:center"><strong><i>
+<span style="position: relative; top: 5.0pt"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1026" type="#_x0000_t75" style='width:78.75pt;
+ height:21pt'>
+ <v:imagedata src="52.files/image001.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=105 height=28
+src="52.files/image002.gif" v:shapes="_x0000_s1026"><![endif]></font></span><!--[if gte mso 9]><![endif]--></i></strong></p>
+<p><font size="4"><font face="Georgia">Если эта сила окажется больше силы 
+тяжести, действующей на тело, то</font><span class="podzag71"><font face="Georgia">
+<span style="color: windowtext; font-weight: normal">тело<i> взлетит</i></span></font><span style="color: windowtext"><font face="Georgia">.
+</font></span></span><font face="Georgia">На этом основано воздухоплавание.</font></font></p>
+<p><font size="4"><font face="Georgia">Чтобы воздушный шар поднялся, его надо 
+наполнить газом<b>, </b></font><span class="podzagssilki1">
+<span style="color: windowtext; font-weight: normal"><font face="Georgia">
+плотность которого меньше, </font></span></span><font face="Georgia">чем у 
+воздуха. Это может быть водород, гелий или нагретый воздух. </font></font></p>
+<p><font size="4"><font face="Georgia">Для того чтобы определить, какой груз 
+может поднять воздушный шар, надо знать его подъемную силу.</font><span class="podzag91"><span style="color: windowtext"><font face="Georgia">
+</font></span><span style="color: windowtext; font-weight: normal">
+<font face="Georgia">Подъемная сила воздушного шара</font></span></span><font face="Georgia"><b>
+</b>равна разности между архимедовой силой и действующей на шар силой тяжести.</font></font></p>
+<p align="center" style="text-align:center"><strong>
+<span style="position: relative; top: 7.0pt"><font size="4" face="Georgia"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1025" type="#_x0000_t75" style='width:267.75pt;height:24.75pt'>
+ <v:imagedata src="52.files/image003.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=357 height=33
+src="52.files/image004.gif" v:shapes="_x0000_s1025"><![endif]></font></span><!--[if gte mso 9]><![endif]--></strong></p>
+<p style="text-align:justify"><font size="4" face="Georgia">Чем меньше плотность 
+газа, заполняющего воздушный шар данного объема, тем меньше действующая на него 
+сила тяжести и потому тем больше возникающая подъемная сила.<br>
+При нагревании воздуха от 0 до 100 градусов Цельсия его плотность уменьшается 
+только в 1,37 раз. Поэтому подъемная сила шаров, заполненных теплым воздухом, 
+оказывается небольшой. Плотность же водорода в 14 раз меньше плотности воздуха, 
+поэтому подъемная сила шара, наполненного водородом, более чем в три раза 
+превышает подъемную силу нагретого воздуха того же объема. Водород, однако, 
+горит и образует с воздухом легко воспламеняющуюся смесь. Негорючим и 
+одновременно легким газом является гелий. </font></p>
+<p style="text-align:justify"><font size="4"><font face="Georgia">Плотность 
+воздуха уменьшается с увеличением высоты над уровнем моря. Поэтому </font>
+<span class="podzag81"><span style="color: windowtext; font-weight: normal">
+<font face="Georgia">по мере поднятия</font></span></span><font face="Georgia"> 
+воздушного шара действующая на него</font><span class="podzag81"><span style="color: windowtext"><font face="Georgia">
+</font></span><font face="Georgia">
+<span style="color: windowtext; font-weight: normal">архимедова сила</span></font><span style="color: windowtext"><font face="Georgia">
+</font></span></span><font face="Georgia">становится</font><span class="podzag81"><span style="color: windowtext"><font face="Georgia">
+</font></span><font face="Georgia">
+<span style="color: windowtext; font-weight: normal">меньше</span></font><span style="color: windowtext"><font face="Georgia">.
+</font></span></span><font face="Georgia"><br>
+<br>
+</font><span class="podzag91">
+<span style="color: windowtext; font-weight: normal"><font face="Georgia">После 
+того</font></span></span><font face="Georgia"><b>,</b> как архимедова сила 
+достигнет значения, равного силе тяжести, </font><span class="podzag91">
+<span style="color: windowtext; font-weight: normal"><font face="Georgia">подъем</font></span><span style="color: windowtext"><font face="Georgia">
+</font></span></span><font face="Georgia">воздушного шара </font>
+<span class="podzag91"><span style="color: windowtext; font-weight: normal">
+<font face="Georgia">прекратится.</font></span><span style="color: windowtext"><font face="Georgia">
+</font></span></span><font face="Georgia">Чтобы подняться еще выше, с шара
+</font><span class="podzag71">
+<span style="color: windowtext; font-weight: normal"><font face="Georgia">
+сбрасывают балласт.</font></span><span style="color: windowtext"><font face="Georgia"> 
+&nbsp;</font></span></span><font face="Georgia">При этом сила тяжести уменьшается, и 
+выталкивающая сила опять оказывается вновь большей. </font></font></p>
+<p style="text-align:justify"><font size="4"><font face="Georgia">Для того
+</font><span class="podzag81">
+<span style="color: windowtext; font-weight: normal"><font face="Georgia">чтобы 
+опуститься</font></span><span style="color: windowtext"><font face="Georgia">
+</font></span></span><font face="Georgia">на землю, выталкивающую силу надо 
+уменьшить. Для этого можно</font><span class="podzagssilki1"><span style="color: windowtext"><font face="Georgia">
+</font></span><span style="color: windowtext; font-weight: normal">
+<font face="Georgia">уменьшить объем шара.</font></span></span><font face="Georgia"> 
+В верхней части оболочки шара имеется специальный </font><span class="podzag91">
+<span style="color: windowtext; font-weight: normal"><font face="Georgia">
+выпускной клапан,</font></span></span><font face="Georgia"> через который можно 
+выпустить часть газа.<br>
+После этого шар начнет опускаться вниз.</font></font></p>
+<p class="MsoNormal" style="margin-bottom:11.25pt;text-align:justify">
+<span class="podzag81"><span style="color: windowtext; font-weight: normal">
+<font size="4" face="Georgia">Температуру теплого воздуха</font></span></span><font size="4"><font face="Georgia"> 
+внутри воздушного шара</font><span class="podzag81"><span style="color: windowtext; font-weight: normal"><font face="Georgia"> 
+можно регулировать</font></span></span><font face="Georgia"> с помощью обычно 
+газовой горелки, установленной под оболочкой. Увеличивая пламя горелки, можно 
+заставить шар подниматься выше и наоборот. Если подобрать такую температуру, при 
+которой &nbsp;сила тяжести, действующая на шар с корзиной, окажется равной силе 
+Архимеда, <br>
+то</font><span class="podzag71"><span style="color: windowtext"><font face="Georgia">
+</font></span><font face="Georgia">
+<span style="color: windowtext; font-weight: normal">шар</span><span style="color: windowtext">
+</span><span style="color: windowtext; font-weight: normal">«повиснет»</span>
+</font></span><font face="Georgia">в воздухе.<br>
+</font></font><font face="Georgia"><span style="color:black"><font size="4">
+Первый воздушный шар поднялся в воздух летом 1783 года. На нем были пассажиры — 
+баран и петух. Шар надули горячим дымом и назвали монгольфьером по имени его 
+изобретателей — французов братьев Жозефа и Этьена Монгольфье. Убедившись, что 
+полеты безопасны, на монгольфьере поднялись и люди. Первый такой полет совершен 
+в ноябре 1783 г. </font></span></font></p>
+<p class="MsoNormal" style="margin-bottom:11.25pt;text-align:justify">
+<span style="color: black"><font size="4" face="Georgia">Монгольфьеры имели 
+недостаток: они быстро опускались, так как воздух в них остывал. Использовались 
+они лишь для развлекательных полетов. Для научных целей применяли воздушные 
+шары, наполняемые водородом или гелием. </font></span></p>
+<p class="MsoNormal" style="margin-bottom:11.25pt;text-align:justify">
+<span style="color: black"><font size="4" face="Georgia">Летательные аппараты 
+легче воздуха называют 
+</span><b><font color="#000066"> <i>аэростатами</i>.</font></b><span style="color: black"> Недостаток аэростата: он летит туда, 
+куда его гонит поток воздуха. Беспилотные аэростаты используют для изучения 
+воздушных течений, географических исследований в нижних слоях атмосферы.
+</span> </font>
+</p>
+<p class="MsoNormal" style="margin-bottom:11.25pt;text-align:justify">
+<font size="4" face="Georgia">
+<span style="color: black">На смену неуправляемым 
+аэростатам пришли управляемые аппараты — </span><b><font color="#000066"> <i>дирижабли</i>. 
+</font></b> </font></p>
+<font size="4"><span style="font-family: Georgia; color: black">Современные 
+воздушные шары используются в рекламных целях, дирижабли — для аэрофотосъемок.</span></font><span style="font-size: 18.0pt; font-family: Times New Roman; color: black">
+</span>&nbsp;<p>&nbsp;</p>
+<p><font face="Calibri">Метки: архимедова сила, аэростат, воздухоплавание, 
+воздушный шар, Монгольфье, подъемная сила</font></td>
+</tr>
+</table>
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</center></center></body></html>
